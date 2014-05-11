@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="CapGUI.PopupInterface"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+    
+    <Popup x:Name="MenuPopup">
+        <Canvas x:Name="MenuCanvas" Height="86" Width="150" Background="Pink">
+            <TextBox x:Name="PopupTextBox" Canvas.Top="5" Width="150" TextAlignment="Center"/>
+            <TextBlock x:Name="PopupDeleteInfo" Canvas.Top="5" Width="150" TextAlignment="Center"/>
+            <TextBlock x:Name="DeleteConfirm"  Text="Delete this item?" Canvas.Top="35" Width="150" TextAlignment="Center"/>
+            <TextBlock x:Name="type"  Text="TYPE" Canvas.Top="35" Width="40" Canvas.Left="10" />
+            <ComboBox x:Name="PopupComboBox" Canvas.Top="35" Canvas.Left="50" Width="100">
+                <ComboBoxItem>
+                    <TextBlock Text="INT"/>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <TextBlock Text="STRING"/>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <TextBlock Text="BOOL"/>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <TextBlock Text="VOID"/>
+                </ComboBoxItem>
+            </ComboBox>
+            <Button x:Name="OkAddBtn"  Content="Create" Canvas.Top="59" Canvas.Left="10"/>
+            <Button x:Name="OkEditBtn"  Content="Delete" Canvas.Top="59" Canvas.Left="10" Click="Delete_Click"/>
+            <Button Content="Cancel" Canvas.Top="59" Canvas.Left="97" Click="variableCancel_Click"/>
+        </Canvas>
+    </Popup>
+</UserControl>

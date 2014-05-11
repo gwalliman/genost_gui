@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SaveFile>
+  <!--Variables?-->
+  <GROUP name="VARIABLES">
+    <VARIABLE>
+      <name>var1</name>
+      <return>INT</return>
+    </VARIABLE>
+    <VARIABLE>
+      <name>var2</name>
+      <return>INT</return>
+    </VARIABLE>
+  </GROUP>
+  <!--Methods?-->
+  <GROUP name="METHODS">
+    <METHOD>
+      <name>method1</name>
+      <return>INT</return>
+      <PARAMETERS>
+        <PARAMETER>
+          <name>a</name>
+          <return>INT</return>
+        </PARAMETER>
+        <PARAMETER>
+          <name>b</name>
+          <return>STRING</return>
+        </PARAMETER>
+      </PARAMETERS>
+    </METHOD>
+  </GROUP>
+  <!--Editors?-->
+  <GROUP name="EDITORS">
+    <EDITOR name="editorDragDrop">
+      <BLOCK type="ASSIGNMENT">
+        <LINE>0</LINE>
+        <SOCKET>
+          <BLOCK type="VARIABLE">
+            <name>var1</name>
+          </BLOCK>
+        </SOCKET>
+        <SOCKET>
+          <BLOCK type="INT">
+            <VALUE>2</VALUE>
+          </BLOCK>
+        </SOCKET>
+      </BLOCK>
+      <BLOCK type="ASSIGNMENT">
+        <LINE>1</LINE>
+        <SOCKET>
+          <BLOCK type="VARIABLE">
+            <name>var2</name>
+          </BLOCK>
+        </SOCKET>
+        <SOCKET>
+          <BLOCK type="METHOD">
+            <name>method1</name>
+            <SOCKET>
+              <BLOCK type="INT">
+                <VALUE>1</VALUE>
+              </BLOCK>
+            </SOCKET>
+            <SOCKET>
+              <BLOCK type="STRING">
+                <VALUE>string1</VALUE>
+              </BLOCK>
+            </SOCKET>
+          </BLOCK>
+        </SOCKET>
+      </BLOCK>
+      <BLOCK type="IF">
+        <LINE>2</LINE>
+        <SOCKET>
+          <BLOCK type="COMPARISON-greater">
+            <SOCKET>
+              <BLOCK type="VARIABLE">
+                <name>var1</name>
+              </BLOCK>
+            </SOCKET>
+            <SOCKET>
+              <BLOCK type="VARIABLE">
+                <name>var2</name>
+              </BLOCK>
+            </SOCKET>
+          </BLOCK>
+        </SOCKET>
+      </BLOCK>
+      <BLOCK type="DRIVE">
+        <LINE>3</LINE>
+        <SOCKET>
+          <BLOCK type="DIRECTION" />
+        </SOCKET>
+      </BLOCK>
+      <BLOCK type="ASSIGNMENT">
+        <LINE>4</LINE>
+        <SOCKET>
+          <BLOCK type="VARIABLE">
+            <name>var1</name>
+          </BLOCK>
+        </SOCKET>
+        <SOCKET>
+          <BLOCK type="INT">
+            <VALUE>5</VALUE>
+          </BLOCK>
+        </SOCKET>
+      </BLOCK>
+      <BLOCK type="ENDIF">
+        <LINE>5</LINE>
+      </BLOCK>
+    </EDITOR>
+    <EDITOR name="method1DragDrop">
+      <BLOCK type="DRIVE">
+        <LINE>0</LINE>
+        <SOCKET>
+          <BLOCK type="DIRECTION" />
+        </SOCKET>
+      </BLOCK>
+      <BLOCK type="TURN">
+        <LINE>1</LINE>
+        <SOCKET>
+          <BLOCK type="DIRECTION" />
+        </SOCKET>
+      </BLOCK>
+    </EDITOR>
+  </GROUP>
+</SaveFile>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BlockDefinitions>
+  <Package name="ROBOT">
+    <block>
+      <name>DRIVE</name>
+      <type>STATEMENT</type>
+      <contains>
+        <string>DRIVE</string>
+        <socket>DRIVE</socket>
+      </contains>
+      <properties>
+        <color>235 201 14</color>
+        <robotOnly>true</robotOnly>
+      </properties>
+    </block>
+    <block>
+      <name>TURN</name>
+      <type>STATEMENT</type>
+      <contains>
+        <string>TURN</string>
+        <socket>TURN</socket>
+      </contains>
+      <properties>
+        <color>235 201 14</color>
+        <robotOnly>true</robotOnly>
+      </properties>
+    </block>
+    <block>
+      <name>CHECKRANGE</name>
+      <type>STATEMENT</type>
+      <contains>
+        <string>CHECK DISTANCE</string>
+        <socket>COMPASS</socket>
+      </contains>
+      <properties>
+        <color>235 201 14</color>
+        <robotOnly>true</robotOnly>
+      </properties>
+    </block>
+
+  </Package>
+</BlockDefinitions>

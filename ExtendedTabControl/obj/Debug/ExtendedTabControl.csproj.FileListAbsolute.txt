@@ -1,0 +1,951 @@
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ExtendedTabControl.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ExtendedTabControl.pdb
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Input.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Data.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Xml.Linq.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.Input.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Input.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Data.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Xml.Linq.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.Input.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Windows.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Windows.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Windows.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Windows.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Windows.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Windows.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Windows.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\obj\Debug\ExtendedTabControl.g.resources
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\obj\Debug\ExtendedTabControl.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\ExtendedTabControl\obj\Debug\ExtendedTabControl.pdb
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ExtendedTabControl.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ExtendedTabControl.pdb
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Input.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Data.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Xml.Linq.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Input.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Data.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Xml.Linq.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\obj\Debug\ExtendedTabControl.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\obj\Debug\ExtendedTabControl.g.resources
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\obj\Debug\ExtendedTabControl.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\ExtendedTabControl\obj\Debug\ExtendedTabControl.pdb
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ExtendedTabControl.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ExtendedTabControl.pdb
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Input.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Data.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Xml.Linq.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Input.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Data.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Xml.Linq.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\obj\Debug\ExtendedTabControl.csprojResolveAssemblyReference.cache
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\obj\Debug\ExtendedTabControl.g.resources
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\obj\Debug\ExtendedTabControl.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\ExtendedTabControl\obj\Debug\ExtendedTabControl.pdb
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ExtendedTabControl.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ExtendedTabControl.pdb
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Input.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Data.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Xml.Linq.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.xml
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Input.xml
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Data.xml
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Xml.Linq.xml
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\obj\Debug\ExtendedTabControl.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\obj\Debug\ExtendedTabControl.g.resources
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\obj\Debug\ExtendedTabControl.dll
+C:\Users\David\Desktop\CSE485-Columba-David\ExtendedTabControl\obj\Debug\ExtendedTabControl.pdb

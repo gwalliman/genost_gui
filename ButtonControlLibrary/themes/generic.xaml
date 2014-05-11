@@ -1,0 +1,149 @@
+﻿<ResourceDictionary     xmlns="http://schemas.microsoft.com/client/2007"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:src="clr-namespace:ButtonControlLibrary;assembly=ButtonControlLibrary"
+    xmlns:vsm="clr-namespace:System.Windows;assembly=System.Windows">
+    <Style TargetType="src:MyButton">
+        <Setter Property="Background" Value="Black"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="src:MyButton">
+                    <Border x:Name="RootElement">
+                        <vsm:VisualStateManager.VisualStateGroups>
+                            <!--Define the states for the common states. The states in a 
+                                    VisualStateGroup are mutually exclusive to each other.-->
+                            <vsm:VisualStateGroup x:Name="CommonStates">
+                                <!--Define the VisualStates in this VistualStateGroup.-->
+                                <vsm:VisualStateGroup.Transitions>
+                                    <vsm:VisualTransition To="Pressed" 
+                  GeneratedDuration="0:0:0.01" />
+                                    <vsm:VisualTransition To="MouseOver" 
+        GeneratedDuration="0:0:0.5" />
+                                    <vsm:VisualTransition From="Pressed" To="MouseOver" 
+                  GeneratedDuration="0:0:.01" />
+
+                                    <vsm:VisualTransition From="MouseOver" To="Normal" 
+                  GeneratedDuration="0:0:1.5">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames
+  Storyboard.TargetProperty="Color"
+  Storyboard.TargetName="BorderBrush"
+  FillBehavior="HoldEnd" >
+
+                                                <ColorAnimationUsingKeyFrames.KeyFrames>
+
+                                                    <LinearColorKeyFrame Value="DarkViolet" 
+                         KeyTime="0:0:.75" />
+                                                    <LinearColorKeyFrame Value="Black" 
+                         KeyTime="0:0:1.25" />
+                                                   
+
+                                                </ColorAnimationUsingKeyFrames.KeyFrames>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </vsm:VisualTransition>
+                                </vsm:VisualStateGroup.Transitions>
+                                <vsm:VisualState x:Name="Normal"/>
+                                <vsm:VisualState x:Name="MouseOver">
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="BorderBrush" 
+                Storyboard.TargetProperty="Color" To="Lavender" />
+                                
+                                        
+
+
+                                    </Storyboard>
+                                </vsm:VisualState>
+
+                                <vsm:VisualState x:Name="Pressed">
+                                    <Storyboard >
+                                        <ColorAnimation Storyboard.TargetName="BorderBrush" 
+                Storyboard.TargetProperty="Color" To="Transparent" 
+                />
+                                    </Storyboard>
+                                </vsm:VisualState>
+                                <vsm:VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="DisabledRect" 
+                 Storyboard.TargetProperty="Opacity"
+                 To="1" Duration="0" />
+                                    </Storyboard>
+                                </vsm:VisualState>
+                            </vsm:VisualStateGroup>
+                            <!--Define the states for the focus states. The states in a 
+                                    VisualStateGroup are mutually exclusive to each other.-->
+                            <vsm:VisualStateGroup x:Name="FocusStates">
+
+                                <!--Define the VisualStates in this VistualStateGroup.-->
+                                <vsm:VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="FocusVisual" 
+                                 Storyboard.TargetProperty="Visibility" Duration="0">
+                                            <DiscreteObjectKeyFrame KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>Collapsed</Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </vsm:VisualState>
+                                <vsm:VisualState x:Name="Unfocused">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="FocusVisual" 
+                                 Storyboard.TargetProperty="Visibility" Duration="0">
+                                            <DiscreteObjectKeyFrame KeyTime="0">
+                                                <DiscreteObjectKeyFrame.Value>
+                                                    <Visibility>Collapsed</Visibility>
+                                                </DiscreteObjectKeyFrame.Value>
+                                            </DiscreteObjectKeyFrame>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </vsm:VisualState>
+                            </vsm:VisualStateGroup>
+                        </vsm:VisualStateManager.VisualStateGroups>
+                        <!--The parts of the button control will be defined here.-->
+                        <!--Create the SolidColorBrush for the Background 
+as an object elemment and give it a name so 
+it can be referred to elsewhere in the control template.-->
+                        <Border.Background>
+                            <SolidColorBrush x:Name="BorderBrush" Color="Black"/>
+                        </Border.Background>
+
+                        <!--Create a border that has a different color by adding smaller grid.
+The background of this grid is specified by the button's Background
+property.-->
+                        <Grid Background="{TemplateBinding Background}" Margin="2">
+
+                            <!--Create a Rectangle that indicates that the
+  Button has focus.-->
+                            <Rectangle Name="FocusVisual" 
+        Visibility="Collapsed" Margin="2" 
+        Stroke="{TemplateBinding Foreground}" StrokeThickness="1"  
+        StrokeDashArray="1.5 1.5"/>
+
+                            <!--Use a ContentPresenter to display the Content of
+  the Button.-->
+                            <ContentPresenter
+HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+Margin="4,5,4,4" />
+
+                            <!--Create a rectangle that causes the button to appear
+grayed out when it is disabled.-->
+                            <Rectangle x:Name="DisabledRect" 
+       Fill="#A5FFFFFF"
+       Opacity="0" IsHitTestVisible="false" />
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

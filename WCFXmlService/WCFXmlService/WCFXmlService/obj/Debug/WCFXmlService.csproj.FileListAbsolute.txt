@@ -1,0 +1,15 @@
+c:\users\david\documents\visual studio 2012\Projects\WCFXmlService\WCFXmlService\bin\Debug\WCFXmlService.exe.config
+c:\users\david\documents\visual studio 2012\Projects\WCFXmlService\WCFXmlService\bin\Debug\WCFXmlService.exe
+c:\users\david\documents\visual studio 2012\Projects\WCFXmlService\WCFXmlService\bin\Debug\WCFXmlService.pdb
+c:\users\david\documents\visual studio 2012\Projects\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.csprojResolveAssemblyReference.cache
+c:\users\david\documents\visual studio 2012\Projects\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.exe
+c:\users\david\documents\visual studio 2012\Projects\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.pdb
+C:\Users\engrStud\Downloads\WCFXmlService\WCFXmlService\WCFXmlService\bin\Debug\WCFXmlService.exe.config
+C:\Users\engrStud\Downloads\WCFXmlService\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.exe
+C:\Users\engrStud\Downloads\WCFXmlService\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.pdb
+C:\Users\engrStud\Downloads\WCFXmlService\WCFXmlService\WCFXmlService\bin\Debug\WCFXmlService.exe
+C:\Users\engrStud\Downloads\WCFXmlService\WCFXmlService\WCFXmlService\bin\Debug\WCFXmlService.pdb
+C:\Users\engrStud\Downloads\WCFXmlService\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.csprojResolveAssemblyReference.cache
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\WCFXmlService\WCFXmlService\WCFXmlService\bin\Debug\WCFXmlService.exe.config
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\WCFXmlService\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.exe
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\WCFXmlService\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.pdb

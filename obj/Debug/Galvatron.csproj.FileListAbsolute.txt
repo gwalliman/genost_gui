@@ -1,0 +1,1337 @@
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\blockAPI.xml
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\CapGUI.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\CapGUI.pdb
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\AppManifest.xaml
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\CapGUI.xap
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\CapGUITestPage.html
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\System.Windows.Controls.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\System.Xml.Linq.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\System.Windows.Controls.xml
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\System.Xml.Linq.xml
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\obj\Debug\App.g.cs
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\obj\Debug\BlockControl.g.cs
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\obj\Debug\Block.g.cs
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\obj\Debug\MainPage.g.cs
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\obj\Debug\CapGUI.g.resources
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\obj\Debug\CapGUI.dll
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\obj\Debug\CapGUI.pdb
+C:\Users\IAN\Desktop\CSE485-Garthredo\CapGUI\obj\Debug\XapCacheFile.xml
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\blockAPI.xml
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\CapGUI.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\CapGUI.pdb
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\AppManifest.xaml
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\CapGUI.xap
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\CapGUITestPage.html
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\System.Windows.Controls.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\System.Xml.Linq.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\System.Windows.Controls.xml
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\System.Xml.Linq.xml
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\obj\Debug\Galvatron.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\Galvatron\CapGUI\obj\Debug\App.g.cs
+C:\Users\David\Desktop\Galvatron\CapGUI\obj\Debug\BlockControl.g.cs
+C:\Users\David\Desktop\Galvatron\CapGUI\obj\Debug\Block.g.cs
+C:\Users\David\Desktop\Galvatron\CapGUI\obj\Debug\MainPage.g.cs
+C:\Users\David\Desktop\Galvatron\CapGUI\obj\Debug\CapGUI.g.resources
+C:\Users\David\Desktop\Galvatron\CapGUI\obj\Debug\CapGUI.dll
+C:\Users\David\Desktop\Galvatron\CapGUI\obj\Debug\CapGUI.pdb
+C:\Users\David\Desktop\Galvatron\CapGUI\obj\Debug\XapCacheFile.xml
+C:\Users\David\Desktop\Galvatron\CapGUI\obj\Debug\PopupInterface.g.cs
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\blockAPI.xml
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.pdb
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\AppManifest.xaml
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.xap
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUITestPage.html
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.xml
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.xml
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\Galvatron.csprojResolveAssemblyReference.cache
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\App.g.cs
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\BlockControl.g.cs
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\Block.g.cs
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\MainPage.g.cs
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\PopupInterface.g.cs
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.g.resources
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.dll
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.pdb
+C:\Users\IAN\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\XapCacheFile.xml
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\blockAPI.xml
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.pdb
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\AppManifest.xaml
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.xap
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\CapGUITestPage.html
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.xml
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.xml
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\obj\Debug\Galvatron.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\obj\Debug\App.g.cs
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\obj\Debug\BlockControl.g.cs
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\obj\Debug\Block.g.cs
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\obj\Debug\MainPage.g.cs
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\obj\Debug\PopupInterface.g.cs
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\obj\Debug\CapGUI.g.resources
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\obj\Debug\CapGUI.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\obj\Debug\CapGUI.pdb
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\obj\Debug\XapCacheFile.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.pdb
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\AppManifest.xaml
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.xap
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUITestPage.html
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\Galvatron.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\App.g.cs
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\Block.g.cs
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\MainPage.g.cs
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\PopupInterface.g.cs
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.g.resources
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.pdb
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\XapCacheFile.xml
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\blockAPI.xml
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.pdb
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\AppManifest.xaml
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.xap
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUITestPage.html
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.xml
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.xml
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\Galvatron.csprojResolveAssemblyReference.cache
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\App.g.cs
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\BlockControl.g.cs
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\Block.g.cs
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\MainPage.g.cs
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\PopupInterface.g.cs
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.g.resources
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.pdb
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\XapCacheFile.xml
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba\CapGUI\obj\Debug\TabPage.g.cs
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\TabPage.g.cs
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.pdb
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\AppManifest.xaml
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.xap
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUITestPage.html
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ButtonControlLibrary.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ButtonControlLibrary.pdb
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.xml
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.xml
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\Galvatron.csprojResolveAssemblyReference.cache
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\App.g.cs
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\Block.g.cs
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\MainPage.g.cs
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\PopupInterface.g.cs
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\TabPage.g.cs
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.g.resources
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.pdb
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\XapCacheFile.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ButtonControlLibrary.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ButtonControlLibrary.pdb
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.pdb
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\AppManifest.xaml
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUI.xap
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\CapGUITestPage.html
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ButtonControlLibrary.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ExtendedTabControl.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ButtonControlLibrary.pdb
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ExtendedTabControl.pdb
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Xml.Linq.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\Galvatron.csprojResolveAssemblyReference.cache
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\App.g.cs
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\Block.g.cs
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\MainPage.g.cs
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\PopupInterface.g.cs
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\TabPage.g.cs
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.g.resources
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.dll
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\CapGUI.pdb
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\XapCacheFile.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ExtendedTabControl.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ExtendedTabControl.pdb
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\blockAPI.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\CapGUI.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\CapGUI.pdb
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\AppManifest.xaml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\CapGUI.xap
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\CapGUITestPage.html
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ButtonControlLibrary.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ExtendedTabControl.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Xml.Linq.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ButtonControlLibrary.pdb
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ExtendedTabControl.pdb
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Xml.Linq.xml
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\Galvatron.csprojResolveAssemblyReference.cache
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\App.g.cs
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\BlockControl.g.cs
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\Block.g.cs
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\MainPage.g.cs
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\PopupInterface.g.cs
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\TabPage.g.cs
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\CapGUI.g.resources
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\CapGUI.dll
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\CapGUI.pdb
+C:\Users\engrStud\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\XapCacheFile.xml
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\Galvatron.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\App.g.cs
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\BlockControl.g.cs
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\Block.g.cs
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\MainPage.g.cs
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\PopupInterface.g.cs
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\TabPage.g.cs
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\CapGUI.g.resources
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\CapGUI.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\blockAPI.xml
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\CapGUI.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\CapGUI.pdb
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\AppManifest.xaml
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\CapGUI.xap
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\CapGUITestPage.html
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ButtonControlLibrary.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ExtendedTabControl.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Xml.Linq.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ButtonControlLibrary.pdb
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ExtendedTabControl.pdb
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.xml
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Windows.Controls.Toolkit.xml
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\System.Xml.Linq.xml
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\de\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\es\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\fr\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\it\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ja\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ko\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\ru\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\CapGUI.pdb
+C:\Users\David\Desktop\CSE485-Columba-David\CapGUI\obj\Debug\XapCacheFile.xml
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ButtonControlLibrary.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ExtendedTabControl.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ButtonControlLibrary.pdb
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ExtendedTabControl.pdb
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Navigation.xml
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+C:\Users\Tracey\Documents\GitHub\CSE485-Columba\CapGUI\obj\Debug\TabPage.g.cs
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ExtendedTabControl.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ExtendedTabControl.pdb
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\David\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\xml\blockAPI.xml
+C:\Users\engrStud\Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\xml\blockAPI.xml
+E:\Garth\My Documents\GitHub\CSE485-Columba\CapGUI\Bin\Debug\xml\blockAPI.xml

@@ -1,0 +1,72 @@
+﻿<navigation:Page x:Class="CapGUI.TabPage" 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+           xmlns:toolKit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"
+           xmlns:custom="clr-namespace:CapGUI"
+           xmlns:blib="clr-namespace:ButtonControlLibrary;assembly=ButtonControlLibrary"
+           mc:Ignorable="d"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           d:DesignWidth="520" d:DesignHeight="640"
+           Title="TabPage Page">
+    <Grid x:Name="LayoutRoot">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="107*"/>
+            <ColumnDefinition Width="133*"/>
+            <ColumnDefinition Width="280*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="77*"/>
+            <RowDefinition Height="524*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.RowSpan="1" Grid.Row="2" Grid.ColumnSpan="3">
+            <custom:EditorDragDropTarget x:Name="tempDragDrop" AllowDrop="True">
+                <ListBox x:Name="tempListBox" Height="525" Width="525">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Vertical"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
+            </custom:EditorDragDropTarget>
+        </StackPanel>
+        <sdk:Label Content="Return Type" FontSize="13" FontWeight="Bold" Margin="5"/>
+        <!--<sdk:Label Margin="5" Content="Parameters" FontWeight="Bold" FontSize="13"  Grid.Row="1"/>-->
+        <ComboBox x:Name="returnType" Grid.Column="1" Margin="10">
+            <ComboBoxItem>
+                <TextBlock Text="INT"/>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock Text="STRING"/>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock Text="BOOL"/>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock Text="VOID"/>
+            </ComboBoxItem>
+        </ComboBox>
+
+        <custom:VariableStructureDragDropTarget x:Name="parDragDrop" AllowDrop="False" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+            <ListBox x:Name="parameterBox" Grid.Row="1"  Grid.ColumnSpan="2" Grid.Column="1" Height="67" Width="403"/>
+        </custom:VariableStructureDragDropTarget >
+        
+        <!-- grid.comlum 2 row 0-->
+        <custom:VariableStructureDragDropTarget x:Name="returnDragDrop" AllowDrop="False" Grid.Row="0" Grid.Column="2">
+            <ListBox x:Name="returnBox" Grid.Row="0"  Grid.ColumnSpan="2" Height="29" Width="270"/>
+        </custom:VariableStructureDragDropTarget >
+        
+        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" >
+            <sdk:Label Margin="5" Content="Parameters" FontWeight="Bold" FontSize="13"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
+                <blib:MyButton x:Name="addParamBtn" FontWeight="Bold" Content="Add" Margin="2,2,2,2" FontSize="11" Height="30" Width="50" Click="addParamBtn_Click">
+                </blib:MyButton>
+                <blib:MyButton x:Name="deleteParamBtn" FontWeight="Bold" Content="Delete" Margin="2,2,2,2" FontSize="11" Height="30" Width="60" Click="deleteParamBtn_Click">
+                </blib:MyButton>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</navigation:Page>

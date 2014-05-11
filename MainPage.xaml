@@ -1,0 +1,225 @@
+﻿<UserControl x:Class="CapGUI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+    xmlns:toolKit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"
+    xmlns:custom="clr-namespace:CapGUI"
+    xmlns:blib="clr-namespace:ButtonControlLibrary;assembly=ButtonControlLibrary"
+    xmlns:tcl="clr-namespace:TCLibrary;assembly=TCLibrary"
+    xmlns:tab="clr-namespace:ExtendedTabControl;assembly=ExtendedTabControl"
+    xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+    mc:Ignorable="d"
+    d:DesignHeight="768" d:DesignWidth="1024">
+
+    <Grid x:Name="LayoutRoot" Background="White" ShowGridLines="False" MinHeight="768" MinWidth="1024" MaxHeight="768" MaxWidth="1024">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="323*"/>
+            <ColumnDefinition Width="720*"/>
+            <ColumnDefinition Width="323*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48*"/>
+            <RowDefinition Height="48*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="19*"/>
+        </Grid.RowDefinitions>
+        
+        <!--Robot Panel v2.0-->
+        <Border HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="3,3,3,0" Grid.Row="0" Grid.RowSpan="2">
+            <Grid x:Name="roboGrid" Background="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="23*"/>
+                    <RowDefinition Height="149*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="141*"/>
+                    <ColumnDefinition Width="88*"/>
+                    <ColumnDefinition Width="84*"/>
+                </Grid.ColumnDefinitions>
+                <Rectangle Fill="#FFF4F4F5" Stroke="Black" Grid.ColumnSpan="3"/>
+                <TextBlock Text="ROBOT FUNCTIONS" FontSize="14" FontWeight="Bold" Margin="10,10,10,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="23" Grid.ColumnSpan="3"/>
+                <StackPanel Grid.Column="2">
+                    <blib:MyButton x:Name="roboLoadBtn" FontWeight="Bold" Margin="0,5,5,5" Content="LOAD" FontSize="9" Height="30" VerticalAlignment="Top"  Width="Auto" Click="roboFunctClick" />
+                </StackPanel>
+                <custom:ProgramStructureDragDropTarget AllowDrop="False" Grid.Row="1" Grid.ColumnSpan="3">
+                    <ListBox x:Name="robotPalette" Grid.Row="1" Grid.ColumnSpan="3" Height="285" Width="237"  ScrollViewer.HorizontalScrollBarVisibility="Hidden"/>
+                </custom:ProgramStructureDragDropTarget>
+            </Grid>
+        </Border>
+
+        <!--Block/Program Panel v2.0-->
+        <Border HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="3,3,3,3" Grid.Row="2" Grid.RowSpan="3">
+            <Grid x:Name="blockGrid" Background="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30*"/>
+                    <RowDefinition Height="262*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="141*"/>
+                    <ColumnDefinition Width="88*"/>
+                    <ColumnDefinition Width="84*"/>
+                </Grid.ColumnDefinitions>
+                <Rectangle Fill="#FFF4F4F5" Stroke="Black" Grid.ColumnSpan="3"/>
+                <TextBlock Text="PROGRAM STRUCTURES" FontSize="14" FontWeight="Bold" Margin="10" Grid.ColumnSpan="3"/>
+                <custom:ProgramStructureDragDropTarget AllowDrop="False" Grid.Row="1" Grid.ColumnSpan="3">
+                    <ListBox x:Name="blockPalette" Grid.Row="1" Grid.ColumnSpan="3" Height="390" Width="237"  ScrollViewer.HorizontalScrollBarVisibility="Hidden"/>
+                </custom:ProgramStructureDragDropTarget>
+            </Grid>
+        </Border>
+
+        <!--Variable Panel v2-->
+        <Border HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="3,3,3,0" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2">
+            <Grid x:Name="variableGrid" Background="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50*"/>
+                    <RowDefinition Height="333*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="141*"/>
+                    <ColumnDefinition Width="88*"/>
+                    <ColumnDefinition Width="84*"/>
+                </Grid.ColumnDefinitions>
+                <Rectangle Fill="#FFF4F4F5" Stroke="Black" Grid.ColumnSpan="3"/>
+                <TextBlock Text="VARIABLES" FontSize="14" FontWeight="Bold" Margin="10,10,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="23"/>
+                <StackPanel Grid.Column="1">
+                    <blib:MyButton x:Name="createVariableBtn" FontWeight="Bold" Margin="5,5,5,5" Content="CREATE" FontSize="9" Height="30" VerticalAlignment="Top" Width="Auto" Click="createVariableBtn_Click" />
+                </StackPanel>
+                <StackPanel Grid.Column="2">
+                    <blib:MyButton x:Name="deleteVariableBtn" FontWeight="Bold" Margin="5,5,5,5" Content="DELETE" FontSize="9" Height="30" VerticalAlignment="Top" Width="Auto" Click="deleteVariableBtn_Click" />
+                </StackPanel>
+                <custom:VariableStructureDragDropTarget AllowDrop="False" Grid.Row="1" Grid.ColumnSpan="3">
+                    <ListBox  x:Name="variablePalette" Grid.Row="1" Grid.ColumnSpan="3" Height="285" Width="237" ScrollViewer.HorizontalScrollBarVisibility="Hidden"/>
+                </custom:VariableStructureDragDropTarget>
+
+            </Grid>
+        </Border>
+
+        <!--Method Panel 2.0-->
+        <Border HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="3,3,3,0" Grid.Row="2" Grid.Column="2" Grid.RowSpan="1">
+            <Grid x:Name="methodGrid" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30*"/>
+                    <RowDefinition Height="149*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="141*"/>
+                    <ColumnDefinition Width="88*"/>
+                    <ColumnDefinition Width="84*"/>
+                </Grid.ColumnDefinitions>
+                <Rectangle Fill="#FFF4F4F5" Stroke="Black" Grid.ColumnSpan="3"/>
+                <TextBlock Text="METHODS" FontSize="14" FontWeight="Bold" Margin="10,10,10,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="23"/>
+                <StackPanel Grid.Column="1">
+                    <blib:MyButton x:Name="createMethodBtn" FontWeight="Bold" Content="CREATE" Margin="5,5,5,5" FontSize="9" Height="30" VerticalAlignment="Top" Width="Auto" Click="createMethodBtn_Click" >
+            
+                    </blib:MyButton>
+                </StackPanel>
+                <StackPanel Grid.Column="2">
+                    <blib:MyButton x:Name="deleteMethodBtn" FontWeight="Bold" Margin="5,5,5,5" Content="DELETE" FontSize="9" Height="30" VerticalAlignment="Top" Width="Auto" Click="deleteMethodBtn_Click" />
+                </StackPanel>
+                <custom:VariableStructureDragDropTarget AllowDrop="False" Grid.Row="1" Grid.ColumnSpan="3">
+                    <ListBox x:Name="methodPalette" Grid.Row="1"  Grid.ColumnSpan="3" Height="230" Width="237" ScrollViewer.HorizontalScrollBarVisibility="Hidden"/>
+                </custom:VariableStructureDragDropTarget >
+            </Grid>
+        </Border>
+
+        <!--Editor Panel-->
+        <Border HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="0,3,0,3" 
+                Grid.Row="0" Grid.Column="1" Grid.RowSpan="5">
+            <Grid x:Name="editorPanelGrid" Background="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="720*"/>
+                    <RowDefinition Height="75*"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="140*"/>
+                    <ColumnDefinition Width="140*"/>
+                    <ColumnDefinition Width="140*"/>
+                    <ColumnDefinition Width="140*"/>
+                    <ColumnDefinition Width="145*"/>
+                </Grid.ColumnDefinitions>
+
+                <!--"<Viewbox Grid.Row="0" Grid.Column="1" Grid.RowSpan="4" Stretch="UniformToFill">-->
+                <StackPanel x:Name="editorPanel"  Orientation="Vertical" Margin="0" Grid.Row="0" Grid.ColumnSpan="5">
+                
+                    <tab:ExtendedTabControl ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem, Mode=TwoWay}" AddItemCommand="{Binding AddCommand}" 
+                                            HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="editorTabControl" Height="690" Background="#FFF4F4F5" SelectionChanged="Handle_TabSelectedChange">
+                        <sdk:TabItem x:Name="editorMain" Header="Main" FontWeight="Bold" FontSize="18" Background="LightGray" MaxWidth="75">
+                            <StackPanel>
+                                <custom:EditorDragDropTarget x:Name="editorDragDrop" AllowDrop="True">
+                                    <ListBox x:Name="editorPalette" Height="643" Width="525" SelectionMode="Single">
+                                        <ListBox.ItemContainerStyle>
+                                            <Style TargetType="ListBoxItem">
+                                                <Setter Property="Padding" Value="0,0,0,10"/>
+                                            </Style>
+                                        </ListBox.ItemContainerStyle>
+                                    <ListBox.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <StackPanel Orientation="Vertical"/>
+                                            </ItemsPanelTemplate>
+                                        </ListBox.ItemsPanel>
+                                    </ListBox>
+                                </custom:EditorDragDropTarget>
+                            </StackPanel>
+                        </sdk:TabItem>
+                    </tab:ExtendedTabControl>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="1">
+                    <blib:MyButton x:Name="exCodeBtn" FontWeight="Bold" Margin="10,5,10,5"  Background="Salmon"  Foreground="Black"  FontSize="14" Height="63" Width="Auto" Click="exCode_Click">
+                        <TextBlock x:Name="btnLabel" Text="Execute on Robot" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </blib:MyButton>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Grid.Row="1">
+                    <blib:MyButton x:Name="sendCodeBtn" FontWeight="Bold" Margin="10,5,10,5"  Background="Violet"  Foreground="Black"  FontSize="14" Height="63" Width="Auto" Click="sendCode_Click">
+                        <TextBlock Text="Send to Robot" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </blib:MyButton>
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="1">
+                    <blib:MyButton x:Name="loadProgramBtn" FontWeight="Bold" Margin="10,5,10,5"  Background="Yellow"  Foreground="Black"  FontSize="14" Height="63" Width="Auto" Click="loadProgram_Click">
+                        <TextBlock Text="Load Program" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </blib:MyButton>
+                </StackPanel>
+                <StackPanel Grid.Column="3" Grid.Row="1">
+                    <blib:MyButton x:Name="saveBtn" FontWeight="Bold" Margin="10,5,10,5"  Background="LightBlue"  Foreground="Black"  FontSize="14" Height="63" Width="Auto" Click="saveProgram_Click">
+                        <TextBlock Text="Save Program" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </blib:MyButton>
+                </StackPanel>
+                <StackPanel Grid.Column="4" Grid.Row="1">
+                    <blib:MyButton x:Name="runSimBtn" FontWeight="Bold" Margin="10,5,10,5"  Background="LightGreen"  Foreground="Black"  FontSize="14" Height="63" Width="Auto" Click="runSim_Click">
+                        <TextBlock Text="Run Simulator" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </blib:MyButton>
+                </StackPanel>
+            </Grid>
+            <!--"</Viewbox>-->
+        </Border>
+        
+        <!--Trash Panel 2.0-->
+        <Border HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="3,3,3,3" Grid.Row="3" Grid.Column="2" Grid.RowSpan="2">
+            <Grid x:Name="trashGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="71*"/>
+                    <ColumnDefinition Width="171*"/>
+                    <ColumnDefinition Width="71*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="8*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="errorMsg" Grid.Row="1" Grid.ColumnSpan="3" VerticalAlignment="Bottom" FontSize="14"></TextBlock>
+                <Image x:Name="trashImage" Grid.Column="1"   Margin="0,2,0,0" Grid.Row="2" Source= "images/rec2.png"/>
+                <blib:MyButton x:Name="clearBtn" FontWeight="Bold" Margin="5,5,10,5" Content="CLEAR Main" FontSize="10" Height="30" VerticalAlignment="Top"  Width="Auto" 
+                               Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" Click="clearEditor_Click" Opacity="1"/>
+                <custom:TrashDragDropTarget x:Name="trashDragDrop" AllowDrop="True" VerticalAlignment="Bottom" Grid.Column="1" Grid.Row="2">
+                    <ListBox x:Name="trash" Grid.Column="1" HorizontalAlignment="Left" Height="110" Margin="0,2,0,0" Grid.Row="2" VerticalAlignment="Top" Width="171" Opacity="0"/>
+
+                </custom:TrashDragDropTarget>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
+    

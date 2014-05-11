@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="CapGUI.Block"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"            
+    xmlns:toolKit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"
+    xmlns:custom="clr-namespace:CapGUI"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Border x:Name="blockBorder" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" BorderThickness="3,3,3,3" CornerRadius="6">
+        <Canvas x:Name="LayoutRoot" Height="40" Width="500" MinWidth="50" MinHeight="5">
+            <Grid x:Name="blockGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition MinWidth="100"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel x:Name="innerPane" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0">
+                    <TextBlock x:Name="line"/>
+                    <TextBlock x:Name="fore" FontSize="14" ></TextBlock>
+                </StackPanel>
+            </Grid>
+        </Canvas>
+    </Border>
+</UserControl>
