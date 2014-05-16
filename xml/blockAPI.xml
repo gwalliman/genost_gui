@@ -627,8 +627,9 @@
       </properties>
     </block>
   </Package>
-  
+  <mazeid>Default</mazeid>
 </BlockDefinitions>
+
 
 
 

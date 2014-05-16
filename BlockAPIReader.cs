@@ -35,6 +35,9 @@ namespace CapGUI
         List<Block> reservedBlockList;
         //Used to assign IDs to blocks 
         private int IDCounter = 0;
+
+        //associated maze ID
+        private string mazeID;
         
         public BlockAPIReader()
         {
@@ -83,9 +86,20 @@ namespace CapGUI
                 Debug.WriteLine(fullAPI);
                 IEnumerable<XElement> packages = fullAPI.Elements();
 
+                //gets the maze identifier...for some reason this doesn't seem to want to work without the foreach loop, not sure why there appears to be no single element targetting...
+               /* foreach (var mazeid in packages)
+                {
+                    mazeID = mazeid.Value.ToString();
+                }
+                Debug.WriteLine(mazeID);*/
 
                 foreach (var package in packages)
                 {
+                    if (package.Name.ToString().Equals("mazeid"))
+                    {
+                        mazeID = package.Value.ToString();
+                        break;
+                    }
                     //Gets each package
                     String pkgName = package.Attribute("name").Value.ToString();
 
@@ -109,6 +123,12 @@ namespace CapGUI
                     blockList.Add(packageBlocksList);
 
                 }
+                Debug.WriteLine("stop zone");
+               // foreach (var maze in packages)
+                //{
+                 //   mazeID = maze.Value.ToString();
+                //}
+                
             }
             catch (Exception e)
             {
@@ -276,6 +296,15 @@ namespace CapGUI
         public List<Block> getReservedBlocks()
         {
             return reservedBlockList;
+        }
+
+        /// <summary>
+        /// Use after readBlockDefinitions(). Gets the maze id found in the xml doc
+        /// </summary>
+        /// <returns>maze id</returns>
+        public string getMazeID()
+        {
+            return mazeID;
         }
     }
 }

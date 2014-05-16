@@ -71,6 +71,7 @@ namespace CapGUI
         private serverXML.WCFXmlServiceClient xmlClient;
 
         private Dictionary<int, string> lessonDic;
+        private string mazeID;
         
         #endregion
 
@@ -155,7 +156,9 @@ namespace CapGUI
 
             packageNameList = r.getPackageNames();
             reservedBlocks = r.getReservedBlocks();
-            
+
+            mazeID = r.getMazeID();
+
             //Add package marker blocks to the program structures palette
             for (int i = 0; i < allBlockList.Count; i++)
             {
@@ -693,6 +696,7 @@ namespace CapGUI
             {
                 iso.DeleteFile("test.txt");
             }
+            CodeParser.writeToFile(mazeID + "%");
             CodeParser.writeToFile("{");
             CodeParser.parseVariable(variableList, editorDragDrop);
             CodeParser.parseCode(editorDragDrop);
@@ -752,6 +756,7 @@ namespace CapGUI
             {
                 iso.DeleteFile("test.txt");
             }
+            CodeParser.writeToFile(mazeID + "%");
             CodeParser.writeToFile("{");
             CodeParser.parseVariable(variableList, editorDragDrop);
             CodeParser.parseCode(editorDragDrop);
@@ -841,6 +846,7 @@ namespace CapGUI
                 {
                     using (StreamReader reader = new StreamReader(isoStream))
                     {
+                        reader.ReadLine();//skips first line of codefile, the maze ID code
                         message = reader.ReadToEnd(); //read all contents of file
                     }
                 }
