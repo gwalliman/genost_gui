@@ -86,15 +86,9 @@ namespace CapGUI
                 Debug.WriteLine(fullAPI);
                 IEnumerable<XElement> packages = fullAPI.Elements();
 
-                //gets the maze identifier...for some reason this doesn't seem to want to work without the foreach loop, not sure why there appears to be no single element targetting...
-               /* foreach (var mazeid in packages)
-                {
-                    mazeID = mazeid.Value.ToString();
-                }
-                Debug.WriteLine(mazeID);*/
-
                 foreach (var package in packages)
                 {
+                    //catches the maze identifier in the xml. Must be the last element and break, otherwise it causes an error and anything after it is lost
                     if (package.Name.ToString().Equals("mazeid"))
                     {
                         mazeID = package.Value.ToString();
