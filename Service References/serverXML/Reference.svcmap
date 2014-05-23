@@ -20,10 +20,10 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost/?singleWsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://webstrar44.fulton.asu.edu/Page5/XmlWebService.svc?singleWsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="WCFXmlService.wsdl" MetadataType="Wsdl" ID="57c34ae4-20c0-4411-b8a3-c98d15823c76" SourceId="1" SourceUrl="http://localhost/?singleWsdl" />
+    <MetadataFile FileName="XmlWebService.wsdl" MetadataType="Wsdl" ID="a3eb7c1f-c450-459b-84e6-aa1abfb5e93f" SourceId="1" SourceUrl="http://webstrar44.fulton.asu.edu/Page5/XmlWebService.svc?singleWsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

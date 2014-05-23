@@ -99,6 +99,9 @@ namespace CapGUI
             base.OnItemDroppedOnTarget(args);
             MainPage.communicate.socket = false; //save that moveing socket is finished
 
+            //change was made
+            MainPage.communicate.changeCodeColorStatus();
+
             //returning the block to normal size, if neccessary
             Debigulate(listBox);
         }
@@ -207,6 +210,8 @@ namespace CapGUI
                                             if (copyBlock.flag_hasSocks && flag_DidAdd)
                                             {
                                                 copyBlock = cloneSockets(selected, copyBlock);
+                                                //change was made
+                                                MainPage.communicate.changeCodeColorStatus();
                                             }
                                             if (!flag_DidAdd)
                                             {
@@ -227,6 +232,7 @@ namespace CapGUI
                         }
                         //socket is no longer dragging
                         MainPage.communicate.socket = false; //try to fix half of the communication error
+                        
                     }
                 }
                 else

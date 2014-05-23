@@ -202,6 +202,9 @@ namespace CapGUI
                 EDDT.switchBlocks(EDDT.Content as ListBox, methodBlock.cloneSelf(true), true);
                 ObservableCollection<Block> collection = ((ListBox)EDDT.Content).ItemsSource as ObservableCollection<Block>;
                 Parsing.SocketReader.ReplaceMethodBlocks(collection, methodBlock.cloneSelf(true));
+
+                //change was made
+                MainPage.communicate.changeCodeColorStatus();
             }
         }
 

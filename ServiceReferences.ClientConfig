@@ -2,23 +2,23 @@
     <system.serviceModel>
         <bindings>
             <basicHttpBinding>
-                <binding name="BasicHttpBinding_IWCFXmlService" maxBufferSize="2147483647"
+                <binding name="BasicHttpBinding_IService" maxBufferSize="2147483647"
                     maxReceivedMessageSize="2147483647">
                     <security mode="None" />
                 </binding>
-                <binding name="BasicHttpBinding_IService" maxBufferSize="2147483647"
+                <binding name="BasicHttpBinding_IXmlWebService" maxBufferSize="2147483647"
                     maxReceivedMessageSize="2147483647">
                     <security mode="None" />
                 </binding>
             </basicHttpBinding>
         </bindings>
         <client>
-            <endpoint address="http://localhost/basic" binding="basicHttpBinding"
-                bindingConfiguration="BasicHttpBinding_IWCFXmlService" contract="serverXML.IWCFXmlService"
-                name="BasicHttpBinding_IWCFXmlService" />
             <endpoint address="http://venus.eas.asu.edu/WSRepository/eRobotic/DataService/Service.svc"
                 binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IService"
                 contract="robotService.IService" name="BasicHttpBinding_IService" />
+            <endpoint address="http://webstrar44.fulton.asu.edu/Page5/XmlWebService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IXmlWebService"
+                contract="serverXML.IXmlWebService" name="BasicHttpBinding_IXmlWebService" />
         </client>
     </system.serviceModel>
 </configuration>

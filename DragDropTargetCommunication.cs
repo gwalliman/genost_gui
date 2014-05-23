@@ -23,5 +23,14 @@ namespace CapGUI
             socket = false;
             editor = false;
         }
+
+        //Check to see if the color status of set code is orange
+        //If not then change status color to alter to new code change
+        public void changeCodeColorStatus()
+        {
+            if(!((SolidColorBrush)MainPage.Instance.codeStatusEllipse.Fill).Color.Equals(Colors.Black))
+                if (!((SolidColorBrush)MainPage.Instance.codeStatusEllipse.Fill).Color.Equals(Colors.Orange))
+                    MainPage.Instance.setStatusEllipse("orange");
+        }
     }
 }
