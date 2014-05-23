@@ -183,11 +183,11 @@
     <Resource Include="images\trash-can-clip-art1.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ButtonControlLibrary\ButtonControlLibrary.csproj">
+    <ProjectReference Include="ButtonControlLibrary\ButtonControlLibrary.csproj">
       <Project>{ba26256b-e2dd-450c-88f0-afbc46619b1e}</Project>
       <Name>ButtonControlLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ExtendedTabControl\ExtendedTabControl.csproj">
+    <ProjectReference Include="ExtendedTabControl\ExtendedTabControl.csproj">
       <Project>{e4523d8a-6be5-4fae-9153-8f975312b5b6}</Project>
       <Name>ExtendedTabControl</Name>
     </ProjectReference>
