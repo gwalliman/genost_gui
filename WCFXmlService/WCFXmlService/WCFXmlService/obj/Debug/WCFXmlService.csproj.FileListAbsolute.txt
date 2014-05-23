@@ -13,3 +13,6 @@ C:\Users\engrStud\Downloads\WCFXmlService\WCFXmlService\WCFXmlService\obj\Debug\
 C:\Users\engrStud\Documents\GitHub\CSE485-Columba\WCFXmlService\WCFXmlService\WCFXmlService\bin\Debug\WCFXmlService.exe.config
 C:\Users\engrStud\Documents\GitHub\CSE485-Columba\WCFXmlService\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.exe
 C:\Users\engrStud\Documents\GitHub\CSE485-Columba\WCFXmlService\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.pdb
+C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\WCFXmlService\WCFXmlService\WCFXmlService\bin\Debug\WCFXmlService.exe.config
+C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\WCFXmlService\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.exe
+C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\WCFXmlService\WCFXmlService\WCFXmlService\obj\Debug\WCFXmlService.pdb

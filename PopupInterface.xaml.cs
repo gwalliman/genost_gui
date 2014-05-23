@@ -70,6 +70,9 @@ namespace CapGUI
             ComboBoxItem l3 = new ComboBoxItem();
             l3.Content = "Lesson 3";
             PopupComboBox.Items.Add(l3);
+            ComboBoxItem l4 = new ComboBoxItem();
+            l4.Content = "1-1_intro_to_driving";
+            PopupComboBox.Items.Add(l4);
             
             PopupComboBox.SelectedIndex = 0;
 
