@@ -696,19 +696,83 @@ namespace CapGUI
             {
                 iso.DeleteFile("test.txt");
             }
-            CodeParser.writeToFile(mazeID + "%");
-            CodeParser.writeToFile("{");
+
+            CodeParser.writeToFile(mazeID + "%{");
             CodeParser.parseVariable(variableList, editorDragDrop);
             CodeParser.parseCode(editorDragDrop);
             CodeParser.writeToFile("\n");
             CodeParser.parseMethods(methodList, tabList);
             CodeParser.writeToFile("}");
+
+            Guid g;
+            g = Guid.NewGuid();
+
+            string ServiceUri = "http://venus.eas.asu.edu/WSRepository/eRobotic2/codeRestSvc/Service.svc/setCode/" + g.ToString();
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(ServiceUri);
+            request.Method = "POST";
+            request.ContentType = "application/json";
+            request.BeginGetRequestStream(new AsyncCallback(RequestReady), request);
+
             HtmlPopupWindowOptions options = new HtmlPopupWindowOptions();
             options.Width = 1000;
             options.Height = 1000;
-            HtmlPage.PopupWindow(new Uri("http://webstrar44.fulton.asu.edu/page3/RobotSim/launch.jnlp"), "_blank", options);
-            messageWindow(); 
+
+            HtmlPage.PopupWindow(new Uri("http://venus.eas.asu.edu/WSRepository/eRobotic2/javaSim/MainApplet.html?codeId=" + g.ToString()), "_blank", options);
+            //messageWindow(); 
         }
+
+        private void RequestReady(IAsyncResult asyncResult)
+        {
+            HttpWebRequest request = (HttpWebRequest) asyncResult.AsyncState;
+            System.IO.Stream stream = request.EndGetRequestStream(asyncResult);
+            String code = "";
+
+            IsolatedStorageFile iso = IsolatedStorageFile.GetUserStoreForApplication(); //open isolated file
+            if (iso.FileExists("test.txt"))
+            {
+                using (IsolatedStorageFileStream isoStream = new IsolatedStorageFileStream("test.txt", FileMode.Open, iso))
+                {
+                    using (StreamReader reader = new StreamReader(isoStream))
+                    {
+                        code = reader.ReadToEnd(); //read all contents of file
+                    }
+                }
+            }
+
+            this.Dispatcher.BeginInvoke(delegate()
+            {
+                StreamWriter writer = new StreamWriter(stream);
+
+                writer.WriteLine(code);
+                writer.Flush();
+                writer.Close();
+
+                request.BeginGetResponse(new AsyncCallback(ResponseReady), request);
+            });
+        }
+
+        private void ResponseReady(IAsyncResult asyncResult)
+        {
+            HttpWebRequest request = asyncResult.AsyncState as HttpWebRequest;
+
+            try
+            {
+                HttpWebResponse response = (HttpWebResponse) request.EndGetResponse(asyncResult);
+
+                this.Dispatcher.BeginInvoke(delegate()
+                {
+                    System.IO.Stream responseStream = response.GetResponseStream();
+                    StreamReader reader = new StreamReader(responseStream);
+                    // get the result text   
+                    string result = reader.ReadToEnd();
+                    int asdf = 0;
+                });
+            }
+            catch (WebException webException)
+            {
+                MessageBox.Show(webException.Response.ToString());
+            }
+        } 
 
         private void exCode_Click(object sender, RoutedEventArgs e)
         {

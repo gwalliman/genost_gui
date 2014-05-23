@@ -204,9 +204,6 @@ namespace CapGUI.Parsing
                 writeToFile("\t}\r");
                 
             }
-
         }
-
-        
     }
 }
