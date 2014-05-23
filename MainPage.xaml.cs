@@ -98,9 +98,10 @@ namespace CapGUI
             xmlClient = new serverXML.WCFXmlServiceClient();
 
             lessonDic = new Dictionary<int, string>();
-            lessonDic.Add(0, "http://webstrar44.fulton.asu.edu/page2/Lesson1API.xml");
-            lessonDic.Add(1, "http://webstrar44.fulton.asu.edu/page2/Lesson2API.xml");
-            lessonDic.Add(2, "http://webstrar44.fulton.asu.edu/page2/Lesson3API.xml");
+            lessonDic.Add(0, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/Lesson1API.xml");
+            lessonDic.Add(1, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/Lesson2API.xml");
+            lessonDic.Add(2, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/Lesson3API.xml");
+            lessonDic.Add(3, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/1-1_intro_to_driving.xml");
             
             //Lists
             programStructureList = new ObservableCollection<Block>();
