@@ -22,253 +22,17 @@ namespace CapGUI.serverXML {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="serverXML.IPolicyRetriever")]
-    public interface IPolicyRetriever {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="serverXML.IXmlWebService")]
+    public interface IXmlWebService {
         
-        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/IPolicyRetriever/GetSilverlightPolicy", ReplyAction="http://tempuri.org/IPolicyRetriever/GetSilverlightPolicyResponse")]
-        System.IAsyncResult BeginGetSilverlightPolicy(System.AsyncCallback callback, object asyncState);
-        
-        byte[] EndGetSilverlightPolicy(System.IAsyncResult result);
-    }
-    
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IPolicyRetrieverChannel : CapGUI.serverXML.IPolicyRetriever, System.ServiceModel.IClientChannel {
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class GetSilverlightPolicyCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
-        
-        private object[] results;
-        
-        public GetSilverlightPolicyCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
-                base(exception, cancelled, userState) {
-            this.results = results;
-        }
-        
-        public byte[] Result {
-            get {
-                base.RaiseExceptionIfNecessary();
-                return ((byte[])(this.results[0]));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class PolicyRetrieverClient : System.ServiceModel.ClientBase<CapGUI.serverXML.IPolicyRetriever>, CapGUI.serverXML.IPolicyRetriever {
-        
-        private BeginOperationDelegate onBeginGetSilverlightPolicyDelegate;
-        
-        private EndOperationDelegate onEndGetSilverlightPolicyDelegate;
-        
-        private System.Threading.SendOrPostCallback onGetSilverlightPolicyCompletedDelegate;
-        
-        private BeginOperationDelegate onBeginOpenDelegate;
-        
-        private EndOperationDelegate onEndOpenDelegate;
-        
-        private System.Threading.SendOrPostCallback onOpenCompletedDelegate;
-        
-        private BeginOperationDelegate onBeginCloseDelegate;
-        
-        private EndOperationDelegate onEndCloseDelegate;
-        
-        private System.Threading.SendOrPostCallback onCloseCompletedDelegate;
-        
-        public PolicyRetrieverClient() {
-        }
-        
-        public PolicyRetrieverClient(string endpointConfigurationName) : 
-                base(endpointConfigurationName) {
-        }
-        
-        public PolicyRetrieverClient(string endpointConfigurationName, string remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
-        }
-        
-        public PolicyRetrieverClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(endpointConfigurationName, remoteAddress) {
-        }
-        
-        public PolicyRetrieverClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
-                base(binding, remoteAddress) {
-        }
-        
-        public System.Net.CookieContainer CookieContainer {
-            get {
-                System.ServiceModel.Channels.IHttpCookieContainerManager httpCookieContainerManager = this.InnerChannel.GetProperty<System.ServiceModel.Channels.IHttpCookieContainerManager>();
-                if ((httpCookieContainerManager != null)) {
-                    return httpCookieContainerManager.CookieContainer;
-                }
-                else {
-                    return null;
-                }
-            }
-            set {
-                System.ServiceModel.Channels.IHttpCookieContainerManager httpCookieContainerManager = this.InnerChannel.GetProperty<System.ServiceModel.Channels.IHttpCookieContainerManager>();
-                if ((httpCookieContainerManager != null)) {
-                    httpCookieContainerManager.CookieContainer = value;
-                }
-                else {
-                    throw new System.InvalidOperationException("Unable to set the CookieContainer. Please make sure the binding contains an HttpC" +
-                            "ookieContainerBindingElement.");
-                }
-            }
-        }
-        
-        public event System.EventHandler<GetSilverlightPolicyCompletedEventArgs> GetSilverlightPolicyCompleted;
-        
-        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> OpenCompleted;
-        
-        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> CloseCompleted;
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.IAsyncResult CapGUI.serverXML.IPolicyRetriever.BeginGetSilverlightPolicy(System.AsyncCallback callback, object asyncState) {
-            return base.Channel.BeginGetSilverlightPolicy(callback, asyncState);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        byte[] CapGUI.serverXML.IPolicyRetriever.EndGetSilverlightPolicy(System.IAsyncResult result) {
-            return base.Channel.EndGetSilverlightPolicy(result);
-        }
-        
-        private System.IAsyncResult OnBeginGetSilverlightPolicy(object[] inValues, System.AsyncCallback callback, object asyncState) {
-            return ((CapGUI.serverXML.IPolicyRetriever)(this)).BeginGetSilverlightPolicy(callback, asyncState);
-        }
-        
-        private object[] OnEndGetSilverlightPolicy(System.IAsyncResult result) {
-            byte[] retVal = ((CapGUI.serverXML.IPolicyRetriever)(this)).EndGetSilverlightPolicy(result);
-            return new object[] {
-                    retVal};
-        }
-        
-        private void OnGetSilverlightPolicyCompleted(object state) {
-            if ((this.GetSilverlightPolicyCompleted != null)) {
-                InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.GetSilverlightPolicyCompleted(this, new GetSilverlightPolicyCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
-            }
-        }
-        
-        public void GetSilverlightPolicyAsync() {
-            this.GetSilverlightPolicyAsync(null);
-        }
-        
-        public void GetSilverlightPolicyAsync(object userState) {
-            if ((this.onBeginGetSilverlightPolicyDelegate == null)) {
-                this.onBeginGetSilverlightPolicyDelegate = new BeginOperationDelegate(this.OnBeginGetSilverlightPolicy);
-            }
-            if ((this.onEndGetSilverlightPolicyDelegate == null)) {
-                this.onEndGetSilverlightPolicyDelegate = new EndOperationDelegate(this.OnEndGetSilverlightPolicy);
-            }
-            if ((this.onGetSilverlightPolicyCompletedDelegate == null)) {
-                this.onGetSilverlightPolicyCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnGetSilverlightPolicyCompleted);
-            }
-            base.InvokeAsync(this.onBeginGetSilverlightPolicyDelegate, null, this.onEndGetSilverlightPolicyDelegate, this.onGetSilverlightPolicyCompletedDelegate, userState);
-        }
-        
-        private System.IAsyncResult OnBeginOpen(object[] inValues, System.AsyncCallback callback, object asyncState) {
-            return ((System.ServiceModel.ICommunicationObject)(this)).BeginOpen(callback, asyncState);
-        }
-        
-        private object[] OnEndOpen(System.IAsyncResult result) {
-            ((System.ServiceModel.ICommunicationObject)(this)).EndOpen(result);
-            return null;
-        }
-        
-        private void OnOpenCompleted(object state) {
-            if ((this.OpenCompleted != null)) {
-                InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.OpenCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
-            }
-        }
-        
-        public void OpenAsync() {
-            this.OpenAsync(null);
-        }
-        
-        public void OpenAsync(object userState) {
-            if ((this.onBeginOpenDelegate == null)) {
-                this.onBeginOpenDelegate = new BeginOperationDelegate(this.OnBeginOpen);
-            }
-            if ((this.onEndOpenDelegate == null)) {
-                this.onEndOpenDelegate = new EndOperationDelegate(this.OnEndOpen);
-            }
-            if ((this.onOpenCompletedDelegate == null)) {
-                this.onOpenCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnOpenCompleted);
-            }
-            base.InvokeAsync(this.onBeginOpenDelegate, null, this.onEndOpenDelegate, this.onOpenCompletedDelegate, userState);
-        }
-        
-        private System.IAsyncResult OnBeginClose(object[] inValues, System.AsyncCallback callback, object asyncState) {
-            return ((System.ServiceModel.ICommunicationObject)(this)).BeginClose(callback, asyncState);
-        }
-        
-        private object[] OnEndClose(System.IAsyncResult result) {
-            ((System.ServiceModel.ICommunicationObject)(this)).EndClose(result);
-            return null;
-        }
-        
-        private void OnCloseCompleted(object state) {
-            if ((this.CloseCompleted != null)) {
-                InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.CloseCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
-            }
-        }
-        
-        public void CloseAsync() {
-            this.CloseAsync(null);
-        }
-        
-        public void CloseAsync(object userState) {
-            if ((this.onBeginCloseDelegate == null)) {
-                this.onBeginCloseDelegate = new BeginOperationDelegate(this.OnBeginClose);
-            }
-            if ((this.onEndCloseDelegate == null)) {
-                this.onEndCloseDelegate = new EndOperationDelegate(this.OnEndClose);
-            }
-            if ((this.onCloseCompletedDelegate == null)) {
-                this.onCloseCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnCloseCompleted);
-            }
-            base.InvokeAsync(this.onBeginCloseDelegate, null, this.onEndCloseDelegate, this.onCloseCompletedDelegate, userState);
-        }
-        
-        protected override CapGUI.serverXML.IPolicyRetriever CreateChannel() {
-            return new PolicyRetrieverClientChannel(this);
-        }
-        
-        private class PolicyRetrieverClientChannel : ChannelBase<CapGUI.serverXML.IPolicyRetriever>, CapGUI.serverXML.IPolicyRetriever {
-            
-            public PolicyRetrieverClientChannel(System.ServiceModel.ClientBase<CapGUI.serverXML.IPolicyRetriever> client) : 
-                    base(client) {
-            }
-            
-            public System.IAsyncResult BeginGetSilverlightPolicy(System.AsyncCallback callback, object asyncState) {
-                object[] _args = new object[0];
-                System.IAsyncResult _result = base.BeginInvoke("GetSilverlightPolicy", _args, callback, asyncState);
-                return _result;
-            }
-            
-            public byte[] EndGetSilverlightPolicy(System.IAsyncResult result) {
-                object[] _args = new object[0];
-                byte[] _result = ((byte[])(base.EndInvoke("GetSilverlightPolicy", _args, result)));
-                return _result;
-            }
-        }
-    }
-    
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="serverXML.IWCFXmlService")]
-    public interface IWCFXmlService {
-        
-        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/IWCFXmlService/GetXmlData", ReplyAction="http://tempuri.org/IWCFXmlService/GetXmlDataResponse")]
+        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/IXmlWebService/GetXmlData", ReplyAction="http://tempuri.org/IXmlWebService/GetXmlDataResponse")]
         System.IAsyncResult BeginGetXmlData(string xmlUrl, System.AsyncCallback callback, object asyncState);
         
         CapGUI.serverXML.ArrayOfXElement EndGetXmlData(System.IAsyncResult result);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IWCFXmlServiceChannel : CapGUI.serverXML.IWCFXmlService, System.ServiceModel.IClientChannel {
+    public interface IXmlWebServiceChannel : CapGUI.serverXML.IXmlWebService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -292,7 +56,7 @@ namespace CapGUI.serverXML {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class WCFXmlServiceClient : System.ServiceModel.ClientBase<CapGUI.serverXML.IWCFXmlService>, CapGUI.serverXML.IWCFXmlService {
+    public partial class XmlWebServiceClient : System.ServiceModel.ClientBase<CapGUI.serverXML.IXmlWebService>, CapGUI.serverXML.IXmlWebService {
         
         private BeginOperationDelegate onBeginGetXmlDataDelegate;
         
@@ -312,22 +76,22 @@ namespace CapGUI.serverXML {
         
         private System.Threading.SendOrPostCallback onCloseCompletedDelegate;
         
-        public WCFXmlServiceClient() {
+        public XmlWebServiceClient() {
         }
         
-        public WCFXmlServiceClient(string endpointConfigurationName) : 
+        public XmlWebServiceClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public WCFXmlServiceClient(string endpointConfigurationName, string remoteAddress) : 
+        public XmlWebServiceClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public WCFXmlServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public XmlWebServiceClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public WCFXmlServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public XmlWebServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         
@@ -360,22 +124,22 @@ namespace CapGUI.serverXML {
         public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> CloseCompleted;
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.IAsyncResult CapGUI.serverXML.IWCFXmlService.BeginGetXmlData(string xmlUrl, System.AsyncCallback callback, object asyncState) {
+        System.IAsyncResult CapGUI.serverXML.IXmlWebService.BeginGetXmlData(string xmlUrl, System.AsyncCallback callback, object asyncState) {
             return base.Channel.BeginGetXmlData(xmlUrl, callback, asyncState);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        CapGUI.serverXML.ArrayOfXElement CapGUI.serverXML.IWCFXmlService.EndGetXmlData(System.IAsyncResult result) {
+        CapGUI.serverXML.ArrayOfXElement CapGUI.serverXML.IXmlWebService.EndGetXmlData(System.IAsyncResult result) {
             return base.Channel.EndGetXmlData(result);
         }
         
         private System.IAsyncResult OnBeginGetXmlData(object[] inValues, System.AsyncCallback callback, object asyncState) {
             string xmlUrl = ((string)(inValues[0]));
-            return ((CapGUI.serverXML.IWCFXmlService)(this)).BeginGetXmlData(xmlUrl, callback, asyncState);
+            return ((CapGUI.serverXML.IXmlWebService)(this)).BeginGetXmlData(xmlUrl, callback, asyncState);
         }
         
         private object[] OnEndGetXmlData(System.IAsyncResult result) {
-            CapGUI.serverXML.ArrayOfXElement retVal = ((CapGUI.serverXML.IWCFXmlService)(this)).EndGetXmlData(result);
+            CapGUI.serverXML.ArrayOfXElement retVal = ((CapGUI.serverXML.IXmlWebService)(this)).EndGetXmlData(result);
             return new object[] {
                     retVal};
         }
@@ -471,13 +235,13 @@ namespace CapGUI.serverXML {
             base.InvokeAsync(this.onBeginCloseDelegate, null, this.onEndCloseDelegate, this.onCloseCompletedDelegate, userState);
         }
         
-        protected override CapGUI.serverXML.IWCFXmlService CreateChannel() {
-            return new WCFXmlServiceClientChannel(this);
+        protected override CapGUI.serverXML.IXmlWebService CreateChannel() {
+            return new XmlWebServiceClientChannel(this);
         }
         
-        private class WCFXmlServiceClientChannel : ChannelBase<CapGUI.serverXML.IWCFXmlService>, CapGUI.serverXML.IWCFXmlService {
+        private class XmlWebServiceClientChannel : ChannelBase<CapGUI.serverXML.IXmlWebService>, CapGUI.serverXML.IXmlWebService {
             
-            public WCFXmlServiceClientChannel(System.ServiceModel.ClientBase<CapGUI.serverXML.IWCFXmlService> client) : 
+            public XmlWebServiceClientChannel(System.ServiceModel.ClientBase<CapGUI.serverXML.IXmlWebService> client) : 
                     base(client) {
             }
             

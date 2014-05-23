@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WCFXmlService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="XmlWebService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-      <xs:import namespace="http://schemas.microsoft.com/Message" />
       <xs:import namespace="http://schemas.datacontract.org/2004/07/System.Xml.Linq" />
-      <xs:element name="GetSilverlightPolicy">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="GetSilverlightPolicyResponse">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element xmlns:q1="http://schemas.microsoft.com/Message" name="GetSilverlightPolicyResult" type="q1:StreamBody" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
       <xs:element name="GetXmlData">
         <xs:complexType>
           <xs:sequence>
@@ -26,15 +13,10 @@
       <xs:element name="GetXmlDataResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/System.Xml.Linq" minOccurs="0" name="GetXmlDataResult" nillable="true" type="q2:ArrayOfXElement" />
+            <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Xml.Linq" minOccurs="0" name="GetXmlDataResult" nillable="true" type="q1:ArrayOfXElement" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-    </xs:schema>
-    <xs:schema xmlns:tns="http://schemas.microsoft.com/Message" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/Message" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-      <xs:simpleType name="StreamBody">
-        <xs:restriction base="xs:base64Binary" />
-      </xs:simpleType>
     </xs:schema>
     <xs:schema xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -92,34 +74,22 @@
       <xs:element name="ArrayOfXElement" nillable="true" type="tns:ArrayOfXElement" />
     </xs:schema>
   </wsdl:types>
-  <wsdl:message name="IPolicyRetriever_GetSilverlightPolicy_InputMessage">
-    <wsdl:part name="parameters" element="tns:GetSilverlightPolicy" />
-  </wsdl:message>
-  <wsdl:message name="IPolicyRetriever_GetSilverlightPolicy_OutputMessage">
-    <wsdl:part name="parameters" element="tns:GetSilverlightPolicyResponse" />
-  </wsdl:message>
-  <wsdl:message name="IWCFXmlService_GetXmlData_InputMessage">
+  <wsdl:message name="IXmlWebService_GetXmlData_InputMessage">
     <wsdl:part name="parameters" element="tns:GetXmlData" />
   </wsdl:message>
-  <wsdl:message name="IWCFXmlService_GetXmlData_OutputMessage">
+  <wsdl:message name="IXmlWebService_GetXmlData_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetXmlDataResponse" />
   </wsdl:message>
-  <wsdl:portType name="IPolicyRetriever">
-    <wsdl:operation name="GetSilverlightPolicy">
-      <wsdl:input wsaw:Action="http://tempuri.org/IPolicyRetriever/GetSilverlightPolicy" message="tns:IPolicyRetriever_GetSilverlightPolicy_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IPolicyRetriever/GetSilverlightPolicyResponse" message="tns:IPolicyRetriever_GetSilverlightPolicy_OutputMessage" />
-    </wsdl:operation>
-  </wsdl:portType>
-  <wsdl:portType name="IWCFXmlService">
+  <wsdl:portType name="IXmlWebService">
     <wsdl:operation name="GetXmlData">
-      <wsdl:input wsaw:Action="http://tempuri.org/IWCFXmlService/GetXmlData" message="tns:IWCFXmlService_GetXmlData_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IWCFXmlService/GetXmlDataResponse" message="tns:IWCFXmlService_GetXmlData_OutputMessage" />
+      <wsdl:input wsaw:Action="http://tempuri.org/IXmlWebService/GetXmlData" message="tns:IXmlWebService_GetXmlData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IXmlWebService/GetXmlDataResponse" message="tns:IXmlWebService_GetXmlData_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
-  <wsdl:binding name="BasicHttpBinding_IWCFXmlService" type="tns:IWCFXmlService">
+  <wsdl:binding name="BasicHttpBinding_IXmlWebService" type="tns:IXmlWebService">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
     <wsdl:operation name="GetXmlData">
-      <soap:operation soapAction="http://tempuri.org/IWCFXmlService/GetXmlData" style="document" />
+      <soap:operation soapAction="http://tempuri.org/IXmlWebService/GetXmlData" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -128,9 +98,9 @@
       </wsdl:output>
     </wsdl:operation>
   </wsdl:binding>
-  <wsdl:service name="WCFXmlService">
-    <wsdl:port name="BasicHttpBinding_IWCFXmlService" binding="tns:BasicHttpBinding_IWCFXmlService">
-      <soap:address location="http://localhost/basic" />
+  <wsdl:service name="XmlWebService">
+    <wsdl:port name="BasicHttpBinding_IXmlWebService" binding="tns:BasicHttpBinding_IXmlWebService">
+      <soap:address location="http://webstrar44.fulton.asu.edu/Page5/XmlWebService.svc" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

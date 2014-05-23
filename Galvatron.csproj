@@ -155,7 +155,6 @@
     <None Include="Service References\serverXML\CapGUI.serverXML.ArrayOfXElement.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\serverXML\WCFXmlService.wsdl" />
     <None Include="Service References\robotService\configuration91.svcinfo" />
     <None Include="Service References\robotService\configuration.svcinfo" />
     <None Include="Service References\robotService\Reference.svcmap">
@@ -163,6 +162,7 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
     <Content Include="ServiceReferences.ClientConfig" />
+    <None Include="Service References\serverXML\XmlWebService.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\serverXML\configuration91.svcinfo" />

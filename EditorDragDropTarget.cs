@@ -224,6 +224,8 @@ namespace CapGUI
                             }
                         }
                         Refresh(dropTarget);
+                        //change was made
+                        MainPage.communicate.changeCodeColorStatus();
                     }
                 }
                 else

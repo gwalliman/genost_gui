@@ -23,6 +23,7 @@ using System.IO.IsolatedStorage;
 using System.IO;
 using System.Xml.Linq;
 using System.Windows.Browser;
+using System.Threading;
 
 namespace CapGUI
 {
@@ -68,7 +69,8 @@ namespace CapGUI
         private bool loadLibrary = false;   //
         private IEnumerable<XElement> xmlDoc = null;
         private robotService.ServiceClient client; //client to send info to robot
-        private serverXML.WCFXmlServiceClient xmlClient;
+        private serverXML.XmlWebServiceClient xmlClient;
+        
 
         private Dictionary<int, string> lessonDic;
         private string mazeID;
@@ -95,13 +97,14 @@ namespace CapGUI
 
             //Service
             client = new robotService.ServiceClient();
-            xmlClient = new serverXML.WCFXmlServiceClient();
+            xmlClient = new serverXML.XmlWebServiceClient();
 
             lessonDic = new Dictionary<int, string>();
             lessonDic.Add(0, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/Lesson1API.xml");
             lessonDic.Add(1, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/Lesson2API.xml");
             lessonDic.Add(2, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/Lesson3API.xml");
             lessonDic.Add(3, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/1-1_intro_to_driving.xml");
+            lessonDic.Add(4, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/DefaultAPI.xml");
             
             //Lists
             programStructureList = new ObservableCollection<Block>();
@@ -719,6 +722,9 @@ namespace CapGUI
             options.Height = 1000;
 
             HtmlPage.PopupWindow(new Uri("http://venus.eas.asu.edu/WSRepository/eRobotic2/javaSim/MainApplet.html?codeId=" + g.ToString()), "_blank", options);
+            
+            //Change set code indication color to orange (run sim)
+            setStatusEllipse("orange");
             //messageWindow(); 
         }
 
@@ -828,10 +834,8 @@ namespace CapGUI
             CodeParser.writeToFile("\n");
             CodeParser.parseMethods(methodList, tabList);
             CodeParser.writeToFile("}");
+
             messageWindow();
-            
-            
-            
         }
 
         private void roboFunctClick(object sender, RoutedEventArgs e)
@@ -840,14 +844,15 @@ namespace CapGUI
             if (!loadLibrary)
             {
                 loadLibrary = true;
-                roboLoadBtn.Content = "UPDATE";
+                //roboLoadBtn.Content = "UPDATE";
                 lessonPick = new PopupInterface(Color.FromArgb(255,185,172,252), 0,0);
                 roboGrid.Children.Add(lessonPick);
                 Grid.SetColumn(lessonPick, 2);
                 lessonPick.OkAddBtn.AddHandler(MouseLeftButtonDownEvent, new MouseButtonEventHandler(LoadOk_Click), true);
                 
+                
             }
-            else
+            /*else
             {
                 if (xmlDoc == null)
                 {
@@ -865,13 +870,30 @@ namespace CapGUI
                     readBlockAPI(true, xmlDoc);
                     xmlDoc = null;
                 }
-            }
+            }*/
+        }
+
+        private void threadRunning()
+        {
+            while (xmlDoc == null) ;
+            loadLibrary = false;
+            Deployment.Current.Dispatcher.BeginInvoke( () =>
+            {
+                myStoryboard.Stop();
+                programStructureList.Clear(); //clear program list
+                robotFunctionsList.Clear(); //clear robot list
+                readBlockAPI(true, xmlDoc);
+                xmlDoc = null;
+            });
         }
 
         private void LoadOk_Click(object sender, RoutedEventArgs e)
         {
             lessonPick.MenuPopup.IsOpen = false;
             Debug.WriteLine(lessonPick.PopupComboBox.SelectedIndex);
+            Thread t = new Thread(new ThreadStart(threadRunning));
+            myStoryboard.Begin();
+            t.Start();
             xmlClient.GetXmlDataCompleted += getXmlDataComplete;
             xmlClient.GetXmlDataAsync(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
         }
@@ -899,10 +921,13 @@ namespace CapGUI
         }
 
         //create message window and print code output
+        //---------------------------------------------------------------
+        //currently not displaying a message only sending code to service
+        //---------------------------------------------------------------
         private void messageWindow()
         {
             string message = ""; //message (code) displayed
-            string caption = "Code Output"; //header
+            //string caption = "Code Output"; //header
             
             IsolatedStorageFile iso = IsolatedStorageFile.GetUserStoreForApplication(); //open isolated file
             if (iso.FileExists("test.txt"))
@@ -918,9 +943,12 @@ namespace CapGUI
             }
 
             //Clipboard.SetText(message);
-            MessageBoxButton buttons = MessageBoxButton.OK; //only allow OK and X buttons
-            MessageBoxResult result = MessageBox.Show(message + "\nThis code has been set", caption, buttons); //display message window
-            
+            //MessageBoxButton buttons = MessageBoxButton.OK; //only allow OK and X buttons
+            //MessageBoxResult result = MessageBox.Show(message + "\nThis code has been set", caption, buttons); //display message window
+
+            //Change set code indication color to yellow (send code)
+            setStatusEllipse("yellow");
+
             client.SetCodeCompleted += setCodeComplete;
             client.SetCodeAsync(message);
 
@@ -929,8 +957,31 @@ namespace CapGUI
         private void setCodeComplete(object sender, AsyncCompletedEventArgs e)
         {
             client.SetStatusCompleted -= setCodeComplete;
+
+            //Change set code indication color to yellow (send code)
+            setStatusEllipse("green");
         }
 
+        //Change the code status indicator ellipse
+        public void setStatusEllipse(string colorStatus)
+        {
+            switch (colorStatus)
+            {
+                case "orange":
+                    codeStatusEllipse.Fill = new SolidColorBrush(Colors.Orange);
+                    break;
+                case "yellow":
+                    codeStatusEllipse.Fill = new SolidColorBrush(Colors.Yellow);
+                    break;
+                case "green":
+                    codeStatusEllipse.Fill = new SolidColorBrush(Colors.Green);
+                    break;
+                default:
+                    codeStatusEllipse.Fill = new SolidColorBrush(Colors.Black);
+                    break;
+            }
+        }
+        
         //Clear the current Tab data
         private void clearCurrentTab()
         {

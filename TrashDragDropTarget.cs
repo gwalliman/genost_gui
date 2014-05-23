@@ -88,6 +88,7 @@ namespace CapGUI
                     }
                 }
                 AllowAdd = false;
+                MainPage.communicate.changeCodeColorStatus();
             }
         }
     }
