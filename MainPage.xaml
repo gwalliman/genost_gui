@@ -175,7 +175,7 @@
                         <TextBlock x:Name="btnLabel" Text="Execute on Robot" TextWrapping="Wrap" TextAlignment="Center"/>
                     </blib:MyButton>
                 </StackPanel>
-                <StackPanel Grid.Column="2" Grid.Row="1">
+                <StackPanel Grid.Column="3" Grid.Row="1">
                     <blib:MyButton x:Name="sendCodeBtn" FontWeight="Bold" Margin="10,5,10,5"  Background="Violet"  Foreground="Black"  FontSize="14" Height="63" Width="Auto" Click="sendCode_Click">
                         <StackPanel Orientation="Vertical">
                             <Ellipse x:Name="codeStatusEllipse" Width="10" Height="10" Stroke="Black" Fill="Black"/>
@@ -194,7 +194,7 @@
                         <TextBlock Text="Save Program" TextWrapping="Wrap" TextAlignment="Center"/>
                     </blib:MyButton>
                 </StackPanel>
-                <StackPanel Grid.Column="3" Grid.Row="1">
+                <StackPanel Grid.Column="2" Grid.Row="1">
                     <blib:MyButton x:Name="runSimBtn" FontWeight="Bold" Margin="10,5,10,5"  Background="LightGreen"  Foreground="Black"  FontSize="14" Height="63" Width="Auto" Click="runSim_Click">
                         <TextBlock Text="Run Simulator" TextWrapping="Wrap" TextAlignment="Center" FontSize="13.5"/>
                     </blib:MyButton>
