@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6f3d024b-6e1a-4112-b897-91dff79f8f64" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://venus.eas.asu.edu/WSRepository/eRobotic2/lessonPlanSvc/XmlWebService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="XmlWebService.xsd" MetadataType="Schema" ID="e8913194-a595-455f-8380-c247ca20d56a" SourceId="1" SourceUrl="http://venus.eas.asu.edu/WSRepository/eRobotic2/lessonPlanSvc/XmlWebService.svc?xsd=xsd1" />
+    <MetadataFile FileName="XmlWebService1.xsd" MetadataType="Schema" ID="2aa4a77b-3ee6-4c7d-8421-42e4f86425c0" SourceId="1" SourceUrl="http://venus.eas.asu.edu/WSRepository/eRobotic2/lessonPlanSvc/XmlWebService.svc?xsd=xsd2" />
+    <MetadataFile FileName="XmlWebService2.xsd" MetadataType="Schema" ID="0bdfedaa-bb17-41dc-ac5c-eaeee592789f" SourceId="1" SourceUrl="http://venus.eas.asu.edu/WSRepository/eRobotic2/lessonPlanSvc/XmlWebService.svc?xsd=xsd0" />
+    <MetadataFile FileName="XmlWebService.wsdl" MetadataType="Wsdl" ID="c622c408-f6c2-42d4-81f8-2a2dcf58150b" SourceId="1" SourceUrl="http://venus.eas.asu.edu/WSRepository/eRobotic2/lessonPlanSvc/XmlWebService.svc?wsdl" />
+    <MetadataFile FileName="XmlWebService3.xsd" MetadataType="Schema" ID="2226178c-5dc7-4de8-a8c8-e96578db16cc" SourceId="1" SourceUrl="http://venus.eas.asu.edu/WSRepository/eRobotic2/lessonPlanSvc/XmlWebService.svc?xsd=xsd3" />
+    <MetadataFile FileName="XmlWebService.disco" MetadataType="Disco" ID="7d07a8ee-d7f4-4248-9cad-6609bd9bce1c" SourceId="1" SourceUrl="http://venus.eas.asu.edu/WSRepository/eRobotic2/lessonPlanSvc/XmlWebService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

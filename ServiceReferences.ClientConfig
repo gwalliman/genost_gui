@@ -10,6 +10,10 @@
                     maxReceivedMessageSize="2147483647">
                     <security mode="None" />
                 </binding>
+                <binding name="BasicHttpBinding_IXmlWebService1" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
             </basicHttpBinding>
         </bindings>
         <client>
@@ -19,6 +23,9 @@
             <endpoint address="http://webstrar44.fulton.asu.edu/Page5/XmlWebService.svc"
                 binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IXmlWebService"
                 contract="serverXML.IXmlWebService" name="BasicHttpBinding_IXmlWebService" />
+            <endpoint address="http://venus.eas.asu.edu/WSRepository/eRobotic2/lessonPlanSvc/XmlWebService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IXmlWebService1"
+                contract="lessonService.IXmlWebService" name="BasicHttpBinding_IXmlWebService1" />
         </client>
     </system.serviceModel>
 </configuration>
