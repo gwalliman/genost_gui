@@ -61,22 +61,13 @@ namespace CapGUI
             PopupComboBox.Items.Clear();
             Canvas.SetLeft(PopupComboBox, 25);
 
-            
-            ComboBoxItem l1 = new ComboBoxItem();
-            l1.Content = "Lesson 1";
-            PopupComboBox.Items.Add(l1);
-            ComboBoxItem l2 = new ComboBoxItem();
-            l2.Content = "Lesson 2";
-            PopupComboBox.Items.Add(l2);
-            ComboBoxItem l3 = new ComboBoxItem();
-            l3.Content = "Lesson 3";
-            PopupComboBox.Items.Add(l3);
-            ComboBoxItem l4 = new ComboBoxItem();
-            l4.Content = "1-1_intro_to_driving";
-            PopupComboBox.Items.Add(l4);
-            ComboBoxItem d = new ComboBoxItem();
-            d.Content = "Default";
-            PopupComboBox.Items.Add(d);
+            if (MainPage.Instance.lessons != null)
+            {
+                for (int i = 0; i < MainPage.Instance.lessons.Count; i++)
+                {
+                    PopupComboBox.Items.Add(((new ComboBoxItem()).Content = MainPage.Instance.lessons[i]));
+                }
+            }
             
             PopupComboBox.SelectedIndex = 0;
 

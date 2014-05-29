@@ -68,8 +68,10 @@ namespace CapGUI
         private bool robotRunning = false;  //determines if robot is currently running and code should be stopped or executed on button click
         private bool loadLibrary = false;   //
         private IEnumerable<XElement> xmlDoc = null;
+        public ObservableCollection<String> lessons = null; //lesson array
         private robotService.ServiceClient client; //client to send info to robot
         private serverXML.XmlWebServiceClient xmlClient;
+        private lessonService.XmlWebServiceClient lessonClient;
         
 
         private Dictionary<int, string> lessonDic;
@@ -98,13 +100,11 @@ namespace CapGUI
             //Service
             client = new robotService.ServiceClient();
             xmlClient = new serverXML.XmlWebServiceClient();
+            lessonClient = new lessonService.XmlWebServiceClient();
+            
 
             lessonDic = new Dictionary<int, string>();
-            lessonDic.Add(0, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/Lesson1API.xml");
-            lessonDic.Add(1, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/Lesson2API.xml");
-            lessonDic.Add(2, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/Lesson3API.xml");
-            lessonDic.Add(3, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/1-1_intro_to_driving.xml");
-            lessonDic.Add(4, "http://venus.eas.asu.edu/WSRepository/eRobotic2/page2/DefaultAPI.xml");
+            loadLessons();
             
             //Lists
             programStructureList = new ObservableCollection<Block>();
@@ -871,21 +871,7 @@ namespace CapGUI
                     xmlDoc = null;
                 }
             }*/
-        }
-
-        private void threadRunning()
-        {
-            while (xmlDoc == null) ;
-            loadLibrary = false;
-            Deployment.Current.Dispatcher.BeginInvoke( () =>
-            {
-                myStoryboard.Stop();
-                programStructureList.Clear(); //clear program list
-                robotFunctionsList.Clear(); //clear robot list
-                readBlockAPI(true, xmlDoc);
-                xmlDoc = null;
-            });
-        }
+        }       
 
         private void LoadOk_Click(object sender, RoutedEventArgs e)
         {
@@ -894,18 +880,20 @@ namespace CapGUI
             Thread t = new Thread(new ThreadStart(threadRunning));
             myStoryboard.Begin();
             t.Start();
-            xmlClient.GetXmlDataCompleted += getXmlDataComplete;
-            xmlClient.GetXmlDataAsync(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
+            Debug.WriteLine(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
+            lessonClient.getLessonPlanCompleted += getXmlDataComplete;
+            lessonClient.getLessonPlanAsync(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
         }
 
-        private void getXmlDataComplete(object sender, serverXML.GetXmlDataCompletedEventArgs e)
+        private void getXmlDataComplete(object sender, lessonService.getLessonPlanCompletedEventArgs e)
         {
             if (e.Error == null)
             {
                 xmlDoc = e.Result;
             }
-            xmlClient.GetXmlDataCompleted -= getXmlDataComplete;
+            lessonClient.getLessonPlanCompleted -= getXmlDataComplete;
         }
+
 
         private void clearEditor_Click(object sender, RoutedEventArgs e)
         {
@@ -996,6 +984,60 @@ namespace CapGUI
 
         #endregion
 
-        
+        #region Lesson Plan load
+
+        //loads the lesson blocks in and stops the loading throbber once finished
+        private void threadRunning()
+        {
+            while (xmlDoc == null) ;
+            loadLibrary = false;
+            Deployment.Current.Dispatcher.BeginInvoke(() =>
+            {
+                myStoryboard.Stop();
+                programStructureList.Clear(); //clear program list
+                robotFunctionsList.Clear(); //clear robot list
+                readBlockAPI(true, xmlDoc);
+                xmlDoc = null;
+            });
+        }
+
+        //loads the lesson options in and stops the loading throbber once finished
+        private void lessonThread()
+        {
+            while (lessons == null) ;
+            loadLibrary = false;
+            Deployment.Current.Dispatcher.BeginInvoke(() =>
+            {
+                myStoryboard.Stop();
+                for (int i = 0; i < lessons.Count; i++)
+                {
+                    lessonDic.Add(i, lessons[i]);
+                    Debug.WriteLine(lessons[i]);
+                }
+            });
+        }
+
+        //loads lessons options
+        private void loadLessons()
+        {
+            Thread t = new Thread(new ThreadStart(lessonThread));
+            myStoryboard.Begin();
+            t.Start();
+            lessonClient.listLessonPlansCompleted += getLessonDataComplete;
+            lessonClient.listLessonPlansAsync();
+        }
+
+        //service call to get the lessons from server
+        private void getLessonDataComplete(object sender, lessonService.listLessonPlansCompletedEventArgs e)
+        {
+            if (e.Error == null)
+            {
+                lessons = e.Result;
+            }
+            lessonClient.listLessonPlansCompleted -= getLessonDataComplete;
+        }
+        #endregion
+
+
     }
 }
