@@ -1677,14 +1677,6 @@ C:\Users\David\Documents\GitHub\genost_gui\Bin\Debug\ru\System.Xml.Linq.resource
 C:\Users\David\Documents\GitHub\genost_gui\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
 C:\Users\David\Documents\GitHub\genost_gui\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
 C:\Users\David\Documents\GitHub\genost_gui\obj\Debug\XapCacheFile.xml
-C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\Galvatron.csprojResolveAssemblyReference.cache
-C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\App.g.cs
-C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\Block.g.cs
-C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\MainPage.g.cs
-C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\PopupInterface.g.cs
-C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\TabPage.g.cs
-C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\CapGUI.g.resources
-C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\CapGUI.dll
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\xml\blockAPI.xml
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\CapGUI.dll
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\CapGUI.pdb
@@ -1704,8 +1696,6 @@ C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\System.ComponentModel.Data
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\System.Windows.Controls.xml
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\System.Windows.Controls.Data.Input.xml
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\System.Windows.Controls.Toolkit.pdb
-C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\System.Windows.Controls.Toolkit.xml
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\System.Xml.Linq.xml
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
@@ -1845,6 +1835,13 @@ C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\ko\System.Xml.Linq.resourc
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\ru\System.Xml.Linq.resources.dll
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
 C:\Users\Tracey\Documents\GitHub\genost_gui\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\App.g.cs
+C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\Block.g.cs
 C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\Login.g.cs
+C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\MainPage.g.cs
+C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\PopupInterface.g.cs
+C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\TabPage.g.cs
+C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\CapGUI.g.resources
+C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\CapGUI.dll
 C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\CapGUI.pdb
 C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\XapCacheFile.xml
