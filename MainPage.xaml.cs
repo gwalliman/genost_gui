@@ -94,9 +94,9 @@ namespace CapGUI
         }
         private MainPage()
         {
-
+            
             InitializeComponent();
-
+            
             //Service
             client = new robotService.ServiceClient();
             xmlClient = new serverXML.XmlWebServiceClient();
@@ -142,7 +142,12 @@ namespace CapGUI
 
             //Method panel
             methodPalette.AddHandler(MouseLeftButtonDownEvent, new MouseButtonEventHandler(Handle_VarMethMouseDown), true);
+
+            //Waiting until the page is loaded before launching login method call
+            this.Loaded += MainPage_Loaded;
         }
+
+        
 
         private bool readBlockAPI(bool loadFromServer, IEnumerable<XElement> xmlFile)
         {
@@ -1038,6 +1043,36 @@ namespace CapGUI
         }
         #endregion
 
+        #region Login Prompt
 
+        //event handler for when the page is fully loaded
+        void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            Login log = new Login();
+            log.Closed += new EventHandler(loginClosed);
+            log.Show();
+        }
+
+        //event handler for when the prompt is closed
+        void loginClosed(object sender, EventArgs e)
+        {
+            Login lw = (Login)sender;
+
+            if (lw.DialogResult == true)
+            {
+                //do stuff for successful login here
+                //note that password and username are currently stored in the login class
+            }
+            else if (lw.DialogResult == false)
+            {
+                //do stuff for failed login here
+
+                //this code just reopens the prompt in the case of cancel or X are pressed for now, forcing the user to input their info
+                Login log = new Login();
+                log.Closed += new EventHandler(loginClosed);
+                log.Show();
+            }
+        }
+        #endregion
     }
 }
