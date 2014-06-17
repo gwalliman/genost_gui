@@ -1363,8 +1363,6 @@ C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\Bin\Debug\S
 C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\Bin\Debug\System.Windows.Controls.xml
 C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\Bin\Debug\System.Windows.Controls.Data.Input.xml
 C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\Bin\Debug\System.Windows.Controls.Navigation.xml
-C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\Bin\Debug\System.Windows.Controls.Toolkit.pdb
-C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\Bin\Debug\System.Windows.Controls.Toolkit.xml
 C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\Bin\Debug\System.Xml.Linq.xml
 C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
 C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
@@ -1845,3 +1843,4 @@ C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\CapGUI.g.resources
 C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\CapGUI.dll
 C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\CapGUI.pdb
 C:\Users\Tracey\Documents\GitHub\genost_gui\obj\Debug\XapCacheFile.xml
+C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\obj\Debug\Login.g.cs

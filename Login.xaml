@@ -19,7 +19,7 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Row="0" Grid.Column="0">Username:</TextBlock>
-        <custom:credBox x:Name="username" Grid.Row="0" Grid.Column="1"></custom:credBox>
+        <TextBox x:Name="username" Grid.Row="0" Grid.Column="1"></TextBox>
 
         <TextBlock Grid.Row="1" Grid.Column="0">Password:</TextBlock>
         <PasswordBox x:Name="pass" Grid.Row="1" Grid.Column="1" Margin="0,1,0,0"></PasswordBox>

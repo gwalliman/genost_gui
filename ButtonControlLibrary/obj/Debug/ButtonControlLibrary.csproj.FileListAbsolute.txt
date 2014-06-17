@@ -27,3 +27,9 @@ C:\Users\David\Desktop\CSE485-Columba-David\ButtonControlLibrary\obj\Debug\Butto
 C:\Users\David\Desktop\CSE485-Columba-David\ButtonControlLibrary\obj\Debug\ButtonControlLibrary.g.resources
 C:\Users\David\Desktop\CSE485-Columba-David\ButtonControlLibrary\obj\Debug\ButtonControlLibrary.dll
 C:\Users\David\Desktop\CSE485-Columba-David\ButtonControlLibrary\obj\Debug\ButtonControlLibrary.pdb
+C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\ButtonControlLibrary\Bin\Debug\ButtonControlLibrary.dll
+C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\ButtonControlLibrary\Bin\Debug\ButtonControlLibrary.pdb
+C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\ButtonControlLibrary\obj\Debug\ButtonControlLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\ButtonControlLibrary\obj\Debug\ButtonControlLibrary.g.resources
+C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\ButtonControlLibrary\obj\Debug\ButtonControlLibrary.dll
+C:\Users\Garret\Documents\My Dropbox\Master's Thesis\Code\genost_gui\ButtonControlLibrary\obj\Debug\ButtonControlLibrary.pdb

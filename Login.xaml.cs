@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
@@ -43,50 +44,32 @@ namespace CapGUI
                 cw.Content = "Please Enter your name and password.";
                 cw.Show();
             }
-            else
+            else 
             {
-                name = username.Text;
-
-                //parses out symbols from password, since silverlight devs apparently don't want sql injection defences possible with their crappy passwordbox
-                //manages the situation until a better solution can be found
-                foreach (char c in pass.Password)
+                Regex r = new Regex("^[a-zA-Z0-9]*$");
+                if (r.IsMatch(username.Text))
                 {
-                    if (char.IsLetterOrDigit(c))
+                    name = username.Text;
+
+                    //parses out symbols from password, since silverlight devs apparently don't want sql injection defences possible with their crappy passwordbox
+                    //manages the situation until a better solution can be found
+                    foreach (char c in pass.Password)
                     {
-                        password += c;
+                        if (char.IsLetterOrDigit(c))
+                        {
+                            password += c;
+                        }
                     }
                 }
-            }
-
-        }
-    }
-
-    //class that limits textbox input to only alphanumeric characters
-    public partial class credBox : TextBox
-    {
-
-        protected override void OnKeyDown(KeyEventArgs e)
-        {
-            base.OnKeyDown(e);
-
-            // Handle Shift case
-            if (Keyboard.Modifiers == ModifierKeys.Shift)
-            {
-                e.Handled = true;
-            }
-
-            if(char.IsLetterOrDigit((char)e.Key))
-            {
-                e.Handled = true;
-
-            }
-            else
-            {
-                e.Handled = false;
-
+                else
+                {
+                    e.Cancel = true;
+                    ChildWindow cw = new ChildWindow();
+                    cw.Content = "Please enter only alphanumeric characters!";
+                    cw.Show();
+                }
             }
         }
     }
-   
 }
 
