@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galvatron", "Galvatron.csproj", "{7BD81654-0909-4AAC-8AAA-CC668CEF5F0F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{424BC9F7-6FB6-474A-AD66-521BAAD72407}"
@@ -10,6 +8,29 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonControlLibrary", "ButtonControlLibrary\ButtonControlLibrary.csproj", "{BA26256B-E2DD-450C-88F0-AFBC46619B1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendedTabControl", "ExtendedTabControl\ExtendedTabControl.csproj", "{E4523D8A-6BE5-4FAE-9153-8F975312B5B6}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Galvatron.Web", "http://localhost:23536", "{8C178B37-83DE-430F-9F1D-B0A46C307151}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_23536"
+		Debug.AspNetCompiler.PhysicalPath = "Galvatron.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23536\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_23536"
+		Release.AspNetCompiler.PhysicalPath = "Galvatron.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23536\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Galvatron.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+		ProjOutputReferences = "{7BD81654-0909-4AAC-8AAA-CC668CEF5F0F}|ClientBin|false;"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +50,10 @@ Global
 		{E4523D8A-6BE5-4FAE-9153-8F975312B5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4523D8A-6BE5-4FAE-9153-8F975312B5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4523D8A-6BE5-4FAE-9153-8F975312B5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C178B37-83DE-430F-9F1D-B0A46C307151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C178B37-83DE-430F-9F1D-B0A46C307151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C178B37-83DE-430F-9F1D-B0A46C307151}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C178B37-83DE-430F-9F1D-B0A46C307151}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

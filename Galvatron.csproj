@@ -64,6 +64,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations, Version=5.0.5.0, Culture=neutral, PublicKeyToken=ddd0da4d3e678217, processorArchitecture=MSIL" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
     <Reference Include="System.Windows" />
     <Reference Include="system" />
     <Reference Include="System.Core">
@@ -104,17 +105,7 @@
     </Compile>
     <Compile Include="ProgramStructureDragDropTarget.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\lessonService\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
     <Compile Include="Service References\robotService\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
-    <Compile Include="Service References\serverXML\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -156,23 +147,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\AppManifest.xml" />
-    <None Include="Service References\lessonService\CapGUI.lessonService.ArrayOfXElement.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\lessonService\XmlWebService.wsdl" />
-    <None Include="Service References\lessonService\XmlWebService.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\lessonService\XmlWebService1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\lessonService\XmlWebService2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\lessonService\XmlWebService3.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Service References\robotService\Service.wsdl" />
     <None Include="Service References\robotService\Service.xsd">
       <SubType>Designer</SubType>
@@ -180,32 +156,16 @@
     <None Include="Service References\robotService\Service1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\serverXML\CapGUI.serverXML.ArrayOfXElement.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
     <None Include="Service References\robotService\configuration91.svcinfo" />
     <None Include="Service References\robotService\configuration.svcinfo" />
     <None Include="Service References\robotService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-    <None Include="Service References\lessonService\XmlWebService.disco" />
-    <None Include="Service References\lessonService\configuration91.svcinfo" />
-    <None Include="Service References\lessonService\configuration.svcinfo" />
-    <None Include="Service References\lessonService\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </None>
     <Content Include="ServiceReferences.ClientConfig" />
-    <None Include="Service References\serverXML\XmlWebService.wsdl" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\serverXML\configuration91.svcinfo" />
-    <None Include="Service References\serverXML\configuration.svcinfo" />
-    <None Include="Service References\serverXML\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
     <Content Include="xml\blockAPI.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
@@ -231,9 +191,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\lessonService\" />
     <WCFMetadataStorage Include="Service References\robotService\" />
-    <WCFMetadataStorage Include="Service References\serverXML\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

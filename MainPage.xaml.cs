@@ -24,6 +24,7 @@ using System.IO;
 using System.Xml.Linq;
 using System.Windows.Browser;
 using System.Threading;
+using System.Runtime.Serialization.Json;
 
 namespace CapGUI
 {
@@ -69,10 +70,7 @@ namespace CapGUI
         private bool loadLibrary = false;   //
         private IEnumerable<XElement> xmlDoc = null;
         public ObservableCollection<String> lessons = null; //lesson array
-        private robotService.ServiceClient client; //client to send info to robot
-        private serverXML.XmlWebServiceClient xmlClient;
-        private lessonService.XmlWebServiceClient lessonClient;
-        
+        private robotService.ServiceClient client; //client to send info to robot       
 
         private Dictionary<int, string> lessonDic;
         private string mazeID;
@@ -98,10 +96,7 @@ namespace CapGUI
             InitializeComponent();
             
             //Service
-            client = new robotService.ServiceClient();
-            xmlClient = new serverXML.XmlWebServiceClient();
-            lessonClient = new lessonService.XmlWebServiceClient();
-            
+            client = new robotService.ServiceClient();         
 
             lessonDic = new Dictionary<int, string>();
             loadLessons();
@@ -716,21 +711,41 @@ namespace CapGUI
             Guid g;
             g = Guid.NewGuid();
 
-            string ServiceUri = "http://venus.eas.asu.edu/WSRepository/eRobotic2/codeRestSvc/Service.svc/setCode/" + g.ToString();
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(ServiceUri);
-            request.Method = "POST";
-            request.ContentType = "application/json";
-            request.BeginGetRequestStream(new AsyncCallback(RequestReady), request);
+            string ServiceUri = "http://genost.org/api/postCode/" + g.ToString();
+
+            String code = "";
+
+            if (iso.FileExists("test.txt"))
+            {
+                using (IsolatedStorageFileStream isoStream = new IsolatedStorageFileStream("test.txt", FileMode.Open, iso))
+                {
+                    using (StreamReader reader = new StreamReader(isoStream))
+                    {
+                        code = reader.ReadToEnd(); //read all contents of file
+                    }
+                }
+            }
+
+            WebClient cnt = new WebClient();
+            cnt.UploadStringCompleted += new UploadStringCompletedEventHandler(uploadCodeStringCompleted);
+            cnt.Headers["Content-type"] = "application/json";
+            cnt.Encoding = Encoding.UTF8;
+            cnt.UploadStringAsync(new Uri(ServiceUri), "POST", code);
 
             HtmlPopupWindowOptions options = new HtmlPopupWindowOptions();
             options.Width = 1000;
             options.Height = 1000;
 
-            HtmlPage.PopupWindow(new Uri("http://venus.eas.asu.edu/WSRepository/eRobotic2/javaSim/MainApplet.html?codeId=" + g.ToString()), "_blank", options);
+            HtmlPage.PopupWindow(new Uri("http://genost.org/genost_simulator/MainApplet.html?codeId=" + g.ToString()), "_blank", options);
             
             //Change set code indication color to orange (run sim)
             setStatusEllipse("orange");
             //messageWindow(); 
+        }
+
+        void uploadCodeStringCompleted(object sender, UploadStringCompletedEventArgs e)
+        {
+            var x = e;
         }
 
         private void RequestReady(IAsyncResult asyncResult)
@@ -777,7 +792,6 @@ namespace CapGUI
                     StreamReader reader = new StreamReader(responseStream);
                     // get the result text   
                     string result = reader.ReadToEnd();
-                    int asdf = 0;
                 });
             }
             catch (WebException webException)
@@ -886,18 +900,34 @@ namespace CapGUI
             myStoryboard.Begin();
             t.Start();
             Debug.WriteLine(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
-            lessonClient.getLessonPlanCompleted += getXmlDataComplete;
-            lessonClient.getLessonPlanAsync(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
+            /*lessonClient.getLessonPlanCompleted += getXmlDataComplete;
+            lessonClient.getLessonPlanAsync(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);*/
+            Uri serviceUri = new Uri("http://genost.org/api/getLessonPlan/" + lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
+            WebClient downloader = new WebClient();
+            downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(getLessonPlanDataComplete);
+            downloader.OpenReadAsync(serviceUri);
         }
 
-        private void getXmlDataComplete(object sender, lessonService.getLessonPlanCompletedEventArgs e)
+        void getLessonPlanDataComplete(object sender, OpenReadCompletedEventArgs e)
+        {
+            if(e.Error == null)
+            {
+                Stream responseStream = e.Result;
+                StreamReader reader = new StreamReader(responseStream);
+                string text = reader.ReadToEnd();
+                XDocument lessonPlanDoc = XDocument.Parse(text);
+                xmlDoc = lessonPlanDoc.Descendants();
+            }
+        }
+
+        /*private void getXmlDataComplete(object sender, lessonService.getLessonPlanCompletedEventArgs e)
         {
             if (e.Error == null)
             {
                 xmlDoc = e.Result;
             }
             lessonClient.getLessonPlanCompleted -= getXmlDataComplete;
-        }
+        }*/
 
 
         private void clearEditor_Click(object sender, RoutedEventArgs e)
@@ -1028,18 +1058,23 @@ namespace CapGUI
             Thread t = new Thread(new ThreadStart(lessonThread));
             myStoryboard.Begin();
             t.Start();
-            lessonClient.listLessonPlansCompleted += getLessonDataComplete;
-            lessonClient.listLessonPlansAsync();
+            Uri serviceUri = new Uri("http://genost.org/api/listLessonPlans");
+            WebClient downloader = new WebClient();
+            downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(lessonPlanDownloadComplete);
+            downloader.OpenReadAsync(serviceUri);
         }
 
-        //service call to get the lessons from server
-        private void getLessonDataComplete(object sender, lessonService.listLessonPlansCompletedEventArgs e)
+        void lessonPlanDownloadComplete(object sender, OpenReadCompletedEventArgs e)
         {
-            if (e.Error == null)
+            if(e.Error == null)
             {
-                lessons = e.Result;
+                Stream responseStream = e.Result;
+                StreamReader reader = new StreamReader(responseStream);
+                string text = reader.ReadToEnd();
+                DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(String[]));
+                String[] lessonPlans = (String[])serializer.ReadObject(responseStream);
+                lessons = new ObservableCollection<String>(lessonPlans);
             }
-            lessonClient.listLessonPlansCompleted -= getLessonDataComplete;
         }
         #endregion
 
