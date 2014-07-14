@@ -37,7 +37,7 @@ namespace CapGUI
             MenuPopup.LostFocus += new RoutedEventHandler(Child_OnLostFocus);
         }
 
-        public PopupInterface(Color color, int verticalOffset, int horizontalOffset)
+        public PopupInterface(Color color, int verticalOffset, int horizontalOffset, string currentItem)
         {
             InitializeComponent();
             MenuCanvas.Background = new SolidColorBrush(color);
@@ -68,8 +68,9 @@ namespace CapGUI
                     PopupComboBox.Items.Add(((new ComboBoxItem()).Content = MainPage.Instance.lessons[i]));
                 }
             }
-            
-            PopupComboBox.SelectedIndex = 0;
+
+            int selectedIndex = PopupComboBox.Items.IndexOf(currentItem);
+            PopupComboBox.SelectedIndex = selectedIndex;
 
             OkAddBtn.Content = "OK";
 

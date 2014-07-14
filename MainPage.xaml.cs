@@ -70,10 +70,16 @@ namespace CapGUI
         private bool loadLibrary = false;   //
         private IEnumerable<XElement> xmlDoc = null;
         public ObservableCollection<String> lessons = null; //lesson array
-        private robotService.ServiceClient client; //client to send info to robot       
 
         private Dictionary<int, string> lessonDic;
         private string mazeID;
+
+        private Login lw;
+        private string username;
+        private string password;
+        private bool freeMode;
+        private string currentLessonId;
+        private bool doneLoading = false;
         
         #endregion
 
@@ -96,10 +102,7 @@ namespace CapGUI
             InitializeComponent();
             
             //Service
-            client = new robotService.ServiceClient();         
-
             lessonDic = new Dictionary<int, string>();
-            loadLessons();
             
             //Lists
             programStructureList = new ObservableCollection<Block>();
@@ -701,6 +704,14 @@ namespace CapGUI
                 iso.DeleteFile("test.txt");
             }
 
+            if (!freeMode)
+            {
+                CodeParser.writeToFile(username + "%" + password + "%");
+            }
+            else
+            {
+                CodeParser.writeToFile("%%");
+            }
             CodeParser.writeToFile(mazeID + "%{");
             CodeParser.parseVariable(variableList, editorDragDrop);
             CodeParser.parseCode(editorDragDrop);
@@ -744,6 +755,11 @@ namespace CapGUI
         }
 
         void uploadCodeStringCompleted(object sender, UploadStringCompletedEventArgs e)
+        {
+            var x = e;
+        }
+
+        void uploadStatusStringComplete(object sender, OpenReadCompletedEventArgs e)
         {
             var x = e;
         }
@@ -805,29 +821,27 @@ namespace CapGUI
             if (!robotRunning)
             {
                 robotRunning = true;
-                btnLabel.Text = "Stop Robot";               
-                client.SetStatusCompleted += executeCodeComplete;
-                client.SetStatusAsync("run");
+                btnLabel.Text = "Stop Robot";
+                string ServiceUri = "http://genost.org/api/postStatus/run";
+
+                Uri serviceUri = new Uri(ServiceUri);
+                WebClient downloader = new WebClient();
+                downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(uploadStatusStringComplete);
+                downloader.OpenReadAsync(serviceUri);
             }
             else
             {
                 robotRunning = false;
                 btnLabel.Text = "Execute on Robot";
-                client.SetStatusCompleted += stopCodeComplete;
-                client.SetStatusAsync("stop");
+                string ServiceUri = "http://genost.org/api/postStatus/stop";
+
+                Uri serviceUri = new Uri(ServiceUri);
+                WebClient downloader = new WebClient();
+                downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(uploadStatusStringComplete);
+                downloader.OpenReadAsync(serviceUri);
             }
 
             
-        }
-
-        private void stopCodeComplete(object sender, AsyncCompletedEventArgs e)
-        {
-            client.SetStatusCompleted -= stopCodeComplete;
-        }
-
-        private void executeCodeComplete(object sender, AsyncCompletedEventArgs e)
-        {
-            client.SetStatusCompleted -= executeCodeComplete;
         }
 
         private void sendCode_Click(object sender, RoutedEventArgs e)
@@ -864,7 +878,7 @@ namespace CapGUI
             {
                 loadLibrary = true;
                 //roboLoadBtn.Content = "UPDATE";
-                lessonPick = new PopupInterface(Color.FromArgb(255,185,172,252), 0,0);
+                lessonPick = new PopupInterface(Color.FromArgb(255,185,172,252), 0, 0, currentLessonId);
                 roboGrid.Children.Add(lessonPick);
                 Grid.SetColumn(lessonPick, 2);
                 lessonPick.OkAddBtn.AddHandler(MouseLeftButtonDownEvent, new MouseButtonEventHandler(LoadOk_Click), true);
@@ -896,13 +910,17 @@ namespace CapGUI
         {
             lessonPick.MenuPopup.IsOpen = false;
             Debug.WriteLine(lessonPick.PopupComboBox.SelectedIndex);
+            currentLessonId = lessonDic[lessonPick.PopupComboBox.SelectedIndex];
+            loadLessonPlan(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
+        }
+
+        private void loadLessonPlan(string plan_id)
+        {
             Thread t = new Thread(new ThreadStart(threadRunning));
             myStoryboard.Begin();
             t.Start();
-            Debug.WriteLine(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
-            /*lessonClient.getLessonPlanCompleted += getXmlDataComplete;
-            lessonClient.getLessonPlanAsync(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);*/
-            Uri serviceUri = new Uri("http://genost.org/api/getLessonPlan/" + lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
+
+            Uri serviceUri = new Uri("http://genost.org/api/getLessonPlan/" + plan_id);
             WebClient downloader = new WebClient();
             downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(getLessonPlanDataComplete);
             downloader.OpenReadAsync(serviceUri);
@@ -917,18 +935,10 @@ namespace CapGUI
                 string text = reader.ReadToEnd();
                 XDocument lessonPlanDoc = XDocument.Parse(text);
                 xmlDoc = lessonPlanDoc.Descendants();
+                doneLoading = true;
+                currentLessonLbl.Content = "Current: " + currentLessonId;
             }
         }
-
-        /*private void getXmlDataComplete(object sender, lessonService.getLessonPlanCompletedEventArgs e)
-        {
-            if (e.Error == null)
-            {
-                xmlDoc = e.Result;
-            }
-            lessonClient.getLessonPlanCompleted -= getXmlDataComplete;
-        }*/
-
 
         private void clearEditor_Click(object sender, RoutedEventArgs e)
         {
@@ -972,15 +982,21 @@ namespace CapGUI
             //Change set code indication color to yellow (send code)
             setStatusEllipse("yellow");
 
-            client.SetCodeCompleted += setCodeComplete;
-            client.SetCodeAsync(message);
+            string ServiceUri = "http://genost.org/api/postCode/robotCode";
+
+            WebClient cnt = new WebClient();
+            cnt.UploadStringCompleted += new UploadStringCompletedEventHandler(uploadCodeStringCompleted);
+            cnt.Headers["Content-type"] = "application/json";
+            cnt.Encoding = Encoding.UTF8;
+            cnt.UploadStringAsync(new Uri(ServiceUri), "POST", message);
+
+            /*client.SetCodeCompleted += setCodeComplete;
+            client.SetCodeAsync(message);*/
 
         }
 
         private void setCodeComplete(object sender, AsyncCompletedEventArgs e)
         {
-            client.SetStatusCompleted -= setCodeComplete;
-
             //Change set code indication color to yellow (send code)
             setStatusEllipse("green");
         }
@@ -1024,7 +1040,8 @@ namespace CapGUI
         //loads the lesson blocks in and stops the loading throbber once finished
         private void threadRunning()
         {
-            while (xmlDoc == null) ;
+            while (doneLoading == false) ;
+            doneLoading = false;
             loadLibrary = false;
             Deployment.Current.Dispatcher.BeginInvoke(() =>
             {
@@ -1039,15 +1056,19 @@ namespace CapGUI
         //loads the lesson options in and stops the loading throbber once finished
         private void lessonThread()
         {
-            while (lessons == null) ;
+            while (doneLoading == false) ;
+            doneLoading = false;
             loadLibrary = false;
             Deployment.Current.Dispatcher.BeginInvoke(() =>
             {
                 myStoryboard.Stop();
-                for (int i = 0; i < lessons.Count; i++)
+                if (lessons != null)
                 {
-                    lessonDic.Add(i, lessons[i]);
-                    Debug.WriteLine(lessons[i]);
+                    for (int i = 0; i < lessons.Count; i++)
+                    {
+                        lessonDic.Add(i, lessons[i]);
+                        Debug.WriteLine(lessons[i]);
+                    }
                 }
             });
         }
@@ -1055,9 +1076,6 @@ namespace CapGUI
         //loads lessons options
         private void loadLessons()
         {
-            Thread t = new Thread(new ThreadStart(lessonThread));
-            myStoryboard.Begin();
-            t.Start();
             Uri serviceUri = new Uri("http://genost.org/api/listLessonPlans");
             WebClient downloader = new WebClient();
             downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(lessonPlanDownloadComplete);
@@ -1074,6 +1092,7 @@ namespace CapGUI
                 DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(String[]));
                 String[] lessonPlans = (String[])serializer.ReadObject(responseStream);
                 lessons = new ObservableCollection<String>(lessonPlans);
+                loadLessonPlan(currentLessonId);
             }
         }
         #endregion
@@ -1091,23 +1110,150 @@ namespace CapGUI
         //event handler for when the prompt is closed
         void loginClosed(object sender, EventArgs e)
         {
-            Login lw = (Login)sender;
+            lw = (Login)sender;
 
-            if (lw.DialogResult == true)
+            freeMode = lw.getFreeMode();
+            if (!freeMode)
             {
-                //do stuff for successful login here
-                //note that password and username are currently stored in the login class
+                Uri serviceUri = new Uri("http://genost.org/api/authenticate/" + lw.getUserName() + "/" + lw.getPassword());
+                WebClient downloader = new WebClient();
+                downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(authenticationComplete);
+                downloader.OpenReadAsync(serviceUri);
             }
-            else if (lw.DialogResult == false)
+            else
             {
-                //do stuff for failed login here
+                this.currentLessonLbl.Content = "In Free Mode";
+                this.nextLessonBtn.Visibility = System.Windows.Visibility.Collapsed;
+                this.prevLessonBtn.Visibility = System.Windows.Visibility.Collapsed;
+            }
+        }
 
-                //this code just reopens the prompt in the case of cancel or X are pressed for now, forcing the user to input their info
-                Login log = new Login();
-                log.Closed += new EventHandler(loginClosed);
-                log.Show();
+        void authenticationComplete(object sender, OpenReadCompletedEventArgs e)
+        {
+            string result = "";
+
+            if (e.Error == null)
+            {
+                Stream responseStream = e.Result;
+                StreamReader reader = new StreamReader(responseStream);
+                result = reader.ReadToEnd();
+            }
+
+            if (result == "true")
+            {
+                username = lw.getUserName();
+                password = lw.getPassword();
+
+                //Successful authentication.
+                //Store credentials in cookie (for user convenience)
+                string oldCookie = HtmlPage.Document.GetProperty("cookie") as String;
+                DateTime expiration = DateTime.UtcNow + TimeSpan.FromDays(1);
+                string cookie = String.Format("username={0};expires={1}", username, expiration.ToString("R"));
+                HtmlPage.Document.SetProperty("cookie", cookie);
+
+                //Load in lessons and current lesson too.
+                Thread t = new Thread(new ThreadStart(lessonThread));
+                myStoryboard.Begin();
+                t.Start();
+
+                Uri serviceUri = new Uri("http://genost.org/api/currentLesson/" + username + "/" + password);
+                WebClient downloader = new WebClient();
+                downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(currentLessonDownloadComplete);
+                downloader.OpenReadAsync(serviceUri);
+            }
+            else
+            {
+                ChildWindow cw = new ChildWindow();
+                cw.Content = "Authentication failed. Please try again.";
+                cw.Closed += new EventHandler(tryAgainClose);
+                cw.Show();
+
+            }
+        }
+
+        void tryAgainClose(object sender, EventArgs e)
+        {
+            Login log = new Login();
+            log.Closed += new EventHandler(loginClosed);
+            log.Show();
+        }
+
+        void currentLessonDownloadComplete(object sender, OpenReadCompletedEventArgs e)
+        {
+            if (e.Error == null)
+            {
+                Stream responseStream = e.Result;
+                StreamReader reader = new StreamReader(responseStream);
+                string currentLesson = reader.ReadToEnd();
+                currentLessonId = currentLesson.Trim(new Char[] { '\"' });
+                if (currentLessonId == "false")
+                {
+                    doneLoading = true;
+                    ChildWindow cw = new ChildWindow();
+                    cw.Content = "Login successful, but user " + username + " has no curriculum!\nPlease log in with a user that is assigned to a curriculum, or use Free Mode";
+                    cw.Closed += new EventHandler(tryAgainClose);
+                    cw.Show();
+                }
+                else
+                {
+                    ChildWindow cw = new ChildWindow();
+                    cw.Content = "Authentication successful! We will now load your current lesson.";
+                    cw.Show();
+
+                    loadLessons();
+                }
             }
         }
         #endregion
+
+        private void prevLessonClick(object sender, RoutedEventArgs e)
+        {
+            Uri serviceUri = new Uri("http://genost.org/api/prevLesson/" + username + "/" + password);
+            WebClient downloader = new WebClient();
+            downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(changeLessonDownloadComplete);
+            downloader.OpenReadAsync(serviceUri);
+        }
+
+        private void nextLessonClick(object sender, RoutedEventArgs e)
+        {
+            Uri serviceUri = new Uri("http://genost.org/api/nextLesson/" + username + "/" + password);
+            WebClient downloader = new WebClient();
+            downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(changeLessonDownloadComplete);
+            downloader.OpenReadAsync(serviceUri);
+        }
+
+        void changeLessonDownloadComplete(object sender, OpenReadCompletedEventArgs e)
+        {
+            if (e.Error == null)
+            {
+                Stream responseStream = e.Result;
+                StreamReader reader = new StreamReader(responseStream);
+                string changeLesson = reader.ReadToEnd();
+                changeLesson = changeLesson.Trim(new Char[] { '\"' });
+                if (changeLesson == "end")
+                {
+                    ChildWindow cw = new ChildWindow();
+                    cw.Content = "Your current lesson is the last one in your curriculum.";
+                    cw.Show();
+                }
+                else if (changeLesson == "begin")
+                {
+                    ChildWindow cw = new ChildWindow();
+                    cw.Content = "Your current lesson is the first one in your curriculum.";
+                    cw.Show();
+                }
+                else if (changeLesson == "false")
+                {
+                    ChildWindow cw = new ChildWindow();
+                    cw.Content = "We're sorry, an error has occurred.";
+                    cw.Show();
+                }
+                else
+                {
+                    currentLessonId = changeLesson;
+                    loadLessonPlan(currentLessonId);
+                }
+            }
+        }
     }
 }

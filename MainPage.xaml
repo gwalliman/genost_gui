@@ -28,7 +28,7 @@
             <RowDefinition Height="19*"/>
         </Grid.RowDefinitions>
 
-        
+
 
         <!--Robot Panel v2.0-->
         <Border HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" BorderBrush="Black" BorderThickness="3,3,3,0" Grid.Row="0" Grid.RowSpan="2">
@@ -44,9 +44,9 @@
                 </Grid.ColumnDefinitions>
                 <Rectangle Fill="#FFF4F4F5" Stroke="Black" Grid.ColumnSpan="3"/>
                 <TextBlock Text="ROBOT FUNCTIONS" FontSize="14" FontWeight="Bold" Margin="10,10,10,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="23" Grid.ColumnSpan="3"/>
-                <StackPanel Grid.Column="2">
+                <!--<StackPanel Grid.Column="2">
                     <blib:MyButton x:Name="roboLoadBtn" FontWeight="Bold" Margin="0,5,5,5" Content="LOAD" FontSize="9" Height="30" VerticalAlignment="Top"  Width="Auto" Click="roboFunctClick" />
-                </StackPanel>
+                </StackPanel>-->
                 <custom:ProgramStructureDragDropTarget AllowDrop="False" Grid.Row="1" Grid.ColumnSpan="3">
                     <ListBox x:Name="robotPalette" Grid.Row="1" Grid.ColumnSpan="3" Height="285" Width="237"  ScrollViewer.HorizontalScrollBarVisibility="Hidden"/>
                 </custom:ProgramStructureDragDropTarget>
@@ -67,9 +67,13 @@
                 </Grid.ColumnDefinitions>
                 <Rectangle Fill="#FFF4F4F5" Stroke="Black" Grid.ColumnSpan="3"/>
                 <TextBlock Text="PROGRAM STRUCTURES" FontSize="14" FontWeight="Bold" Margin="10" Grid.ColumnSpan="3"/>
-                <custom:ProgramStructureDragDropTarget AllowDrop="False" Grid.Row="1" Grid.ColumnSpan="3">
-                    <ListBox x:Name="blockPalette" Grid.Row="1" Grid.ColumnSpan="3" Height="390" Width="237"  ScrollViewer.HorizontalScrollBarVisibility="Hidden"/>
+                <custom:ProgramStructureDragDropTarget AllowDrop="False" Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,0,64">
+                    <ListBox x:Name="blockPalette" Grid.Row="1" Grid.ColumnSpan="3" Height="324" Width="237"  ScrollViewer.HorizontalScrollBarVisibility="Hidden"/>
                 </custom:ProgramStructureDragDropTarget>
+                <Rectangle Fill="#FFF4F4F5" Stroke="Black" Grid.ColumnSpan="3" Margin="0,324,0,-1" Grid.Row="1"/>
+                <blib:MyButton x:Name="prevLessonBtn" FontWeight="Bold" Margin="10,353,62,0" Content="Previous Lesson" FontSize="9" Height="30" VerticalAlignment="Top"  Width="Auto" Click="prevLessonClick" Grid.Row="1" Grid.ColumnSpan="2" />
+                <blib:MyButton x:Name="nextLessonBtn" FontWeight="Bold" Margin="19,353,10,0" Content="Next Lesson" FontSize="9" Height="30" VerticalAlignment="Top"  Width="Auto" Click="nextLessonClick" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" />
+                <sdk:Label x:Name ="currentLessonLbl" HorizontalAlignment="Left" Height="19" Margin="10,332,0,0" Grid.Row="1" VerticalAlignment="Top" Width="216" Grid.ColumnSpan="3" FontSize="9" FontWeight="Bold" Content="Current:"/>
             </Grid>
         </Border>
 
@@ -116,7 +120,7 @@
                 <TextBlock Text="METHODS" FontSize="14" FontWeight="Bold" Margin="10,10,10,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="23"/>
                 <StackPanel Grid.Column="1">
                     <blib:MyButton x:Name="createMethodBtn" FontWeight="Bold" Content="CREATE" Margin="5,5,5,5" FontSize="9" Height="30" VerticalAlignment="Top" Width="Auto" Click="createMethodBtn_Click" >
-            
+
                     </blib:MyButton>
                 </StackPanel>
                 <StackPanel Grid.Column="2">
@@ -147,7 +151,7 @@
 
                 <!--"<Viewbox Grid.Row="0" Grid.Column="1" Grid.RowSpan="4" Stretch="UniformToFill">-->
                 <StackPanel x:Name="editorPanel"  Orientation="Vertical" Margin="0" Grid.Row="0" Grid.ColumnSpan="5">
-                
+
                     <tab:ExtendedTabControl ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem, Mode=TwoWay}" AddItemCommand="{Binding AddCommand}" 
                                             HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="editorTabControl" Height="690" Background="#FFF4F4F5" SelectionChanged="Handle_TabSelectedChange">
                         <sdk:TabItem x:Name="editorMain" Header="Main" FontWeight="Bold" FontSize="18" Background="LightGray" MaxWidth="75">
@@ -159,7 +163,7 @@
                                                 <Setter Property="Padding" Value="0,0,0,10"/>
                                             </Style>
                                         </ListBox.ItemContainerStyle>
-                                    <ListBox.ItemsPanel>
+                                        <ListBox.ItemsPanel>
                                             <ItemsPanelTemplate>
                                                 <StackPanel Orientation="Vertical"/>
                                             </ItemsPanelTemplate>
@@ -180,7 +184,7 @@
                         <StackPanel Orientation="Vertical">
                             <Ellipse x:Name="codeStatusEllipse" Width="10" Height="10" Stroke="Black" Fill="Black"/>
                             <TextBlock Text="Send to Robot" TextWrapping="Wrap" TextAlignment="Center"/>
-                        
+
                         </StackPanel>
                     </blib:MyButton>
                 </StackPanel>
