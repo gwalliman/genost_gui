@@ -83,6 +83,7 @@ namespace CapGUI
         protected override void OnDropOverride(Microsoft.Windows.DragEventArgs args)
         {
             //Debug.WriteLine("Editor Drop");
+            MainPage.ping();
             if ((args.AllowedEffects & Microsoft.Windows.DragDropEffects.Link) == Microsoft.Windows.DragDropEffects.Link
                    || (args.AllowedEffects & Microsoft.Windows.DragDropEffects.Move) == Microsoft.Windows.DragDropEffects.Move)
             {

@@ -113,6 +113,7 @@ namespace CapGUI
          */
         protected override void OnDropOverride(Microsoft.Windows.DragEventArgs args)
         {
+            MainPage.ping();
             Debug.WriteLine("socket drop");
             if ((args.AllowedEffects & Microsoft.Windows.DragDropEffects.Link) == Microsoft.Windows.DragDropEffects.Link
                    || (args.AllowedEffects & Microsoft.Windows.DragDropEffects.Move) == Microsoft.Windows.DragDropEffects.Move)

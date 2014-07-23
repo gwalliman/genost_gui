@@ -108,8 +108,8 @@ namespace CapGUI
             }
             else
             {
-                name = "";
-                password = "";
+                name = "freeModeUser";
+                password = "123456";
                 freeMode = true;
                 ChildWindow cw = new ChildWindow();
                 cw.Content = "Entering Free Mode...";

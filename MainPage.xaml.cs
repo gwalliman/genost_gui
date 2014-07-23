@@ -75,10 +75,11 @@ namespace CapGUI
         private string mazeID;
 
         private Login lw;
-        private string username;
-        private string password;
+        private static string username;
+        private static string password;
         private bool freeMode;
         private string currentLessonId;
+        private string currentLessonImage;
         private bool doneLoading = false;
         
         #endregion
@@ -719,6 +720,14 @@ namespace CapGUI
             CodeParser.parseMethods(methodList, tabList);
             CodeParser.writeToFile("}");
 
+            if (username != null && username != "freeModeUser" && password != null)
+            {
+                Uri serviceUri = new Uri("http://genost.org/api/postAttempt/" + username + "/" + password);
+                WebClient downloader = new WebClient();
+                downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(postAttemptCompleted);
+                downloader.OpenReadAsync(serviceUri);
+            }
+
             Guid g;
             g = Guid.NewGuid();
 
@@ -747,21 +756,27 @@ namespace CapGUI
             options.Width = 1000;
             options.Height = 1000;
 
-            HtmlPage.PopupWindow(new Uri("http://genost.org/genost_simulator/MainApplet.html?codeId=" + g.ToString()), "_blank", options);
+            HtmlPage.PopupWindow(new Uri("http://genost.org/genost_simulator/index.html?codeId=" + g.ToString()), "_blank", options);
             
             //Change set code indication color to orange (run sim)
             setStatusEllipse("orange");
             //messageWindow(); 
         }
 
+        void postAttemptCompleted(object sender, OpenReadCompletedEventArgs e)
+        {
+        }
+
         void uploadCodeStringCompleted(object sender, UploadStringCompletedEventArgs e)
         {
-            var x = e;
         }
 
         void uploadStatusStringComplete(object sender, OpenReadCompletedEventArgs e)
         {
-            var x = e;
+        }
+
+        static void pingComplete(object sender, OpenReadCompletedEventArgs e)
+        {
         }
 
         private void RequestReady(IAsyncResult asyncResult)
@@ -877,7 +892,6 @@ namespace CapGUI
             if (!loadLibrary)
             {
                 loadLibrary = true;
-                //roboLoadBtn.Content = "UPDATE";
                 lessonPick = new PopupInterface(Color.FromArgb(255,185,172,252), 0, 0, currentLessonId);
                 roboGrid.Children.Add(lessonPick);
                 Grid.SetColumn(lessonPick, 2);
@@ -885,25 +899,6 @@ namespace CapGUI
                 
                 
             }
-            /*else
-            {
-                if (xmlDoc == null)
-                {
-                    string message = "Code is currently loading from server.\n\nPlease allow a few seconds and try again."; //message (code) displayed
-                    string caption = "Loading From Server"; //header
-                    MessageBoxButton buttons = MessageBoxButton.OK; //only allow OK and X buttons
-                    MessageBoxResult result = MessageBox.Show(message, caption, buttons); //display message window
-                }
-                else
-                {
-                    loadLibrary = false;
-                    roboLoadBtn.Content = "LOAD";
-                    programStructureList.Clear(); //clear program list
-                    robotFunctionsList.Clear(); //clear robot list
-                    readBlockAPI(true, xmlDoc);
-                    xmlDoc = null;
-                }
-            }*/
         }       
 
         private void LoadOk_Click(object sender, RoutedEventArgs e)
@@ -936,7 +931,8 @@ namespace CapGUI
                 XDocument lessonPlanDoc = XDocument.Parse(text);
                 xmlDoc = lessonPlanDoc.Descendants();
                 doneLoading = true;
-                currentLessonLbl.Content = "Current: " + currentLessonId;
+                currentLessonHL.Content = currentLessonId;
+                currentLessonHL.NavigateUri = new Uri(currentLessonImage);
             }
         }
 
@@ -1113,19 +1109,11 @@ namespace CapGUI
             lw = (Login)sender;
 
             freeMode = lw.getFreeMode();
-            if (!freeMode)
-            {
-                Uri serviceUri = new Uri("http://genost.org/api/authenticate/" + lw.getUserName() + "/" + lw.getPassword());
-                WebClient downloader = new WebClient();
-                downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(authenticationComplete);
-                downloader.OpenReadAsync(serviceUri);
-            }
-            else
-            {
-                this.currentLessonLbl.Content = "In Free Mode";
-                this.nextLessonBtn.Visibility = System.Windows.Visibility.Collapsed;
-                this.prevLessonBtn.Visibility = System.Windows.Visibility.Collapsed;
-            }
+
+            Uri serviceUri = new Uri("http://genost.org/api/authenticate/" + lw.getUserName() + "/" + lw.getPassword());
+            WebClient downloader = new WebClient();
+            downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(authenticationComplete);
+            downloader.OpenReadAsync(serviceUri);
         }
 
         void authenticationComplete(object sender, OpenReadCompletedEventArgs e)
@@ -1156,7 +1144,7 @@ namespace CapGUI
                 myStoryboard.Begin();
                 t.Start();
 
-                Uri serviceUri = new Uri("http://genost.org/api/currentLesson/" + username + "/" + password);
+                Uri serviceUri = new Uri("http://genost.org/api/currentLessonImage/" + username + "/" + password);
                 WebClient downloader = new WebClient();
                 downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(currentLessonDownloadComplete);
                 downloader.OpenReadAsync(serviceUri);
@@ -1185,7 +1173,10 @@ namespace CapGUI
                 Stream responseStream = e.Result;
                 StreamReader reader = new StreamReader(responseStream);
                 string currentLesson = reader.ReadToEnd();
-                currentLessonId = currentLesson.Trim(new Char[] { '\"' });
+                string currentLessonData = currentLesson.Trim(new Char[] { '\"' });
+                string[] currentLessonTokens = currentLessonData.Split('%');
+                currentLessonId = currentLessonTokens[0];
+                currentLessonImage = Uri.UnescapeDataString(currentLessonTokens[1]);
                 if (currentLessonId == "false")
                 {
                     doneLoading = true;
@@ -1196,9 +1187,12 @@ namespace CapGUI
                 }
                 else
                 {
-                    ChildWindow cw = new ChildWindow();
-                    cw.Content = "Authentication successful! We will now load your current lesson.";
-                    cw.Show();
+                    if (!freeMode)
+                    {
+                        ChildWindow cw = new ChildWindow();
+                        cw.Content = "Authentication successful! We will now load your current lesson.";
+                        cw.Show();
+                    }
 
                     loadLessons();
                 }
@@ -1208,7 +1202,7 @@ namespace CapGUI
 
         private void prevLessonClick(object sender, RoutedEventArgs e)
         {
-            Uri serviceUri = new Uri("http://genost.org/api/prevLesson/" + username + "/" + password);
+            Uri serviceUri = new Uri("http://genost.org/api/prevLessonImage/" + username + "/" + password);
             WebClient downloader = new WebClient();
             downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(changeLessonDownloadComplete);
             downloader.OpenReadAsync(serviceUri);
@@ -1216,7 +1210,7 @@ namespace CapGUI
 
         private void nextLessonClick(object sender, RoutedEventArgs e)
         {
-            Uri serviceUri = new Uri("http://genost.org/api/nextLesson/" + username + "/" + password);
+            Uri serviceUri = new Uri("http://genost.org/api/nextLessonImage/" + username + "/" + password);
             WebClient downloader = new WebClient();
             downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(changeLessonDownloadComplete);
             downloader.OpenReadAsync(serviceUri);
@@ -1230,19 +1224,22 @@ namespace CapGUI
                 StreamReader reader = new StreamReader(responseStream);
                 string changeLesson = reader.ReadToEnd();
                 changeLesson = changeLesson.Trim(new Char[] { '\"' });
-                if (changeLesson == "end")
+                string[] changeLessonTokens = changeLesson.Split('%');
+                string newId = changeLessonTokens[0];
+
+                if (newId == "end")
                 {
                     ChildWindow cw = new ChildWindow();
                     cw.Content = "Your current lesson is the last one in your curriculum.";
                     cw.Show();
                 }
-                else if (changeLesson == "begin")
+                else if (newId == "begin")
                 {
                     ChildWindow cw = new ChildWindow();
                     cw.Content = "Your current lesson is the first one in your curriculum.";
                     cw.Show();
                 }
-                else if (changeLesson == "false")
+                else if (newId == "false")
                 {
                     ChildWindow cw = new ChildWindow();
                     cw.Content = "We're sorry, an error has occurred.";
@@ -1250,9 +1247,21 @@ namespace CapGUI
                 }
                 else
                 {
-                    currentLessonId = changeLesson;
+                    currentLessonId = newId;
+                    currentLessonImage = Uri.UnescapeDataString(changeLessonTokens[1]);
                     loadLessonPlan(currentLessonId);
                 }
+            }
+        }
+
+        public static void ping()
+        {
+            if (username != null && username != "freeModeUser" && password != null)
+            {
+                Uri serviceUri = new Uri("http://genost.org/api/postActivity/" + username + "/" + password);
+                WebClient downloader = new WebClient();
+                downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(pingComplete);
+                downloader.OpenReadAsync(serviceUri);
             }
         }
     }

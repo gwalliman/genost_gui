@@ -73,7 +73,8 @@
                 <Rectangle Fill="#FFF4F4F5" Stroke="Black" Grid.ColumnSpan="3" Margin="0,324,0,-1" Grid.Row="1"/>
                 <blib:MyButton x:Name="prevLessonBtn" FontWeight="Bold" Margin="10,353,62,0" Content="Previous Lesson" FontSize="9" Height="30" VerticalAlignment="Top"  Width="Auto" Click="prevLessonClick" Grid.Row="1" Grid.ColumnSpan="2" />
                 <blib:MyButton x:Name="nextLessonBtn" FontWeight="Bold" Margin="19,353,10,0" Content="Next Lesson" FontSize="9" Height="30" VerticalAlignment="Top"  Width="Auto" Click="nextLessonClick" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" />
-                <sdk:Label x:Name ="currentLessonLbl" HorizontalAlignment="Left" Height="19" Margin="10,332,0,0" Grid.Row="1" VerticalAlignment="Top" Width="216" Grid.ColumnSpan="3" FontSize="9" FontWeight="Bold" Content="Current:"/>
+                <sdk:Label x:Name ="currentLessonLbl" HorizontalAlignment="Left" Height="19" Margin="10,332,0,0" Grid.Row="1" VerticalAlignment="Top" Width="44" FontSize="9" FontWeight="Bold" Content="Current:"/>
+                <HyperlinkButton x:Name="currentLessonHL" TargetName="_blank" Content="" HorizontalAlignment="Left" Margin="57,332,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="167" FontSize="9" FontWeight="Bold" Height="19" NavigateUri="http://www.google.com"/>
             </Grid>
         </Border>
 
