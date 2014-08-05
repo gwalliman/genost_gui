@@ -35,9 +35,6 @@ namespace CapGUI
         List<Block> reservedBlockList;
         //Used to assign IDs to blocks 
         private int IDCounter = 0;
-
-        //associated maze ID
-        private string mazeID;
         
         public BlockAPIReader()
         {
@@ -88,12 +85,6 @@ namespace CapGUI
 
                 foreach (var package in packages)
                 {
-                    //catches the maze identifier in the xml. Must be the last element and break, otherwise it causes an error and anything after it is lost
-                    if (package.Name.ToString().Equals("mazeid"))
-                    {
-                        mazeID = package.Value.ToString();
-                        break;
-                    }
                     //Gets each package
                     String pkgName = package.Attribute("name").Value.ToString();
 
@@ -290,15 +281,6 @@ namespace CapGUI
         public List<Block> getReservedBlocks()
         {
             return reservedBlockList;
-        }
-
-        /// <summary>
-        /// Use after readBlockDefinitions(). Gets the maze id found in the xml doc
-        /// </summary>
-        /// <returns>maze id</returns>
-        public string getMazeID()
-        {
-            return mazeID;
         }
     }
 }

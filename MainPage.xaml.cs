@@ -69,7 +69,7 @@ namespace CapGUI
         private bool robotRunning = false;  //determines if robot is currently running and code should be stopped or executed on button click
         private bool loadLibrary = false;   //
         private IEnumerable<XElement> xmlDoc = null;
-        public ObservableCollection<String> lessons = null; //lesson array
+        public ObservableCollection<String> lessons_master = null; //lesson array
 
         private Dictionary<int, string> lessonDic;
         private string mazeID;
@@ -165,7 +165,7 @@ namespace CapGUI
             packageNameList = r.getPackageNames();
             reservedBlocks = r.getReservedBlocks();
 
-            mazeID = r.getMazeID();
+            mazeID = currentLessonId;
 
             //Add package marker blocks to the program structures palette
             for (int i = 0; i < allBlockList.Count; i++)
@@ -906,30 +906,30 @@ namespace CapGUI
             lessonPick.MenuPopup.IsOpen = false;
             Debug.WriteLine(lessonPick.PopupComboBox.SelectedIndex);
             currentLessonId = lessonDic[lessonPick.PopupComboBox.SelectedIndex];
-            loadLessonPlan(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
+            loadToolbox(lessonDic[lessonPick.PopupComboBox.SelectedIndex]);
         }
 
-        private void loadLessonPlan(string plan_id)
+        private void loadToolbox(string toolbox_id)
         {
             Thread t = new Thread(new ThreadStart(threadRunning));
             myStoryboard.Begin();
             t.Start();
 
-            Uri serviceUri = new Uri("http://genost.org/api/getLessonPlan/" + plan_id);
+            Uri serviceUri = new Uri("http://genost.org/api/getToolbox/" + toolbox_id);
             WebClient downloader = new WebClient();
-            downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(getLessonPlanDataComplete);
+            downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(getToolboxDataComplete);
             downloader.OpenReadAsync(serviceUri);
         }
 
-        void getLessonPlanDataComplete(object sender, OpenReadCompletedEventArgs e)
+        void getToolboxDataComplete(object sender, OpenReadCompletedEventArgs e)
         {
             if(e.Error == null)
             {
                 Stream responseStream = e.Result;
                 StreamReader reader = new StreamReader(responseStream);
                 string text = reader.ReadToEnd();
-                XDocument lessonPlanDoc = XDocument.Parse(text);
-                xmlDoc = lessonPlanDoc.Descendants();
+                XDocument toolboxDoc = XDocument.Parse(text);
+                xmlDoc = toolboxDoc.Descendants();
                 doneLoading = true;
                 currentLessonHL.Content = currentLessonId;
                 currentLessonHL.NavigateUri = new Uri(currentLessonImage);
@@ -1031,7 +1031,7 @@ namespace CapGUI
 
         #endregion
 
-        #region Lesson Plan load
+        #region Lesson load
 
         //loads the lesson blocks in and stops the loading throbber once finished
         private void threadRunning()
@@ -1058,12 +1058,12 @@ namespace CapGUI
             Deployment.Current.Dispatcher.BeginInvoke(() =>
             {
                 myStoryboard.Stop();
-                if (lessons != null)
+                if (lessons_master != null)
                 {
-                    for (int i = 0; i < lessons.Count; i++)
+                    for (int i = 0; i < lessons_master.Count; i++)
                     {
-                        lessonDic.Add(i, lessons[i]);
-                        Debug.WriteLine(lessons[i]);
+                        lessonDic.Add(i, lessons_master[i]);
+                        Debug.WriteLine(lessons_master[i]);
                     }
                 }
             });
@@ -1072,13 +1072,13 @@ namespace CapGUI
         //loads lessons options
         private void loadLessons()
         {
-            Uri serviceUri = new Uri("http://genost.org/api/listLessonPlans");
+            Uri serviceUri = new Uri("http://genost.org/api/listLessons");
             WebClient downloader = new WebClient();
-            downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(lessonPlanDownloadComplete);
+            downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(lessonDownloadComplete);
             downloader.OpenReadAsync(serviceUri);
         }
 
-        void lessonPlanDownloadComplete(object sender, OpenReadCompletedEventArgs e)
+        void lessonDownloadComplete(object sender, OpenReadCompletedEventArgs e)
         {
             if(e.Error == null)
             {
@@ -1086,9 +1086,9 @@ namespace CapGUI
                 StreamReader reader = new StreamReader(responseStream);
                 string text = reader.ReadToEnd();
                 DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(String[]));
-                String[] lessonPlans = (String[])serializer.ReadObject(responseStream);
-                lessons = new ObservableCollection<String>(lessonPlans);
-                loadLessonPlan(currentLessonId);
+                String[] lessons = (String[])serializer.ReadObject(responseStream);
+                lessons_master = new ObservableCollection<String>(lessons);
+                loadToolbox(currentLessonId);
             }
         }
         #endregion
@@ -1132,12 +1132,15 @@ namespace CapGUI
                 username = lw.getUserName();
                 password = lw.getPassword();
 
-                //Successful authentication.
-                //Store credentials in cookie (for user convenience)
-                string oldCookie = HtmlPage.Document.GetProperty("cookie") as String;
-                DateTime expiration = DateTime.UtcNow + TimeSpan.FromDays(1);
-                string cookie = String.Format("username={0};expires={1}", username, expiration.ToString("R"));
-                HtmlPage.Document.SetProperty("cookie", cookie);
+                if (!freeMode)
+                {
+                    //Successful authentication.
+                    //Store credentials in cookie (for user convenience)
+                    string oldCookie = HtmlPage.Document.GetProperty("cookie") as String;
+                    DateTime expiration = DateTime.UtcNow + TimeSpan.FromDays(1);
+                    string cookie = String.Format("username={0};expires={1}", username, expiration.ToString("R"));
+                    HtmlPage.Document.SetProperty("cookie", cookie);
+                }
 
                 //Load in lessons and current lesson too.
                 Thread t = new Thread(new ThreadStart(lessonThread));
@@ -1202,7 +1205,12 @@ namespace CapGUI
 
         private void prevLessonClick(object sender, RoutedEventArgs e)
         {
-            Uri serviceUri = new Uri("http://genost.org/api/prevLessonImage/" + username + "/" + password);
+            String uri = "http://genost.org/api/prevLessonImage/" + username + "/" + password;
+            if (freeMode)
+            {
+                uri += "/" + currentLessonId;
+            }
+            Uri serviceUri = new Uri(uri);
             WebClient downloader = new WebClient();
             downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(changeLessonDownloadComplete);
             downloader.OpenReadAsync(serviceUri);
@@ -1210,7 +1218,12 @@ namespace CapGUI
 
         private void nextLessonClick(object sender, RoutedEventArgs e)
         {
-            Uri serviceUri = new Uri("http://genost.org/api/nextLessonImage/" + username + "/" + password);
+            String uri = "http://genost.org/api/nextLessonImage/" + username + "/" + password;
+            if (freeMode)
+            {
+                uri += "/" + currentLessonId;
+            }
+            Uri serviceUri = new Uri(uri);
             WebClient downloader = new WebClient();
             downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(changeLessonDownloadComplete);
             downloader.OpenReadAsync(serviceUri);
@@ -1249,7 +1262,7 @@ namespace CapGUI
                 {
                     currentLessonId = newId;
                     currentLessonImage = Uri.UnescapeDataString(changeLessonTokens[1]);
-                    loadLessonPlan(currentLessonId);
+                    loadToolbox(currentLessonId);
                 }
             }
         }

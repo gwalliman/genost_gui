@@ -61,11 +61,11 @@ namespace CapGUI
             PopupComboBox.Items.Clear();
             Canvas.SetLeft(PopupComboBox, 25);
 
-            if (MainPage.Instance.lessons != null)
+            if (MainPage.Instance.lessons_master != null)
             {
-                for (int i = 0; i < MainPage.Instance.lessons.Count; i++)
+                for (int i = 0; i < MainPage.Instance.lessons_master.Count; i++)
                 {
-                    PopupComboBox.Items.Add(((new ComboBoxItem()).Content = MainPage.Instance.lessons[i]));
+                    PopupComboBox.Items.Add(((new ComboBoxItem()).Content = MainPage.Instance.lessons_master[i]));
                 }
             }
 
