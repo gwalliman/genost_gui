@@ -73,9 +73,10 @@ namespace CapGUI
                 if (this.username.Text == string.Empty || this.pass.Password == string.Empty)
                 {
                     e.Cancel = true;
-                    ChildWindow cw = new ChildWindow();
+                    MessageBox.Show("Please Enter your name and password.", "Username and Password", MessageBoxButton.OK);
+                    /*ChildWindow cw = new ChildWindow();
                     cw.Content = "Please Enter your name and password.";
-                    cw.Show();
+                    cw.Show();*/
                 }
                 else
                 {
@@ -100,9 +101,10 @@ namespace CapGUI
                     else
                     {
                         e.Cancel = true;
-                        ChildWindow cw = new ChildWindow();
+                        MessageBox.Show("Please enter only alphanumeric characters!", "Alphanumeric Characters Only", MessageBoxButton.OK);
+                        /*ChildWindow cw = new ChildWindow();
                         cw.Content = "Please enter only alphanumeric characters!";
-                        cw.Show();
+                        cw.Show();*/
                     }
                 }
             }
@@ -111,9 +113,10 @@ namespace CapGUI
                 name = "freeModeUser";
                 password = "123456";
                 freeMode = true;
-                ChildWindow cw = new ChildWindow();
+                MessageBox.Show("Entering Free Mode...", "Entering Free Mode...", MessageBoxButton.OK);
+                /*ChildWindow cw = new ChildWindow();
                 cw.Content = "Entering Free Mode...";
-                cw.Show();
+                cw.Show();*/
             }
         }
     }

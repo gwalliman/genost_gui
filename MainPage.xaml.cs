@@ -1154,11 +1154,12 @@ namespace CapGUI
             }
             else
             {
-                ChildWindow cw = new ChildWindow();
+                MessageBox.Show("Authentication Failed, please try again", "Authentication Failed", MessageBoxButton.OK);
+                /*ChildWindow cw = new ChildWindow();
                 cw.Content = "Authentication failed. Please try again.";
                 cw.Closed += new EventHandler(tryAgainClose);
-                cw.Show();
-
+                cw.Show();*/
+                tryAgainClose(null, null);
             }
         }
 
@@ -1183,18 +1184,21 @@ namespace CapGUI
                 if (currentLessonId == "false")
                 {
                     doneLoading = true;
-                    ChildWindow cw = new ChildWindow();
+                    MessageBox.Show("Login successful, but user " + username + " has no curriculum!\nPlease log in with a user that is assigned to a curriculum, or use Free Mode", "Missing Curriculum", MessageBoxButton.OK);
+                    /*ChildWindow cw = new ChildWindow();
                     cw.Content = "Login successful, but user " + username + " has no curriculum!\nPlease log in with a user that is assigned to a curriculum, or use Free Mode";
                     cw.Closed += new EventHandler(tryAgainClose);
-                    cw.Show();
+                    cw.Show();*/
+                    tryAgainClose(null, null);
                 }
                 else
                 {
                     if (!freeMode)
                     {
-                        ChildWindow cw = new ChildWindow();
+                        MessageBox.Show("Authentication successful! We will now load your current lesson.", "Authentication successful!", MessageBoxButton.OK);
+                        /*ChildWindow cw = new ChildWindow();
                         cw.Content = "Authentication successful! We will now load your current lesson.";
-                        cw.Show();
+                        cw.Show();*/
                     }
 
                     loadLessons();
@@ -1242,21 +1246,24 @@ namespace CapGUI
 
                 if (newId == "end")
                 {
-                    ChildWindow cw = new ChildWindow();
+                    MessageBox.Show("Your current lesson is the last one in your curriculum.", "Last Lesson", MessageBoxButton.OK);
+                    /*ChildWindow cw = new ChildWindow();
                     cw.Content = "Your current lesson is the last one in your curriculum.";
-                    cw.Show();
+                    cw.Show();*/
                 }
                 else if (newId == "begin")
                 {
-                    ChildWindow cw = new ChildWindow();
+                    MessageBox.Show("Your current lesson is the first one in your curriculum.", "First Lesson", MessageBoxButton.OK);
+                    /*ChildWindow cw = new ChildWindow();
                     cw.Content = "Your current lesson is the first one in your curriculum.";
-                    cw.Show();
+                    cw.Show();*/
                 }
                 else if (newId == "false")
                 {
-                    ChildWindow cw = new ChildWindow();
+                    MessageBox.Show("We're sorry, an error has occurred.", "Error", MessageBoxButton.OK);
+                    /*ChildWindow cw = new ChildWindow();
                     cw.Content = "We're sorry, an error has occurred.";
-                    cw.Show();
+                    cw.Show();*/
                 }
                 else
                 {
