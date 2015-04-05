@@ -120,11 +120,14 @@ namespace CapGUI {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        public void InitializeComponent() {
-            if (_contentLoaded) {
+        public void InitializeComponent() 
+        {
+            if (_contentLoaded) 
+            {
                 return;
             }
-            _contentLoaded = true;
+
+            //Loads the various components and links them up / puts them into place
             System.Windows.Application.LoadComponent(this, new System.Uri("/CapGUI;component/MainPage.xaml", System.UriKind.Relative));
             this.LayoutRoot = ((System.Windows.Controls.Grid)(this.FindName("LayoutRoot")));
             this.roboGrid = ((System.Windows.Controls.Grid)(this.FindName("roboGrid")));
@@ -164,6 +167,7 @@ namespace CapGUI {
             this.clearBtn = ((ButtonControlLibrary.MyButton)(this.FindName("clearBtn")));
             this.trashDragDrop = ((CapGUI.TrashDragDropTarget)(this.FindName("trashDragDrop")));
             this.trash = ((System.Windows.Controls.ListBox)(this.FindName("trash")));
+            _contentLoaded = true;
         }
     }
 }

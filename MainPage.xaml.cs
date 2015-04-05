@@ -97,22 +97,24 @@ namespace CapGUI
                 return instance;
             }
         }
+
         private MainPage()
         {
-            
+            //Load the components, put them into place.
             InitializeComponent();
             
-            //Service
+            //Initialize the list of lessons
             lessonDic = new Dictionary<int, string>();
             
-            //Lists
+            //Initialize various lists for program structures
             programStructureList = new ObservableCollection<Block>();
             robotFunctionsList = new ObservableCollection<Block>();
             variableList = new ObservableCollection<Block>();
             methodList = new ObservableCollection<Block>();
 
-            //method lists
+            //Initialize the list of tabs (methods)
             tabList = new List<TabItem>();
+
 
             communicate = new DragDropTargetCommunication();
 

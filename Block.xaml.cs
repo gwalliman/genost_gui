@@ -385,7 +385,8 @@ namespace CapGUI
             switch (type)
             {
                 case "INT":
-                    NumericTextBox numTextBox = new NumericTextBox();
+                    //NumericTextBox numTextBox = new NumericTextBox();
+                    TextBox numTextBox = new TextBox();
                     numTextBox.Width = 100;
                     numTextBox.Height = LayoutRoot.Height - 19;
                     numTextBox.Style = style;
