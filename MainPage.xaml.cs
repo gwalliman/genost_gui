@@ -48,6 +48,7 @@ namespace CapGUI
         private PopupInterface varPop;
         private PopupInterface methodPop;
         private PopupInterface lessonPick;
+        private PopupInterface savePop;
 
         //Color palette
         Color varColor = Color.FromArgb(255, 255, 174, 201);
@@ -791,21 +792,36 @@ namespace CapGUI
         //Saves data to isolated storage
         private void saveProgram_Click(object sender, RoutedEventArgs e)
         {
-            IsolatedStorageFile iso = IsolatedStorageFile.GetUserStoreForApplication();
-            //Don't overwrite file without explicit confirmation
-            if (iso.FileExists("save.xml"))
+            if (!freeMode)
             {
-                string message = "Saving code will overwright previous save data\n\nWould you like to save?"; //message (code) displayed
-                string caption = "Save Code?"; //header
-                MessageBoxButton buttons = MessageBoxButton.OKCancel; //only allow OK and X buttons
-                MessageBoxResult result = MessageBox.Show(message, caption, buttons); //display message window
-                if (result == MessageBoxResult.Cancel)
-                {
-                    return; 
-                }
-                iso.DeleteFile("save.xml");
+                savePop = new PopupInterface(Color.FromArgb(255, 173, 216, 230), etrVarName, -90, 90, "SAVE");
+                savePop.SavePopup();
+                SaveGrid.Children.Add(savePop);
+                Grid.SetColumn(savePop, 2);
             }
+        }
+
+        public void saveCode(String text)
+        {
+            IsolatedStorageFile iso = IsolatedStorageFile.GetUserStoreForApplication();
+            iso.DeleteFile("save.xml");
             SaveXML.SaveToXML();
+
+            using (IsolatedStorageFileStream isoStream = new IsolatedStorageFileStream("save.xml", FileMode.Open, iso))
+            {
+                XDocument apiDoc = XDocument.Load(isoStream);
+                String savedCode = apiDoc.ToString();
+
+                String ServiceUri = "http://genost.org/api/saveCode/" + username + "/" + text;
+                //Post code to server
+                WebClient cnt = new WebClient();
+                cnt.UploadStringCompleted += new UploadStringCompletedEventHandler(saveCodeCompleted);
+                cnt.Headers["Content-type"] = "application/json";
+                cnt.Encoding = Encoding.UTF8;
+
+                myStoryboard.Begin();
+                cnt.UploadStringAsync(new Uri(ServiceUri), "POST", savedCode);
+            }
         }
 
         //Load button click handler
@@ -915,6 +931,20 @@ namespace CapGUI
 
         void uploadCodeStringCompleted(object sender, UploadStringCompletedEventArgs e)
         {
+        }
+
+        void saveCodeCompleted(object sender, UploadStringCompletedEventArgs e)
+        {
+            String result = e.Result;
+            myStoryboard.Stop();
+            if (result == "true")
+            {
+                MessageBox.Show("Save successful!");
+            }
+            else
+            {
+                MessageBox.Show("A saved file of that name already exists!");
+            }
         }
 
         void uploadStatusStringComplete(object sender, OpenReadCompletedEventArgs e)

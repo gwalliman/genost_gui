@@ -189,12 +189,12 @@
                         </StackPanel>
                     </blib:MyButton>
                 </StackPanel>
-                <StackPanel Grid.Column="0" Grid.Row="1">
+                <StackPanel Name="LoadGrid" Grid.Column="0" Grid.Row="1">
                     <blib:MyButton x:Name="loadProgramBtn" FontWeight="Bold" Margin="10,5,10,5"  Background="Yellow"  Foreground="Black"  FontSize="14" Height="63" Width="Auto" Click="loadProgram_Click">
                         <TextBlock Text="Load Program" TextWrapping="Wrap" TextAlignment="Center"/>
                     </blib:MyButton>
                 </StackPanel>
-                <StackPanel Grid.Column="1" Grid.Row="1">
+                <StackPanel Name="SaveGrid" Grid.Column="1" Grid.Row="1">
                     <blib:MyButton x:Name="saveBtn" FontWeight="Bold" Margin="10,5,10,5"  Background="LightBlue"  Foreground="Black"  FontSize="14" Height="63" Width="Auto" Click="saveProgram_Click">
                         <TextBlock Text="Save Program" TextWrapping="Wrap" TextAlignment="Center"/>
                     </blib:MyButton>

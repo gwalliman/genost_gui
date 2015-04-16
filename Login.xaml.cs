@@ -104,6 +104,7 @@ namespace CapGUI
                                 password += c;
                             }
                         }*/
+                        password = pass.Password;
 
                         freeMode = false;
                         

@@ -12,6 +12,10 @@ using System.Windows.Shapes;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using CapGUI.Parsing;
+using System.IO.IsolatedStorage;
+using CapGUI.xml;
+using System.Xml.Linq;
+using System.IO;
 
 namespace CapGUI
 {
@@ -195,6 +199,24 @@ namespace CapGUI
                     break;
             }
             
+        }
+
+        public void SavePopup()
+        {
+            type.Visibility = Visibility.Collapsed;
+            PopupComboBox.Visibility = Visibility.Collapsed;
+            OkEditBtn.Visibility = Visibility.Collapsed;
+            DeleteConfirm.Visibility = Visibility.Collapsed;
+            PopupTextBox.Text = "Enter file name";
+            OkAddBtn.Content = "Save";
+            OkAddBtn.Click += new RoutedEventHandler(saveAdd_Click);
+        }
+
+        private void saveAdd_Click(object sender, RoutedEventArgs e)
+        {
+            string text = PopupTextBox.Text;
+            MainPage.Instance.saveCode(text);
+            MenuPopup.IsOpen = false;
         }
     }
 }
