@@ -12,13 +12,14 @@ using System.Globalization;
 
 namespace CapGUI
 {
+    //As the name implies, handles the numeric text boxes
     public class NumericTextBox : TextBox
     {
         //rights to amurra ... http://stackoverflow.com/questions/268207/how-to-create-a-numeric-textbox-in-silverlight
+        //When typing, we only want numbers to go into the text box
+        //Handle all events (i.e. kill them from moving forward) if they are using anything but numbers
         protected override void OnKeyDown(KeyEventArgs e)
         {
-            base.OnKeyDown(e);
-
             // Handle Shift case
             if (Keyboard.Modifiers == ModifierKeys.Shift)
             {
@@ -36,6 +37,7 @@ namespace CapGUI
                     }
                 }
             }
+            base.OnKeyDown(e);
         }
     }
 }

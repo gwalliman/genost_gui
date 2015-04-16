@@ -16,6 +16,9 @@ using CapGUI.Parsing;
 
 namespace CapGUI
 {
+    /**
+     * This class handles the method editor window (with parameter / return panel)
+     */
     public partial class TabPage : Page
     {
 
@@ -31,29 +34,35 @@ namespace CapGUI
         {
             InitializeComponent();
 
+            //Deal with the parameters
             parameterList = new ObservableCollection<Block>();
-            //returnList = new ObservableCollection<Block>();
-            
             parameterBox.ItemsSource = parameterList;
-            //returnBox.ItemsSource = returnList;
-            
             parameterBox.AddHandler(MouseLeftButtonDownEvent, new MouseButtonEventHandler(Handle_ParameterMouseDown), true);
+            
+            //Deal with the return type
             returnType.SelectionChanged += new SelectionChangedEventHandler(Handle_returnTypeComboBox);
         }
 
         #region Handlers
+
         //Change return type of block when return type is changed in tab
         private void Handle_returnTypeComboBox(object sender, SelectionChangedEventArgs e)
         {
+            //get the TextBlock aka return type
             ComboBox cb = (ComboBox)sender;
             ComboBoxItem ci = (ComboBoxItem)cb.SelectedItem;
-            TextBlock tb = (TextBlock)ci.Content;   //get the TextBlock aka return type
+            TextBlock tb = (TextBlock)ci.Content;   
 
+            //Get a reference to the method block
             Block methodBlock = getMethodBlock();
+
             if (methodBlock != null)
             {
+                //Update the return type
                 methodBlock.returnType = tb.Text;
+                //Update all of the blocks referring to this block
                 UpdateMethodBlocks(methodBlock);
+                //Recreate the return block
                 CreateMethodReturnBlock();
             }
         }
@@ -64,6 +73,8 @@ namespace CapGUI
             Debug.WriteLine("I LOVE MONKEYS");
         }
 
+        //Click handler for the parameter box.
+        //Sets the item that we clicked on as "Selected"
         private void Handle_ParameterMouseDown(object sender, MouseButtonEventArgs e)
         {
             ListBox listBox = sender as ListBox;
@@ -72,6 +83,8 @@ namespace CapGUI
         #endregion
 
         #region Adding Parameteres
+        //Click handler for the add parameter button
+        //Opens a popup to add the parameter
         private void addParamBtn_Click(object sender, RoutedEventArgs e)
         {
             pop = new PopupInterface(Color.FromArgb(255, 153, 207, 126), etrParaName, 8, 20, "PARAMETER");
@@ -83,14 +96,18 @@ namespace CapGUI
             pop.CreatePopup();
         }
 
-        //used to create
+        //Click handler for the create parameter button
+        //Essentially, gets the parameter info and passes it to createParameter
         private void parameterAdd_Click(object sender, RoutedEventArgs e)
         {
             string text = pop.PopupTextBox.Text;
             bool fail = false;
-            if (pop.PopupComboBox.SelectedItem != null && (!text.Equals(etrParaName) && !text.Equals(""))) //has type and name
+
+            //has type and name
+            if (pop.PopupComboBox.SelectedItem != null && (!text.Equals(etrParaName) && !text.Equals(""))) 
             {
-                foreach (string s in MainPage.nameList) //name is not unique
+                //name is not unique
+                foreach (string s in MainPage.nameList) 
                 {
                     if (s.Equals(text))
                     {
@@ -98,16 +115,21 @@ namespace CapGUI
                         break;
                     }
                 }
-                if (!fail) //name is unique add parameter
+                //name is unique add parameter
+                if (!fail) 
                 {
+                    //Close popup
                     pop.MenuPopup.IsOpen = false;
+                    //Add the name to the reserved names list
                     MainPage.nameList.Add(text);
+                    //Create the parameter item
                     createParameter(pop.PopupTextBox.Text, (pop.PopupComboBox.SelectionBoxItem as TextBlock).Text);
                     
                 }
             }
         }
 
+        //Creates a parameter, places it in the parameter block and updates the methods
         public void createParameter(string name, string type)
         {
             Block newParameter = MainPage.createReservedBlock("PARAMETER");
@@ -118,9 +140,12 @@ namespace CapGUI
             newParameter.LayoutRoot.Height = 20;
             newParameter.returnType = newParameter.metadataList[0];
             parameterList.Add(newParameter);
+
+            //Get the method block we are adding this parameter to
             Block methodBlock = getMethodBlock();
             if (methodBlock != null)
             {
+                //Add the parameter and update it
                 methodBlock.parameterList.Add(newParameter.metadataList[0]);
                 UpdateMethodBlocks(methodBlock);
             }
@@ -129,6 +154,8 @@ namespace CapGUI
         #endregion
 
         #region Deleting Parameters
+        //Click handler for parameter delete button
+        //Opens popup for confirmation
         private void deleteParamBtn_Click(object sender, RoutedEventArgs e)
         {
             pop = new PopupInterface(Color.FromArgb(255, 153, 207, 126), etrParaName, 8, 70, "PARAMETER");
@@ -136,12 +163,17 @@ namespace CapGUI
             Grid.SetColumn(pop, 0);
             Grid.SetRow(pop, 1);
             //need to add catch for no value selected
+            //If we have selected something valid
             if (selected != null && parameterList.IndexOf(selected) < parameterList.Count)
             {
-                parameterBox.ItemsSource = pop.DeletePopup(parameterList, parameterList[parameterList.IndexOf(selected)]);  
+                //Open popup
+                parameterBox.ItemsSource = pop.DeletePopup(parameterList, parameterList[parameterList.IndexOf(selected)]);
             }
             else
+            {
+                //If we haven't selected something valid, close the popup
                 LayoutRoot.Children.Remove(pop);
+            }
 
         }
 
@@ -151,12 +183,14 @@ namespace CapGUI
             Block methodBlock = getMethodBlock();
             if (methodBlock != null)
             {
+                //Remove the parameter and update it
                 methodBlock.parameterList.RemoveAt(parameterList.IndexOf(selected));
                 UpdateMethodBlocks(methodBlock);
             }
         }
 
         //remove all parameter names from the reserved name lists in MainPage
+        //This is used when deleting a method
         public void deleteAllParameters()
         {
             for (int i = MainPage.nameList.Count - 1; i >= 0; i--)
@@ -198,7 +232,6 @@ namespace CapGUI
             foreach (EditorDragDropTarget EDDT in MainPage.editorLists)
             {
                 //replace based on block user generated name
-                //((ListBox)EDDT.Content).ItemsSource = EDDT.switchBlocks(methodBlock.cloneSelf(true), true);
                 EDDT.switchBlocks(EDDT.Content as ListBox, methodBlock.cloneSelf(true), true);
                 ObservableCollection<Block> collection = ((ListBox)EDDT.Content).ItemsSource as ObservableCollection<Block>;
                 Parsing.SocketReader.ReplaceMethodBlocks(collection, methodBlock.cloneSelf(true));

@@ -16,17 +16,22 @@ using System.Linq;
 
 namespace CapGUI
 {
-
+    /**
+     * The drag / drop target for the trash can (or recycle bin)
+     */
     public class TrashDragDropTarget : ListBoxDragDropTarget
     {
+        //Controls whether something can go in the trash or not
         public bool AllowAdd { get; set; }
 
+        //If someone somehow is able to drag a trash item, stop them
         protected override void OnItemDragStarting(ItemDragEventArgs eventArgs) 
         { 
             eventArgs.Cancel = true; 
             eventArgs.Handled = true; 
         }
 
+        //Called when something is dropped in the trash
         protected override void OnDropOverride(Microsoft.Windows.DragEventArgs args)
         {
             //Debug.WriteLine("AllowAdd: " + AllowAdd);

@@ -11,6 +11,9 @@ using System.Windows.Shapes;
 
 namespace CapGUI
 {
+    /**
+     * This class seems to be a way to track the global state when something is being dragged
+     **/
     public class DragDropTargetCommunication
     {
         public bool trash { get; set; }

@@ -15,6 +15,9 @@ using CapGUI.Parsing;
 
 namespace CapGUI
 {
+    /**
+     * This class is used to create a popup-type item, such as the variable creation window, the method creation window, etc.
+     */
     public partial class PopupInterface : UserControl
     {
         private ObservableCollection<Block> list;
@@ -22,6 +25,8 @@ namespace CapGUI
         private int references = 0;
         private Block deletionBlock;
 
+        //Constructor with source
+        //Source is used to track what kind of popup this is (i.e. variable, method, etc.)
         public PopupInterface(Color color, String initalText, int verticalOffset, int horizontalOffset, string source)
         {
             InitializeComponent();
@@ -37,6 +42,8 @@ namespace CapGUI
             MenuPopup.LostFocus += new RoutedEventHandler(Child_OnLostFocus);
         }
 
+        //Constructor without source
+        //Never actually used, appears to have been intended for some sort of lesson selection
         public PopupInterface(Color color, int verticalOffset, int horizontalOffset, string currentItem)
         {
             InitializeComponent();
@@ -76,57 +83,75 @@ namespace CapGUI
 
         }
 
+        //Focus handler for textbox. Deletes the placeholder text
         private void Child_OnHasFocus(object sender, RoutedEventArgs e)
         {
             PopupTextBox.IsReadOnly = false;
             PopupTextBox.Text = "";
         }
 
+        //Click handler for clicking "cancel" in the Variable popup
         private void variableCancel_Click(object sender, RoutedEventArgs e)
         {
             MenuPopup.IsOpen = false;
         }
 
+        //Click handler for moving focus outside of the textbox. Closes the textbox
         private void Child_OnLostFocus(object sender, RoutedEventArgs e)
         {
             MenuPopup.IsOpen = false;
         }
 
+        //Click handler for clicking the delete button
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
+            System.Diagnostics.StackTrace t = new System.Diagnostics.StackTrace();
+            t.ToString();
             MenuPopup.IsOpen = false;
+
+            //Make sure that we are allowed to delete, i.e. no references
             if (references == 0)
             {
+                //Act according to what kind of popup this is
                 switch (source)
                 {
                     case "VARIABLE":
+                        //No need to do anything special
                         break;
                     case "METHOD":
+                        //Delete the additional method data
                         MainPage.Instance.deleteMethodAssets(list.IndexOf(deletionBlock));
                         break;
                     case "PARAMETER":
+                        //Delete the additional parameter data
                         MainPage.Instance.deleteParameterAsset();
                         break;
                     default:
+                        //Why did they add this?
                         Debug.WriteLine("how did you get here!?...get back I say!");
                         break;
                 }
+
+                //Remove the deleted block from the appropriate areas
                 MainPage.nameList.Remove(deletionBlock.metadataList[1]);
                 list.RemoveAt(list.IndexOf(deletionBlock));
             }
         }
 
-        
-
+        //Formats the popup for the deletion of an item (variable, method, etc.)
         public ObservableCollection<Block> DeletePopup(ObservableCollection<Block> list, Block delete)
         {
             this.list = list;
             deletionBlock = delete;
+
+            //Hide unneeded items
             OkAddBtn.Visibility = Visibility.Collapsed;
             type.Visibility = Visibility.Collapsed;
             PopupComboBox.Visibility = Visibility.Collapsed;
             PopupTextBox.Visibility = Visibility.Collapsed;
             OkEditBtn.Visibility = Visibility.Visible;
+
+            //Fill the references data
             getReferences(deletionBlock);
             PopupDeleteInfo.Text = "This item has " + references + " references";
             if (references > 0)
@@ -136,6 +161,7 @@ namespace CapGUI
             return this.list;
         }
 
+        //Formats the popup for the creation of an item
         public void CreatePopup()
         {
             OkAddBtn.Visibility = Visibility.Visible;

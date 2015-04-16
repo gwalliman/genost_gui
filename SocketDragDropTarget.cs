@@ -17,6 +17,9 @@ using CapGUI.Parsing;
 
 namespace CapGUI
 {
+    /**
+     * This represents the socket area where blocks can be dropped
+     */
     public class SocketDragDropTarget : ListBoxDragDropTarget
     {
         #region Globals and Constants
@@ -26,9 +29,10 @@ namespace CapGUI
         #endregion
 
         #region Overwritten Methods
+
         /*
-         * Event method that is called when a socket item starts to move.
-         * Sets the socket communication to true, which allows other DDT's to know socket is being moved
+         * Event method that is called when an item inside a socket starts to move.
+         * Sets the socket communication to true, which allows other drag drop targets to know socket is being moved
          * Calls parent method
          */
         protected override void OnItemDragStarting(ItemDragEventArgs eventArgs)
@@ -39,7 +43,7 @@ namespace CapGUI
         }
 
         /*
-         * Event method that is called when a socket item is dropped on destination.
+         * Event method that is called when an item that was dragged out of a socket is dropped somewhere
          * Preforms functions based on the communication class.
          * Set the communication flag for socket to false (handled).
          * Calls parent method
@@ -52,9 +56,10 @@ namespace CapGUI
             SelectionCollection selectionCollection = args.Data as SelectionCollection;
             foreach (Selection selection in selectionCollection)
             {
+                //Get the block that was dropped
                 if (selection.Item.GetType().Equals(typeof(Block)))
                 {
-                    //create the block based on selection block
+                    //create a new block based on the dropped block
                     Block copyBlock = MainPage.createProgramStructureBlock(((Block)selection.Item).typeID);
                     if (copyBlock == null)
                     {
@@ -64,29 +69,48 @@ namespace CapGUI
                             copyBlock = MainPage.createReservedBlock(((Block)selection.Item).Text);
                     }
 
-                    if (MainPage.communicate.trash) //socket moved to trash
+                    //socket moved to trash
+                    if (MainPage.communicate.trash) 
                     {
                         MainPage.communicate.trash = false; //let trash know that socket finished move
                         listBox.Background.Opacity = 1; //show empty socket
                         listBox.BorderBrush.Opacity = 1; //show empty socket
                     }
-                    else if (MainPage.communicate.editor) //socket moved to editor (removed communicate.socket to see if communication error is fixed)
+                    //socket item moved to editor (removed communicate.socket to see if communication error is fixed)
+                    //The idea here: if we have moved the socket block into the editor (which is in almost all cases unacceptable) we put it back where it belongs
+                    //Note that this actually causes problems with moving a METHOD block from a socket to the editor.
+                    /**
+                     * TODO: allow method block to be dragged from socket to editor
+                     */
+                    else if (MainPage.communicate.editor) 
                     {
-                        //copyBlock goes here
+                        //This IF makes sure that we can actually drop the block
                         if (listBox.Items.Count == 0)
                         {
+                            //Take care of the size
                             Debigulate(listBox);
+
+                            //If the socket that we are moving the block from contains the name of the block
+                            //Not sure what cases this covers
                             if (socketType.Contains(copyBlock.Text))
+                            {
                                 ResizeAndAdd(listBox, copyBlock);
+                            }
+                            //If we're moving a constant block
                             else if (isConstant && copyBlock.flag_isConstant)
+                            {
                                 ResizeAndAdd(listBox, copyBlock);
+                            }
+                            //If we're moving a condition block
                             else if (isCondition && copyBlock.flag_isCondition)
+                            {
                                 ResizeAndAdd(listBox, copyBlock);
+                            }
                         }
 
                         MainPage.communicate.editor = false; //let editor know that that socket was added and move finished
                     }
-                    else //socket moved else where...need to have a check to see if it was added
+                    else //socket item moved else where...need to have a check to see if it was added
                     {
                         if (listBox.Items.Count == 0)
                         {
@@ -97,12 +121,14 @@ namespace CapGUI
                 }
             }
             base.OnItemDroppedOnTarget(args);
-            MainPage.communicate.socket = false; //save that moveing socket is finished
+
+            //save that moveing socket is finished
+            MainPage.communicate.socket = false; 
 
             //change was made
             MainPage.communicate.changeCodeColorStatus();
 
-            //returning the block to normal size, if neccessary
+            //returning the socket to normal size, if neccessary
             Debigulate(listBox);
         }
 
@@ -160,7 +186,9 @@ namespace CapGUI
                             {
                                 //creat copy block of the selection item
                                 Block copyBlock = MainPage.createProgramStructureBlock(((Block)selection.Item).typeID);
-                                if (copyBlock == null || (copyBlock != null && !copyBlock.type.Equals("STATEMENT"))) //check to make sure that you are not adding a STATEMENT to SOCKET
+
+                                //check to make sure that you are not adding a STATEMENT to SOCKET
+                                if (copyBlock == null || (copyBlock != null && !copyBlock.type.Equals("STATEMENT"))) 
                                 {
                                     Block selected = (Block)selection.Item;
                                     //check to make sure that you are not dragging into self
@@ -233,7 +261,6 @@ namespace CapGUI
                         }
                         //socket is no longer dragging
                         MainPage.communicate.socket = false; //try to fix half of the communication error
-                        
                     }
                 }
                 else
@@ -273,7 +300,6 @@ namespace CapGUI
                     break;
             }
             MessageBoxResult result = MessageBox.Show(message, "Error", buttons); //display message window
-            MainPage.errorMessage(message);
         }
         #endregion
 
@@ -292,6 +318,7 @@ namespace CapGUI
         }
 
         //method to change combo boxes in directional blocks
+        //This is needed since this combo box displays different items depending on its context
         private static void directionalCombos(ListBox dropTarget, Block copyBlock)
         {
             ComboBox cb = (ComboBox)copyBlock.innerPane.Children.ElementAt(2);
@@ -325,6 +352,7 @@ namespace CapGUI
             }
         }
         
+        //Resizes the block and adds the items to the listbox
         public void ResizeAndAdd(ListBox listBox, Block block)
         {
 
@@ -334,14 +362,19 @@ namespace CapGUI
                 block.LayoutRoot.Height = listBox.Height * .7;
                 block.innerPane.Children.Remove(block.line);
 
+                //If this block has sockets, or if it is a bearing block
+                //Adjust the block sockets
                 if (block.flag_hasSocks || block.ToString().Contains("BEARING"))
                 {
+                    //Adjust the socket size
                     AdjustSockets(block);
 
                     block.innerPane.Width = block.LayoutRoot.Width - 3;
 
+                    //If this block resizes when necessary (e.g. an AND block or other logic blocks)
                     if (block.flag_transformer)
                     {
+                        //Resize the block
                         block = LogicTransform(listBox, block);
                     }
                     block.innerPane.Height = block.LayoutRoot.Height - 1;
@@ -352,12 +385,16 @@ namespace CapGUI
                     block.LayoutRoot.Width = listBox.Width * .75;
                     block.LayoutRoot.Height = listBox.Height * .51;
                 }*/
+
+                //If the list box is empty, add the item to the list box
                 if (listBox.Items.Count < 1)
                 {
                     AddItem(listBox, block);
 
                     //Removing the box & border of the socket
                     listBox.Background.Opacity = 0;
+
+                    //Deal with the border
                     if (listBox.BorderBrush == null)
                     {
                         listBox.BorderBrush = new SolidColorBrush(Colors.Purple);
@@ -415,7 +452,7 @@ namespace CapGUI
             }
         }
 
-        //method to convert a logic block so as to work with nesting
+        //method to resize / reconfigure a logic block so as to work with nesting
         private Block LogicTransform(ListBox listBox, Block block)
         {
             //routing accordingly if block is a method

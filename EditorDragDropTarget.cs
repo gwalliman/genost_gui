@@ -17,22 +17,26 @@ using System.ComponentModel;
 
 namespace CapGUI
 {
+    /**
+     * Represents the editor as a target for dropping blocks
+     */
     public class EditorDragDropTarget : ListBoxDragDropTarget
     {
 
         private BlockTreeList tree = new BlockTreeList();
-        private bool move = false;
-        private int fromIndex = 0;
+        private bool move = false; //TRUE when we are dragging something
+        private int fromIndex = 0; //Holds the old index of the item being dragged
         
+        //Called when we start to drag a block
         protected override void OnItemDragStarting(ItemDragEventArgs eventArgs)
         {
             //Debug.WriteLine("Editor drag start");
             SelectionCollection selectionCollection = eventArgs.Data as SelectionCollection;
             foreach (Selection selection in selectionCollection)
             {
-
                 if (selection.Item.GetType().Equals(typeof(Block)))
                 {
+                    //Don't allow an END block to be dragged
                     if (((Block)selection.Item).Text.Contains("END"))
                     {
                         eventArgs.Cancel = true;
@@ -40,27 +44,34 @@ namespace CapGUI
                     }
                     else
                     {
-                        if (!MainPage.communicate.socket) //check to see that you are not moving a socket
+                        //If we are not holding a socket, get index and set move to TRUE
+                        if (!MainPage.communicate.socket)
                         {
                             move = true;
                             fromIndex = ((Block)selection.Item).index;
                         }
+
+                        //Throw to parent
                         base.OnItemDragStarting(eventArgs);
                     }
                 }
             }
         }
 
+        //Called when we have released a block
         protected override void OnItemDroppedOnTarget(ItemDragEventArgs args)
         {
-            //Debug.WriteLine("Editor On Item drop");
             ListBox listBox = args.DragSource as ListBox;
             SelectionCollection selectionCollection = args.Data as SelectionCollection;
+
+            //Search through the data until we find the block we are dragging
             foreach (Selection selection in selectionCollection)
             {
                 if (selection.Item.GetType().Equals(typeof(Block)))
                 {
                     move = false;
+
+                    //If we are over the trash when we release, delete the block from the tree
                     if (MainPage.communicate.trash)
                     {
                         MainPage.communicate.trash = false;
@@ -70,8 +81,11 @@ namespace CapGUI
             }
             try
             {
+                //Call the standard drop target handler
                 base.OnItemDroppedOnTarget(args);
+                //Refresh the tree
                 listBox.ItemsSource = tree.ListRefresh();
+                //Refresh the listbox (list of selectable items)
                 Refresh(listBox);
             }
             catch (Exception exe)
@@ -80,12 +94,14 @@ namespace CapGUI
 
         }
 
+        /**
+         * I think this is called when we drop a block
+         */
         protected override void OnDropOverride(Microsoft.Windows.DragEventArgs args)
         {
-            //Debug.WriteLine("Editor Drop");
+            //Ping for activity
             MainPage.ping();
-            if ((args.AllowedEffects & Microsoft.Windows.DragDropEffects.Link) == Microsoft.Windows.DragDropEffects.Link
-                   || (args.AllowedEffects & Microsoft.Windows.DragDropEffects.Move) == Microsoft.Windows.DragDropEffects.Move)
+            if ((args.AllowedEffects & Microsoft.Windows.DragDropEffects.Link) == Microsoft.Windows.DragDropEffects.Link || (args.AllowedEffects & Microsoft.Windows.DragDropEffects.Move) == Microsoft.Windows.DragDropEffects.Move)
             {
                 //changed
                 //gets the data format which is a ItemDragEventArgs

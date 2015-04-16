@@ -16,6 +16,7 @@ using System.ComponentModel;
 
 namespace CapGUI
 {
+    //Whatever this is, it's never used
     public class ProgramStructureDragDropTarget : ListBoxDragDropTarget
     {
         protected override void OnItemDragStarting(ItemDragEventArgs eventArgs)

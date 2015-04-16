@@ -14,6 +14,9 @@ using System.Collections.ObjectModel;
 
 namespace CapGUI
 {
+    /**
+     * The Tree List is used as part of the BlockTreeList
+     */
     public class TreeList<T>
     {
         protected class Node

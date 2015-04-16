@@ -63,6 +63,7 @@ namespace CapGUI
         public List<List<Block>> readBlockDefinitions()
         {
             blockList = new List<List<Block>>();
+
             try
             {
                 //Get and create the XML document to read from
@@ -83,25 +84,32 @@ namespace CapGUI
                 Debug.WriteLine(fullAPI);
                 IEnumerable<XElement> packages = fullAPI.Elements();
 
+                //Iterate through each package
                 foreach (var package in packages)
                 {
-                    //Gets each package
                     String pkgName = package.Attribute("name").Value.ToString();
 
                     packageNames.Add(pkgName);
                     
                     IEnumerable<XElement> blocks = package.Elements();
                     List<Block> packageBlocksList = new List<Block>();
-
+                    
+                    //Iterate through the blocks in a package
                     foreach (var block in blocks)
                     {
                         //Gets each block in the package
                         Block newBlock = readBlock(block);
-                        //Debug.WriteLine("Newblock.flag_programOnly: " + newBlock.flag_programOnly);
+
+                        //If the block is not a special kind of block (i.e. variable, method, endif, etc.) add it to the list of package blocks.
+                        //Else, add it to the list of reserved blocks
                         if (!newBlock.flag_programOnly)
+                        {
                             packageBlocksList.Add(newBlock);
+                        }
                         else
+                        {
                             reservedBlockList.Add(newBlock);
+                        }
                     }
 
                     //Finally, add the list created for each package to the API list
@@ -109,11 +117,6 @@ namespace CapGUI
 
                 }
                 Debug.WriteLine("stop zone");
-               // foreach (var maze in packages)
-                //{
-                 //   mazeID = maze.Value.ToString();
-                //}
-                
             }
             catch (Exception e)
             {
@@ -154,8 +157,6 @@ namespace CapGUI
             //Set block flags
             foreach (var flag in properties)
             {
-                //bool flagValue = false;
-
                 switch (flag.Name.ToString())
                 {
                     case "color":

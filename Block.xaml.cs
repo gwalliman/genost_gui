@@ -87,45 +87,53 @@ namespace CapGUI
 
         public List<String> parameterList;
 
+        //Create a new block with a name and a color
         public Block(string newBlockName, Color newBlockColor)
         {
             InitializeComponent();
             Text = newBlockName;
-            blockColor = newBlockColor;
             LayoutRoot.Background = new SolidColorBrush(newBlockColor);
+            blockColor = newBlockColor;
+            line.Text = String.Format("{0,-10}", "");
             fore.Text = String.Format("{0,-10}", Text);
+
+            //Initialize lists to hold various items
             typeFieldList = new List<String>();
             dataList = new List<Object>();
             metadataList = new List<String>();
-
             parameterList = new List<String>();
 
             index = -1;
+
+            //Initialize the flags
             initFlags();
-            line.Text = String.Format("{0,-10}", "");
+            
             //Debug.WriteLine(blockColor.ToString());
             blockBorder.BorderBrush = new SolidColorBrush(blockColor);
 
         }
 
+        //Create a new block with just a name
         public Block(string newBlockName)
         {
             InitializeComponent();
             Text = newBlockName;
             blockColor = Colors.White;
             LayoutRoot.Background = new SolidColorBrush(blockColor);
+            line.Text = String.Format("{0,-10}", "");
+            fore.Text = String.Format("{0,-10}", Text);
 
-
+            //Initialize lists to hold various items
             typeFieldList = new List<String>();
             dataList = new List<Object>();
             metadataList = new List<String>();
-
             parameterList = new List<String>();
 
             index = -1;
+
+            //Initialize the flags
             initFlags();
-            line.Text = String.Format("{0,-10}", "");
-            fore.Text = String.Format("{0,-10}", Text);
+            
             //Debug.WriteLine(blockColor.ToString());
             blockBorder.BorderBrush = new SolidColorBrush(blockColor);
         }
@@ -198,6 +206,7 @@ namespace CapGUI
             dataList[index] = newData;
         }
 
+        //return the block's names, comprised of the first metadata item
         public string returnName()
         {
             if (typeFieldList != null)
@@ -211,6 +220,7 @@ namespace CapGUI
             return null;
         }
 
+        //Set a particular line of text
         public void setLine(int index)
         {
             line.Text = String.Format("{0,-10}", String.Format("{0," + ((10 + index.ToString().Length) / 2).ToString() + "}", index.ToString()));
@@ -218,9 +228,10 @@ namespace CapGUI
 
         public override string ToString()
         {
-            return Text;// +" Index: " + index;
+            return Text;
         }
 
+        //Returns true if the submitted type matches this block
         public bool checkType(string type)
         {
             if (this.type != null)
@@ -231,17 +242,25 @@ namespace CapGUI
             return false;
         }
 
+        //Define border color
         public void defineBorderColor()
         {
-            //Define border color
             if (Text.Equals("METHOD"))
+            {
                 blockBorder.BorderBrush = new SolidColorBrush(methodBorderColor);
+            }
             else if (type.Equals("PLUGIN"))
+            {
                 blockBorder.BorderBrush = new SolidColorBrush(pluginBorderColor);
+            }
             else if (type.Equals("STATEMENT"))
+            {
                 blockBorder.BorderBrush = new SolidColorBrush(blockColor);
+            }
             else
+            {
                 blockBorder.BorderBrush = new SolidColorBrush(errorBorderColor);
+            }
         }
 
         //Returns a new copy of itself
@@ -297,13 +316,18 @@ namespace CapGUI
             clone.flag_robotOnly = flag_robotOnly;
 
             if (withSocket)
+            {
                 clone.fieldCreation();
+            }
             else
+            {
                 clone.nonSocketFieldCreation();
+            }
 
             return clone;
         }
 
+        //Used to clone all the fields in the block, if a socket is present
         public void fieldCreation()
         {
             innerPane.Children.Remove(fore);
@@ -314,8 +338,12 @@ namespace CapGUI
                 if (s.Equals("socket"))
                     socketCTR++;
             }
+
             if (socketCTR > 1)
+            {
                 multiple = true;
+            }
+
             for (int i = 0; i < typeFieldList.Count; i++)
             {
 
@@ -347,6 +375,7 @@ namespace CapGUI
             }
         }
 
+        //Used to clone all the fields in the block, if a socket is not present
         public void nonSocketFieldCreation()
         {
             innerPane.Children.Remove(fore);
@@ -356,18 +385,25 @@ namespace CapGUI
                 switch (typeFieldList[i])
                 {
                     case "string":
+                    {
                         createText(metadataList[i]);
                         break;
+                    }
                     case "textbox":
+                    {
                         createTextBox(metadataList[i]);
                         break;
+                    }
                     default:
+                    {
                         //Debug.WriteLine("Not printing sockets");
                         break;
+                    }
                 }
             }
         }
 
+        //Creates and adds a string literal
         private void createText(string info)
         {
             TextBlock text = new TextBlock();
@@ -376,6 +412,7 @@ namespace CapGUI
             innerPane.Children.Add(text);
         }
 
+        //Creates and adds a textbox
         private void createTextBox(string type)
         {
             //creating a style to eliminate extra whitespace
@@ -385,8 +422,8 @@ namespace CapGUI
             switch (type)
             {
                 case "INT":
-                    //NumericTextBox numTextBox = new NumericTextBox();
-                    TextBox numTextBox = new TextBox();
+                    NumericTextBox numTextBox = new NumericTextBox();
+                    //TextBox numTextBox = new TextBox();
                     numTextBox.Width = 100;
                     numTextBox.Height = LayoutRoot.Height - 19;
                     numTextBox.Style = style;
@@ -405,6 +442,7 @@ namespace CapGUI
             }
         }
 
+        //Creates and addsa  dropdown
         private void createDropDown()
         {
             ComboBox cb = new ComboBox();
@@ -425,6 +463,7 @@ namespace CapGUI
             innerPane.Children.Add(cb);
         }
 
+        //Creates and adds a parameter list
         private void createParameterList()
         {
             flag_hasSocks = false;
@@ -479,15 +518,7 @@ namespace CapGUI
             listBox.Height = LayoutRoot.Height - 2;
             listBox.SetValue(ScrollViewer.HorizontalScrollBarVisibilityProperty, ScrollBarVisibility.Hidden);
             listBox.ItemContainerStyle = style;
-            /*if (multiple)
-            {
-                listBox.Width = LayoutRoot.Width * .6;
-                //listBox.MinWidth = LayoutRoot.Width * .75;
-
-                //listBox.Width = LayoutRoot.Width * .33;//175;
-            }
-            else*/
-                listBox.Width = LayoutRoot.Width * .75;//350;
+            listBox.Width = LayoutRoot.Width * .75;//350;
 
             listBox.BorderThickness = new Thickness(2);
             listBox.Background = new SolidColorBrush(Colors.LightGray);

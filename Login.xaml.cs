@@ -14,7 +14,9 @@ using System.Windows.Shapes;
 
 namespace CapGUI
 {
-
+    /**
+     * Used to build the login box
+     */
     public partial class Login : ChildWindow
     {
         private string name;
@@ -24,6 +26,9 @@ namespace CapGUI
         public Login()
         {
             InitializeComponent();
+
+            //Check if we have a user info cookie
+            //If we do, use it to autofill
             string[] cookies = HtmlPage.Document.Cookies.Split(';');
             foreach (string cookie in cookies)
             {
@@ -40,11 +45,13 @@ namespace CapGUI
             }
         }
 
+        //When clicking OK, run the TRUE handler
         private void OKButton_Click(object sender, RoutedEventArgs e)
         {
             this.DialogResult = true;
         }
 
+        //When clicking Free Mode, run the FALSE handler
         private void FreeButton_Click(object sender, RoutedEventArgs e)
         {
             this.DialogResult = false;
@@ -65,21 +72,21 @@ namespace CapGUI
             return password;
         }
 
+        //Upon the login closing
         private void Login_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            //checking if both fields are filled
+            //We clicked OK
             if (this.DialogResult == true)
             {
+                //Make sure both fields are filled
                 if (this.username.Text == string.Empty || this.pass.Password == string.Empty)
                 {
                     e.Cancel = true;
                     MessageBox.Show("Please Enter your name and password.", "Username and Password", MessageBoxButton.OK);
-                    /*ChildWindow cw = new ChildWindow();
-                    cw.Content = "Please Enter your name and password.";
-                    cw.Show();*/
                 }
                 else
                 {
+                    //Make sure that both username and password are alphanumeric (sanitization)
                     Regex r = new Regex("^[a-zA-Z0-9]*$");
                     if (r.IsMatch(username.Text) && r.IsMatch(pass.Password))
                     {
@@ -87,13 +94,16 @@ namespace CapGUI
 
                         //parses out symbols from password, since silverlight devs apparently don't want sql injection defences possible with their crappy passwordbox
                         //manages the situation until a better solution can be found
-                        foreach (char c in pass.Password)
+                        /**
+                         * I think this is useless now
+                         */
+                        /*foreach (char c in pass.Password)
                         {
                             if (char.IsLetterOrDigit(c))
                             {
                                 password += c;
                             }
-                        }
+                        }*/
 
                         freeMode = false;
                         
@@ -102,21 +112,20 @@ namespace CapGUI
                     {
                         e.Cancel = true;
                         MessageBox.Show("Please enter only alphanumeric characters!", "Alphanumeric Characters Only", MessageBoxButton.OK);
-                        /*ChildWindow cw = new ChildWindow();
-                        cw.Content = "Please enter only alphanumeric characters!";
-                        cw.Show();*/
                     }
                 }
             }
+            //We clicked either CLOSE or FREE MODE
             else
             {
-                name = "freeModeUser";
-                password = "123456";
-                freeMode = true;
-                MessageBox.Show("Entering Free Mode...", "Entering Free Mode...", MessageBoxButton.OK);
-                /*ChildWindow cw = new ChildWindow();
-                cw.Content = "Entering Free Mode...";
-                cw.Show();*/
+                //If we clicked Free Mode, log us in to Free Mode
+                if (this.FreeButton.IsPressed)
+                {
+                    name = "freeModeUser";
+                    password = "123456";
+                    freeMode = true;
+                    MessageBox.Show("Entering Free Mode...", "Entering Free Mode...", MessageBoxButton.OK);
+                }
             }
         }
     }

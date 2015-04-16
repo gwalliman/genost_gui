@@ -16,12 +16,18 @@ using System.ComponentModel;
 
 namespace CapGUI
 {
+    /**
+     * It appears the idea here is: we have drag / drop targets in a method's Parameter Panel that hold the parameters and the return type
+     * These can be dragged from but not dragged into
+     */
     public class VariableStructureDragDropTarget : ListBoxDragDropTarget
     {
-
         private ObservableCollection<Block> list;
         //private ListBox listBox = new ListBox();
 
+        //This is called, presumably, when an item being dragged from this panel has completed its journey
+        //It looks like it is used to repopulate the panels with the blocks that were dragged from them
+        //Uses the blockList, which is populated in OnItemDragStarting
         protected override void OnItemDragCompleted(ItemDragEventArgs args)
         {
             base.OnItemDragCompleted(args);
@@ -45,6 +51,8 @@ namespace CapGUI
             }   
         }
 
+        //Called when we first drag an item from the drag drop target
+        //Populates the list with all the items in the target, including the one being dragged
         protected override void OnItemDragStarting(ItemDragEventArgs eventArgs)
         {
             SelectionCollection selectionCollection = eventArgs.Data as SelectionCollection;
