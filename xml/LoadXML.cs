@@ -25,41 +25,34 @@ namespace CapGUI.xml
 
         public static Dictionary<string, int> blockLookUp = new Dictionary<string, int>();
         
-        public static void LoadFromXML()
+        public static void LoadFromXML(String xml)
         {
             clearEditors();
             clearVariables();
             clearMethods();
 
-            IsolatedStorageFile iso = IsolatedStorageFile.GetUserStoreForApplication();
-            if (iso.FileExists("save.xml"))
+            XDocument apiDoc = XDocument.Parse(xml);
+            IEnumerable<XElement> fullAPI = apiDoc.Elements();
+            IEnumerable<XElement> groups = fullAPI.Elements();
+            foreach (var group in groups)
             {
-                using (IsolatedStorageFileStream isoStream = new IsolatedStorageFileStream("save.xml", FileMode.Open, iso))
+                String groupName = group.Attribute("name").Value.ToString();
+                //Debug.WriteLine(groupName);
+                switch (groupName)
                 {
-                    XDocument apiDoc = XDocument.Load(isoStream);
-                    IEnumerable<XElement> fullAPI = apiDoc.Elements();
-                    IEnumerable<XElement> groups = fullAPI.Elements();
-                    foreach (var group in groups)
-                    {
-                        String groupName = group.Attribute("name").Value.ToString();
-                        //Debug.WriteLine(groupName);
-                        switch (groupName)
-                        {
-                            case "VARIABLES":
-                                addVariables(group);
-                                break;
-                            case "METHODS":
-                                addMethods(group);
-                                break;
-                            case "EDITORS":
-                                addEditors(group);
-                                break;
-                            default:
-                                Debug.WriteLine("Not in group");
-                                break;
-                        }     
-                    }
-                }
+                    case "VARIABLES":
+                        addVariables(group);
+                        break;
+                    case "METHODS":
+                        addMethods(group);
+                        break;
+                    case "EDITORS":
+                        addEditors(group);
+                        break;
+                    default:
+                        Debug.WriteLine("Not in group");
+                        break;
+                }     
             }
         }
 

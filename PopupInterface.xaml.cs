@@ -16,6 +16,7 @@ using System.IO.IsolatedStorage;
 using CapGUI.xml;
 using System.Xml.Linq;
 using System.IO;
+using System.Runtime.Serialization.Json;
 
 namespace CapGUI
 {
@@ -212,11 +213,43 @@ namespace CapGUI
             OkAddBtn.Click += new RoutedEventHandler(saveAdd_Click);
         }
 
+        public void LoadPopup(String[] options)
+        {
+            type.Visibility = Visibility.Collapsed;
+            PopupTextBox.Visibility = Visibility.Collapsed;
+            PopupComboBox.Width = 150;
+            PopupComboBox.Items.Clear();
+            foreach (String option in options)
+            {
+                PopupComboBox.Items.Add(option);
+            }
+            PopupComboBox.SelectedIndex = 0;
+
+            Canvas.SetLeft(PopupComboBox, 0);
+            OkEditBtn.Visibility = Visibility.Collapsed;
+            DeleteConfirm.Visibility = Visibility.Collapsed;
+            OkAddBtn.Content = "Load";
+            OkAddBtn.Click += new RoutedEventHandler(MainPage.Instance.loadAdd_Click);
+        }
+
         private void saveAdd_Click(object sender, RoutedEventArgs e)
         {
             string text = PopupTextBox.Text;
             MainPage.Instance.saveCode(text);
             MenuPopup.IsOpen = false;
+        }
+
+        public void loadCodeComplete(object sender, OpenReadCompletedEventArgs e)
+        {
+            //Read the loaded data to the end
+            Stream responseStream = e.Result;
+            StreamReader reader = new StreamReader(responseStream);
+            String result = reader.ReadToEnd();
+            LoadXML.LoadFromXML(result);
+
+            MainPage.Instance.waitingOnSavedCodeLoad = false;
+            MenuPopup.IsOpen = false;
+            MainPage.Instance.myStoryboard.Stop();
         }
     }
 }

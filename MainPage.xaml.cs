@@ -49,6 +49,7 @@ namespace CapGUI
         private PopupInterface methodPop;
         private PopupInterface lessonPick;
         private PopupInterface savePop;
+        private PopupInterface loadPop;
 
         //Color palette
         Color varColor = Color.FromArgb(255, 255, 174, 201);
@@ -76,13 +77,14 @@ namespace CapGUI
         private string mazeID;
 
         private Login lw;
-        private static string username;
+        public static string username;
         private static string password;
         private bool freeMode;
         private string currentLessonId;
         private string currentLessonImage;
         private bool doneLoading = false;
         private bool waitingOnLessonLoad = false;
+        public bool waitingOnSavedCodeLoad = false;
         
         #endregion
 
@@ -828,18 +830,48 @@ namespace CapGUI
         //Loads data from isolated storage
         private void loadProgram_Click(object sender, RoutedEventArgs e)
         {
-            IsolatedStorageFile iso = IsolatedStorageFile.GetUserStoreForApplication();
-            //Only load if teh file actually exists
-            if (iso.FileExists("save.xml"))
+            if (!waitingOnSavedCodeLoad && !freeMode)
             {
-                string message = "Loading in code will delete current work\n\nWould you like to load?"; //message (code) displayed
-                string caption = "Load In Code?"; //header
-                MessageBoxButton buttons = MessageBoxButton.OKCancel; //only allow OK and X buttons
-                MessageBoxResult result = MessageBox.Show(message, caption, buttons); //display message window
-                if (result == MessageBoxResult.OK)
-                {
-                    LoadXML.LoadFromXML();
-                }
+                myStoryboard.Begin();
+                waitingOnLessonLoad = true;
+                String uri = "http://genost.org/api/listSavedCode/" + username;
+                Uri serviceUri = new Uri(uri);
+                WebClient downloader = new WebClient();
+                downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(loadedSavedCodeListComplete);
+                downloader.OpenReadAsync(serviceUri);
+            }
+        }
+
+        private void loadedSavedCodeListComplete(object sender, OpenReadCompletedEventArgs e)
+        {
+            myStoryboard.Stop();
+
+            //Read the loaded data to the end
+            Stream responseStream = e.Result;
+            DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(String[]));
+            String[] loaded = (String[])serializer.ReadObject(responseStream);
+            ObservableCollection<String> loadedCollection = new ObservableCollection<String>(loaded);
+
+            loadPop = new PopupInterface(Color.FromArgb(255, 255, 255, 0), etrVarName, -90, 90, "LOAD");
+            loadPop.LoadPopup(loaded);
+            LoadGrid.Children.Add(loadPop);
+            Grid.SetColumn(loadPop, 2);
+        }
+
+        public void loadAdd_Click(object sender, RoutedEventArgs e)
+        {
+            string message = "Loading in code will delete current work\n\nWould you like to load?"; //message (code) displayed
+            string caption = "Load In Code?"; //header
+            MessageBoxButton buttons = MessageBoxButton.OKCancel; //only allow OK and X buttons
+            MessageBoxResult result = MessageBox.Show(message, caption, buttons); //display message window
+            if (result == MessageBoxResult.OK)
+            {
+                myStoryboard.Begin();
+                String uri = "http://genost.org/api/loadCode/" + username + "/" + loadPop.PopupComboBox.SelectedValue;
+                Uri serviceUri = new Uri(uri);
+                WebClient downloader = new WebClient();
+                downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(loadPop.loadCodeComplete);
+                downloader.OpenReadAsync(serviceUri);
             }
         }
 
