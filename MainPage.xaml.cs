@@ -85,6 +85,9 @@ namespace CapGUI
         private bool doneLoading = false;
         private bool waitingOnLessonLoad = false;
         public bool waitingOnSavedCodeLoad = false;
+
+        private int autosaveCount = 0;
+        private int autosaveMax = 5;
         
         #endregion
 
@@ -803,7 +806,7 @@ namespace CapGUI
             }
         }
 
-        public void saveCode(String text)
+        public void saveCode(String text, String autosave = "false")
         {
             IsolatedStorageFile iso = IsolatedStorageFile.GetUserStoreForApplication();
             iso.DeleteFile("save.xml");
@@ -814,14 +817,17 @@ namespace CapGUI
                 XDocument apiDoc = XDocument.Load(isoStream);
                 String savedCode = apiDoc.ToString();
 
-                String ServiceUri = "http://genost.org/api/saveCode/" + username + "/" + text;
+                String ServiceUri = "http://genost.org/api/saveCode/" + username + "/" + text + "/" + autosave;
                 //Post code to server
                 WebClient cnt = new WebClient();
-                cnt.UploadStringCompleted += new UploadStringCompletedEventHandler(saveCodeCompleted);
+                if (autosave != "true")
+                {
+                    cnt.UploadStringCompleted += new UploadStringCompletedEventHandler(saveCodeCompleted);
+                    myStoryboard.Begin();
+                }
                 cnt.Headers["Content-type"] = "application/json";
                 cnt.Encoding = Encoding.UTF8;
 
-                myStoryboard.Begin();
                 cnt.UploadStringAsync(new Uri(ServiceUri), "POST", savedCode);
             }
         }
@@ -1443,6 +1449,14 @@ namespace CapGUI
                 string[] currentLessonTokens = currentLessonData.Split('%');
                 currentLessonId = currentLessonTokens[0];
                 currentLessonImage = Uri.UnescapeDataString(currentLessonTokens[1]);
+                if (currentLessonTokens[2] == "0")
+                {
+                    lessonCompleteCheckbox.Visibility = Visibility.Collapsed;
+                }
+                else if(currentLessonTokens[2] == "1")
+                {
+                    lessonCompleteCheckbox.Visibility = Visibility.Visible;
+                }
 
                 //If the user has no current lesson (i.e. no curriculum)
                 if (currentLessonId == "false")
@@ -1537,6 +1551,14 @@ namespace CapGUI
                 {
                     currentLessonId = newId;
                     currentLessonImage = Uri.UnescapeDataString(changeLessonTokens[1]);
+                    if (changeLessonTokens[2] == "0")
+                    {
+                        lessonCompleteCheckbox.Visibility = Visibility.Collapsed;
+                    }
+                    else if (changeLessonTokens[2] == "1")
+                    {
+                        lessonCompleteCheckbox.Visibility = Visibility.Visible;
+                    }
                     loadToolbox(currentLessonId);
                 }
 
@@ -1554,6 +1576,16 @@ namespace CapGUI
                 WebClient downloader = new WebClient();
                 downloader.OpenReadCompleted += new OpenReadCompletedEventHandler(pingComplete);
                 downloader.OpenReadAsync(serviceUri);
+
+                if (MainPage.Instance.autosaveCount == MainPage.Instance.autosaveMax)
+                {
+                    MainPage.Instance.saveCode("temp", "true");
+                    MainPage.Instance.autosaveCount = 0;
+                }
+                else
+                {
+                    MainPage.Instance.autosaveCount++;
+                }
             }
         }
     }

@@ -250,6 +250,7 @@
                 </custom:TrashDragDropTarget>
             </Grid>
         </Border>
+        <Image x:Name="lessonCompleteCheckbox" Visibility="Collapsed" Margin="209,5,14,44" Source="Image1.png" Stretch="Fill" Grid.Row="4"/>
     </Grid>
 </UserControl>
     
